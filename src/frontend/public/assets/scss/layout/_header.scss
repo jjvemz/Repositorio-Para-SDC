@@ -1,0 +1,56 @@
+// Header
+
+header {
+   margin-top: 90px;
+   color: $white;
+
+   @include screen(xs) {
+      margin-top: 70px;
+   }
+   @include screen(sm) {
+      margin-top: 70px;
+   }
+
+   &.header-about {
+      @include background('../img/mapa_fondo.jpg', 60% 40%, 150%);
+      padding: 90px 0;
+
+      @include screen(xs) {
+         padding: 20px 0;
+      }
+      @include screen(sm) {
+         padding: 30px 0;
+      }
+      @include screen(xs) {
+         padding: 40px 0;
+      }
+   }
+
+   &.header-fuentes {
+      @include background('../img/Imagen_Fuente_de_Datos_1.jpg');
+      padding: 90px 0;
+      @include screen(xs) {
+         padding: 20px 0;
+      }
+      @include screen(sm) {
+         padding: 30px 0;
+      }
+      @include screen(xs) {
+         padding: 40px 0;
+      }
+   }
+
+   &.header-kpi {
+      @include background('../img/cover_quienes_somos_3.jpg');
+      padding: 90px 0;
+      @include screen(xs) {
+         padding: 20px 0;
+      }
+      @include screen(sm) {
+         padding: 30px 0;
+      }
+      @include screen(xs) {
+         padding: 40px 0;
+      }
+   }
+}

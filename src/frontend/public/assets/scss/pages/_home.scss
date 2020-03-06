@@ -1,0 +1,107 @@
+
+.header-home {
+   @include background('../img/mapa_fondo.jpg', 80% 0, 150%);
+   height: calc(100vh - 90px);
+   color: $white;
+   display: flex;
+   justify-content: flex-end;
+   @include screen(md) {
+      @include background('../img/mapa_fondo.jpg', 70% 0);
+      height: 70vh;
+   }
+   @include screen(sm) {
+      @include background('../img/mapa_fondo.jpg', 65% 0);
+   }
+   @include screen(xs) {
+      @include background('../img/mapa_fondo.jpg', 50% 0);
+   }
+
+   &__logo {
+      width: 240px;
+      margin-top: 200px;
+
+      @include screen(sm) {
+         margin-top: 10vh;
+      }
+      @include screen(xs) {
+         margin-top: 10vh;
+      }
+   }
+
+   &__arrow {
+      height: 1.5em;
+   }
+
+   &-content {
+      flex: 0 0 450px;
+      margin-right: 20%;
+
+      @include screen(sm) {
+         flex: 0 0 65%;
+         margin: auto;
+         padding-left: 10%;
+      }
+
+      @include screen(xs) {
+         flex: 0 0 65%;
+         margin: auto;
+         padding-left: 2rem;
+      }
+
+      &__text {
+         @include maven-pro(400, 16px, 22px);
+      }
+   }
+
+   &__link {
+      display: flex;
+   	align-items: center;
+   	justify-content: center;
+      margin: auto;
+      width: 250px;
+      color: $white;
+
+   	cursor: pointer;
+
+   	svg {
+   		height: 50px;
+   		width: 100%;
+   		fill: none;
+   		stroke-width: 5;
+
+   		.o1 {
+   			stroke: $green-op3;
+   			fill: $green-acid;
+   			transition: all 1s ease-in-out;
+   		}
+
+   		.o2 {
+   			stroke: white;
+   			stroke-dasharray: 20 600;
+   			stroke-dashoffset: 20;
+   			transition: all 1s ease-in-out;
+   		}
+   	}
+
+   	span {
+   		position: absolute;
+   		margin: auto 0;
+   		text-transform: uppercase;
+   		letter-spacing: 1.5px;
+         font-size: 14px;
+   	}
+
+   	&:hover {
+         color: $white;
+
+   		.o1{
+   			fill: $green-op7;
+   		}
+
+   		.o2 {
+   			stroke-dashoffset: -600;
+   		}
+   	}
+   }
+
+}

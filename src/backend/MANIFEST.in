@@ -1,0 +1,4 @@
+include smartdata/schema.sql
+graft smartdata/static
+graft smartdata/templates
+global-exclude *.pyc

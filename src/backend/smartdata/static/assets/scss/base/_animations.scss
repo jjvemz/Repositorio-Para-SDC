@@ -1,0 +1,16 @@
+@keyframes fadeIn {
+   to {
+      opacity: 0;
+   }
+
+   from {
+      opacity: 1;
+   }
+}
+
+.fadeIn {
+   animation-name: fadeIn;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate-reverse;
+}

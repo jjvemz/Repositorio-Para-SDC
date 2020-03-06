@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "source ./venv/bin/activate && source ./set_env_vars && gunicorn -b 0.0.0.0:8000 smartdata:app",
+    "start:dev": "source ./venv/bin/activate && source ./set_env_vars && flask run -p 8000",
+    "predeploy:heroku": "source ./set_heroku_vars && cd ../frontend && yarn build",
+    "deploy:heroku": "cd ../.. && git subtree push --prefix src/backend heroku master"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "react-native": "^0.61.5",
+    "socket.io": "^2.2.0",
+    "utf8": "^3.0.0"
+  }
+}

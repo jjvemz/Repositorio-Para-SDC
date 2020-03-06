@@ -1,0 +1,30 @@
+.section {
+
+   &-header {
+
+      &__title {
+         position: relative;
+
+         &::before {
+            content: '';
+            width: 130px;
+            border-bottom: 5px solid $green-cti;
+            position: absolute;
+            top: -0.7em;
+            left: 0;
+         }
+      }
+
+      &__img {
+         width: 200px;
+         @include screen(sm) {
+            width: auto;
+         }
+         @include screen(xs) {
+            width: auto;
+            height: auto;
+         }
+      }
+   }
+
+}

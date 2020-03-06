@@ -1,0 +1,56 @@
+//Card
+
+.card {
+   flex: 30%;
+   min-width: 200px;
+
+   &-header {
+      position: relative;
+
+      &__title {
+         @include raleway(400, 1rem);
+         margin-bottom: 0;
+         margin-right: 1.5rem;
+      }
+      &__fuente {
+         @include raleway(400, .8rem);
+      }
+   }
+
+   &-body {
+      z-index: 1;
+   }
+
+   &-footer {
+      padding: .5rem .75rem;
+
+      ul {
+         margin: 0;
+      }
+
+      &__item {
+         display: inline-block;
+      }
+   }
+}
+
+.kpi {
+   &-data {
+      @include maven-pro(400, 1.5rem);
+      margin: 0;
+   }
+   &-label {
+      @include maven-pro(400, .9em, 14px);
+   }
+
+}
+
+select.time_serie_year, select.time_serie_region {
+   border: none;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;       /* remove default arrow */
+   @include background('../img/dropdown-arrow.svg', right, 15px);
+   padding-right: 18px;
+   font-size: 15px;
+}

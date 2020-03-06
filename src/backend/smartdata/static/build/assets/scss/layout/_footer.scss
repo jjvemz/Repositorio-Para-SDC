@@ -1,0 +1,91 @@
+// Footer
+
+.footer {
+   background-color: $bg-gray;
+   color: $white;
+   @include raleway(400);
+
+   #ctec_logo_small {
+      width: 70px;
+   }
+
+   &__title {
+      @include raleway(400, 15px);
+   }
+
+   &-about {
+      > p {
+         font-size: 10px;
+         letter-spacing: 0.4px;
+         @include screen(lg){
+            padding-right: 40px;
+         }
+      }
+   }
+
+   &-rrss {
+
+      li {
+         display: inline-block;
+         margin-right: 5px;
+      }
+
+      &__item {
+         height: 40px;
+
+         &:hover {
+            opacity: .6;
+         }
+      }
+   }
+
+   &-contacto {
+
+      > ul {
+         list-style: none;
+      }
+
+      &__email {
+         color: $white;
+         font-size: 12px;
+
+         &:hover {
+            text-decoration: underline;
+         }
+      }
+   }
+
+   &-cr {
+      background-color: $white;
+      color: $black;
+      padding: 15px 0 10px;
+      @include screen(md) {
+         p {
+            font-size: 14px;
+         }
+      }
+
+      &__logos {
+         margin: 0;
+
+         > li {
+            display: inline-block;
+         }
+
+         &-item {
+            height: 60px;
+            margin-right: 2em;
+            @include screen(md) {
+               margin: 0;
+               height: 55px;
+            }
+         }
+      }
+   }
+
+}
+
+
+#ctecLinkFooter, .about-link {
+   color: $gray-tabs;
+}

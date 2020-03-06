@@ -1,0 +1,4 @@
+echo "Estableciendo variables HEROKU..."
+heroku config:set S3_AWS_ACCESS_KEY=AX4TJNGFXS2H6DVJXET3
+heroku config:set S3_AWS_SECRET_KEY=Fe0rvc0Yg4Cllo1j6UZKRzn1lBe/JkKQKM2L11yueeQ
+heroku config:set LOCAL_DATA_FILES=0

@@ -1,0 +1,37 @@
+.fuentes{
+
+   &__title {
+      font-family: 'Catamaran', sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 1;
+
+      > a{
+         color: $blue-tabs;
+      }
+   }
+
+   &__item {
+      height: 40px;
+      margin-top: 2em;
+
+      &--md {
+         height: 46px;
+      }
+
+      &--sm {
+         height: 60px;
+      }
+
+      &--xs {
+         height: 90px;
+      }
+
+   }
+
+   &__text {
+      @include raleway(400, 14px);
+      margin: 0;
+   }
+
+}

@@ -1,0 +1,235 @@
+/*
+Responsivo en XS y MD:
+Recordar breakpoints:
+1. SM
+   @media (min-width:576px)
+
+2. MD
+   @media (min-width:768px)
+
+3. LG
+   @media (min-width:992px)
+
+4. XL
+   @media (min-width:1200px)
+*/
+
+/* section tab-spaces*/
+#tabs {
+   width: 100%;
+   text-align: center;
+}
+
+.btn-toolbar {
+   display: inline-flex;
+}
+
+.btn-group {
+   display: flex;
+   flex-wrap: wrap;
+   text-align: center;
+   justify-content: stretch;
+   align-items: stretch;
+}
+
+.btn_dos {
+   width: auto;
+   margin: 0;
+}
+
+.btn-group > a.nav-link {
+   flex: 1 0 130px;
+   display: block;
+   background: #dbf4fa;
+}
+
+.btn-group > a.nav-link > button {
+   font-size: 10px;
+   letter-spacing: 0.5px;
+   height: 100%;
+   width: 100%;
+   padding: 7px 10px;
+}
+
+.button_second_row, .nav-link {
+   padding: 0;
+}
+
+/* 1. lg o menos */
+@media (max-width:992px) {
+
+   section {
+      padding: 50px 0;
+   }
+
+   #mainNav .navbar-brand {
+      width: 60%;
+   }
+
+   #logo_ctec_nav {
+      margin-left: 0;
+      height: 50px;
+   }
+
+   .containerPage {
+      width: 90%;
+      margin: auto;
+   }
+
+   .containerPage > h1 {
+      text-align: left;
+      margin-top: 1em;
+   }
+
+   #smartdata_png {
+      left: auto;
+      right: 5%;
+      top: calc(60vh + 70px);
+   }
+
+   #cabecera_quienes, #cabecera_fuentes {
+      background-position: center;
+      height: 40vh;
+   }
+
+   /* header o section landing*/
+   section#landing {
+      height: 50vh;
+      margin-top: 71px;
+   }
+
+   .cn {
+      top: 25%;
+   }
+
+   img#lp {
+      top: 40%;
+      left: 50%;
+   }
+
+   p#descripcion {
+      top: 55%;
+      left: 50%;
+   }
+
+   i.fa-chevron-down {
+      top: 65vh;
+      left: 65%;
+      margin-top: 1em;
+   }
+
+   /* section kpis */
+   #kpis .description, #treemap .description {
+      width: 90%;
+   }
+
+   .titleSection {
+      font-size: 1.75rem;
+      margin: 0;
+   }
+
+   .section_description {
+      width: 100%;
+   }
+
+}
+
+/* 2. md o menos */
+@media (max-width: 768px) {
+
+   #tabs-space {
+      margin-bottom: -140vh;
+      height: 300vh;      
+      /* margin-bottom: -80vh; */
+   }
+
+   #tabs {
+      top: 100px;
+   }
+
+   .text_source > h3.titulo_fuentes {
+      text-align: center;
+      width: 100%;
+   }
+
+   /* footer */
+   footer {
+      height: auto;
+      padding: 0;
+   }
+
+   footer .col-md-4 > p {
+      width: 100%;
+   }
+
+   .footer-copyright > p {
+      padding: 1em;
+      position: relative;
+      left: 0;
+   }
+
+   #a, #b {
+      float: none;
+   }
+
+   #ltoR {
+      margin: 0 0 15px;
+   }
+
+   #ltoR > li {
+      display: inline-block;
+   }
+
+   img.lfooter {
+      width: 100px;
+   }
+}
+
+/* 2. sm o menos  */
+@media (max-width:576px) {
+   /* header o section landing*/
+   section#landing {
+      height: calc(100vh - 71px);
+      margin-top: 71px;
+   }
+
+   #logo_ctec_nav {
+      margin-left: 0;
+   }
+
+   i.fa-chevron-down {
+      top: 100vh;
+      left: 65%;
+      margin-top: 1em;
+   }
+
+   .image_quienes_somos {
+      position: static;
+      width: 60%;
+   }
+
+   /* section tab-spaces*/
+   #tabs-space {
+      padding: 20px 0;
+      margin-bottom: -380vh;
+      height: 400vh;
+   }
+
+   /* section logos */
+   section.contentPage {
+      padding: 0;
+   }
+
+   #huincha {
+      position: relative;
+   }
+
+   .logo_superior {
+      min-width: 100px;
+   }
+
+   .logo_mas_pequeno {
+      width: 8.5%;
+   }
+
+}

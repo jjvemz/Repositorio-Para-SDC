@@ -1,0 +1,6 @@
+echo "Estableciendo variables locales..."
+export S3_AWS_ACCESS_KEY=AX4TJNGFXS2H6DVJXET3
+export S3_AWS_SECRET_KEY=Fe0rvc0Yg4Cllo1j6UZKRzn1lBe/JkKQKM2L11yueeQ
+export FLASK_ENV=development
+export FLASK_APP=smartdata
+export LOCAL_DATA_FILES=1

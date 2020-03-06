@@ -1,0 +1,64 @@
+// Botones
+
+.btn {
+
+   &-circle {
+      height: 28px;
+      width: 28px;
+      border-radius: 50%;
+      background-color: #555;
+      font-size: 14px;
+      padding: 3px;
+   }
+
+   &__info {
+      position: absolute;
+      color: $blue-tabs;
+      font-size: 1.5rem;
+      top: .5rem;
+      right: 0;
+
+      &--white {
+         color: $white;
+
+         &:hover {
+            color: $white;
+            opacity: .7;
+            transition: .5s;
+         }
+      }
+   }
+
+   &-backTop {
+      margin: -9px 0 0;
+      width: 42px;
+      height: 42px;
+      line-height: 42px;
+      font-size: 20px;
+      right: 85px;
+      bottom: 20px;
+      position: fixed;
+      background: #f7f7f7;
+      text-align: center;
+      color: lighten($black, 50%);
+
+      @include screen(xs) {
+         right: 20px;
+      }
+
+      @include screen(sm) {
+         right: 20px;
+      }
+
+      @include screen(md) {
+         right: 40px;
+      }
+
+   }
+
+}
+
+.download_info_section {
+   color: $blue-tabs;
+   font-size: .9rem;
+}

@@ -1,0 +1,45 @@
+
+#tabs-space {
+   position: sticky;
+   top: 60px;
+   background-color: $white;
+   z-index: 100;
+}
+
+.kpiSection {
+   padding: 0;
+
+   @include screen(xs) {
+      padding: 0 1rem;
+   }
+
+   @include screen(sm) {
+      padding: 0 1rem;
+   }
+
+   .section {
+
+      &-header {
+
+         &__title {
+            color: $blue-title;
+
+            &::before {
+               border: none;
+            }
+         }
+      }
+   }
+}
+
+.kpi-rrss {
+   padding: 1.5rem 0;
+   &__item {
+      padding-right: .5em;
+
+      &:hover {
+         opacity: .7;
+         transition: .4s opacity;
+      }
+   }
+}

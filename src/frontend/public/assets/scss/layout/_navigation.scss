@@ -1,0 +1,73 @@
+// Navigation
+
+.nav {
+   align-content: center;
+   transition: color .3s;
+   @include raleway(400, .9em);
+
+   @include screen(sm){
+      flex-wrap: nowrap;
+   }
+
+   @include screen(md){
+      flex-wrap: nowrap;
+   }
+
+   @include screen(xs){
+      flex-wrap: nowrap;
+   }
+
+   &bar-brand > img{
+      height: 75px;
+
+      @include screen(xs) {
+         height: 50px;
+      }
+      @include screen(sm) {
+         height: 50px;
+      }
+   }
+
+   &-item > a{
+      color: $blue-tabs;
+      text-align: center;
+
+      &.nav-link.active {
+         color: $cyan;
+         background: none;
+
+      }
+   }
+
+   &-pills {
+      .show > .nav-link {
+         color: $cyan;
+         background: none;
+      }
+   }
+
+   .dropdown {
+
+      &-menu {
+         background: $cyan;
+         padding: 0;
+         border-radius: 1px;
+         border: none;
+      }
+      &-item {
+         color: $white;
+         font-size: 14px;
+         padding: 10px 10px 10px 20px;
+         border-bottom: 1px solid rgba(0,0,0,0.05);
+         transition: background .3s;
+
+         &.active {
+            background: inherit;
+         }
+
+         &:hover {
+            background: $blue-tabs;
+         }
+      }
+   }
+}

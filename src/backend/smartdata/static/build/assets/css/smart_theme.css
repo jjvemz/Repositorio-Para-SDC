@@ -1,0 +1,769 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    margin-bottom: 0px;
+}
+
+.btn {
+    letter-spacing: 0px;
+}
+
+.description {
+    font-family: 'Raleway', sans-serif;
+    color: #184988;
+    width: 80vw;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.titleSection {
+    color: #184988;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 2%;
+    margin-left: 5%;
+}
+
+.section_description {
+    color: #222;
+    font-size: 0.9em;
+    width: 70vw;
+    margin: 3% auto;
+}
+
+.description > a.download_info_section {
+    font-size: 1.5em;
+    color: #606774;
+    font-size: 0.9em;
+    position: relative;
+    margin-left: 5%;
+}
+
+/* ESTILOS SECCIONES */
+#kpis > .container, #treemap > .container {
+    margin-top: 5%;
+}
+
+.text-right {
+    padding: 3%;
+}
+
+#kpis, #treemap {
+    background-color: #ffffff;
+}
+
+.card-header {
+    /* background: linear-gradient(to right, #184988,#199c48,#C8D02D); */
+    background-color: #4C87C6;
+    /* background-color: #fff; */
+    color: white;
+    /* color: #333; */
+    height: 100px;  
+}
+
+.card-footer {
+    background: linear-gradient(to right, #DEE0E2, #ffffff);
+    color: #222;
+    height: 12%;
+    padding: 0 0 3% 3%;
+}
+
+.footer_kpi {
+    height: 22%;
+}
+
+.source {
+    font-size: 0.8em;
+}
+
+/* Estilos para Componente KPI */
+.titleUp {
+    text-align: left;
+    font-size: 0.9em;
+    width: 70%;
+}
+
+.kpi-space {
+    background-color: #606774;
+    color: white;
+    padding-bottom: 1%;
+}
+
+.kpi-space .kpi-card{
+    background-color: #fff;
+    color: #222;
+    margin-bottom: 3%;
+}
+
+.kpi-space span.kpi-data {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #222;
+}
+
+.kpi-space .container select.time_serie_kpi,
+.kpi-space .container select.time_serie_year,
+.kpi-space .container select.time_serie_region {
+    border: 1px solid white;
+    font-size: 0.8em;
+    color: #222;
+    background: #fff;
+    position: relative;
+    margin-right: 1%;
+    top: 7%;
+}
+
+/* //Estilos para Componente KPI */
+/* Estilos para Componente Treemap */
+.treemap-space {
+    background-color: #184988;
+    color: white;
+}
+
+.treemap-space .kpi-card{
+    background-color: #fff;
+    color: #222;
+    margin-bottom: 3%;
+}
+
+.treemap-space span.kpi-data {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.treemap-space .container select.time_serie_kpi,
+.treemap-space .container select.time_serie_year,
+.treemap-space .container select.time_serie_region {
+    border: 1px solid white;
+    color: #222;
+    background: #ffffff;
+    margin-left: 10px;
+}
+
+.kpi-label {
+    font-size: 1em;
+}
+
+.graph-space {
+    background-color: #184988;
+    height: 100vh;
+}
+.graph-space .container {
+    transform: translateY(50%);
+    transition-duration: 2s;
+    transition-property: transform;
+}
+.graph-space .container select.time_serie_kpi,
+.graph-space .container select.time_serie_year,
+.graph-space .container select.time_serie_region {
+    border: 1px solid white;
+    color: white;
+    background: #184988;
+    margin-left: 10px;
+}
+
+#time_imacon.graph-space {
+    background-color: #2872d0;
+}
+#time_imacon.graph-space .container select.time_serie_kpi,
+#time_imacon.graph-space .container select.time_serie_year,
+#time_imacon.graph-space .container select.time_serie_region {
+    background: #2872d0;
+}
+
+.graph-space .container select.time_serie_kpi.time_serie {
+    width: 250px;
+}
+.graph-space .text-col {
+    color: white;
+}
+
+.graph-space svg text tspan {
+    fill: white;
+    font-size: 12px;
+}
+
+.smartdata-tooltip {
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 3px;
+    background: #184988;
+    color: white;
+}
+.smartdata-tooltip p{
+    font-size: 14px;
+    margin-bottom: 2px;
+    line-height: 1;
+}
+
+.map-graph {
+    background-color: #184988;
+    padding: 0px;
+}
+.map-graph .kpi-card {
+    background-color: #184988;
+    color: white;
+}
+.map-graph .card-deck,
+.map-graph .card.kpi-card,
+.map-graph .card-deck {
+    margin: 0px;
+}
+.map-graph .card-body {
+    padding: 0px;
+}
+.map-graph .container {
+    max-width: 100%;
+}
+.map-graph .card select.time_serie_kpi,
+.map-graph .card select.time_serie_year,
+.map-graph .card select.time_serie_region {
+    border: 1px solid white;
+    color: #222;
+    background: #ffffff;
+    margin-left: 10px;
+}
+
+.map-graph .container .col,
+.map-graph .container .col-12{
+    padding: 0;
+    color: white;
+}
+.map-graph .container .col > .row{
+    margin: 0;
+}
+.map-graph .container .card-body {
+    padding: 0 14px;
+}
+
+/* Estilos para CARD */
+.card .info-box {
+    margin-left: 5%;
+    border-radius: 5px;
+    border: 1px solid #606774;
+    padding: 2px 10px;
+}
+
+.btn {
+    color: #606774;
+}
+/*Estilos para CARD*/
+
+/* Estilos para textos ejes Lineas de Timepo */
+svg .yAxis text.recharts-text.recharts-cartesian-axis-tick-value,
+svg .xAxis text.recharts-text.recharts-cartesian-axis-tick-value {
+    font-size: 0.8em;
+}
+/* //Estilos para textos ejes Lineas de Timepo */
+/*///////////////////*/
+/*Header*/
+#mainNav {
+    background-color: white;
+    /* background-color: rgba(0,34,51,1); */
+}
+
+#mainNav .navbar-nav>li>a,
+#mainNav .navbar-nav>li>a:focus {
+    color: #4C87C6;
+    font-weight: bold;
+    padding: 1em;
+}
+
+#lc {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    width: 35%;
+    height: auto;
+}
+
+#lp {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 30%;
+    height: auto;
+}
+
+#cabecera_quienes, #cabecera_fuentes {
+    width: 100%;
+    height: 60vh;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cabecera_quienes {
+    background-image: url('../img/cover_quienes_somos_3.jpg'); /* 1400 x 476 */
+}
+
+#cabecera_fuentes {
+    background-image: url('../img/Imagen_Fuente_de_Datos_1.jpg'); /* 1400 x 476 */
+}
+
+.image_quienes_somos {
+    width: 20%;
+    height: auto;
+    position: absolute;
+    top: 77%;
+}
+
+#smartdata_png {
+    left: 53%;
+}
+
+#ctec_png {
+    left: 66%;
+}
+
+.all_source_cards {
+    margin-top: 5%;
+}
+
+.titulo_fuentes {
+    color: #4C87C6;
+    text-align: left;
+    font-size: 0.9em;
+}
+
+.titulo_fuentes > a {
+    color: #4C87C6;
+}
+
+.card_fuentes {
+    padding: 5%;
+    height: 210px;
+    /* border: 0.5px solid grey; */
+}
+
+.image_source_lives_here {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+#uchile, .imagen_fuente, .imagen_fuente_square {
+    margin-bottom: 3%;
+}
+
+#uchile {
+    width: 50%;
+    height: auto;
+}
+
+.imagen_fuente {
+    width: 80%;
+    height: auto;
+}
+
+.imagen_fuente_square {
+    width: 35%;
+    height: auto;
+}
+
+.text_source > h3 {
+    width: 80%;
+}
+
+.text_source > h3, .text_source > p.textPage {
+    font-size: 0.8em;
+    text-align: left;
+}
+
+.card_fuentes > .row > a {
+    color: black;
+    font-size: 0.7em;
+    text-align: right;
+    position: absolute;
+    top: 90%;
+    left: 45%;
+}
+
+@media only screen and (max-width: 900px)  {
+    #lc {
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        width: 60%;
+        height: auto;
+    }
+
+    #lp {
+        position: absolute;
+        top: 53%;
+        left: 40%;
+        width: 35%;
+        height: auto;
+    }
+}
+
+#logo_ctec_nav {
+    vertical-align: middle;
+    height: 60px;
+    margin-left: -5%;
+}
+
+#mainNav .navbar-nav > li > a#link-btn-professional {
+    background-color: white;
+}
+
+#mainNav .navbar-nav > li > a#link-btn-professional:focus {
+    background-color: #4c87c6;
+    color: white;
+}
+
+.landing {
+    background-image: url('../img/map_fondo_resize.png');
+    background-image: url('../img/mapa_fondo.jpg');
+    /* background-color: #606774; */
+    background-image: url('../img/map_fondo_resize.png');
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 7%;
+}
+
+#descripcion {
+    font-size: 0.9em;
+    width: 40%;
+    color: white;
+    position: absolute;
+    text-align: justify;
+    top: 75%;
+    left: 35%;
+}
+
+#backConstrast {
+    width: 100%;
+    background-color: #184988;
+}
+
+.rrss {
+    width: 40px;
+    height: auto;
+}
+
+.cn {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: inline-block;
+    margin: 0 auto;
+    padding: 11%;
+    margin-top: 6%;
+}
+
+#huincha {
+    background-color: #ffffff;
+    position: absolute;
+    width: 100vw;
+}
+
+.huinchaImg {
+    height: auto;
+    margin-right: .5%;
+}
+
+.logo_superior {
+    width: 10%;
+}
+
+.logo_inferior {
+    width: 6.5%;
+}
+
+.logo_mas_pequeno  {
+    width: 5.5%;
+}
+
+.logo_mas_grande {
+    width: 12%;
+}
+
+#tabs-space {
+   /* margin-bottom: -100vh;
+   height: 100vh; */
+   background: white;
+   z-index: 99999;
+   padding: 50px;
+   margin-bottom: -150vh;
+   height: 150vh   
+}
+
+#tabs {
+   margin: 0 auto;
+   width: 90vw;
+   top: 88px;
+   position: sticky;
+   position: -webkit-sticky;
+   z-index: 99;
+}
+
+.fixed-nav {
+    position: fixed;
+}
+
+.btn-group {
+    margin: 0 auto;
+}
+
+.btn.hover,
+.btn:hover,
+.btn-light.hover,
+.btn-light:hover,
+.btn-light.focus,
+.btn-light:focus {
+    background-color: #4C87C6 !important;
+}
+
+.button_second_row {
+    padding: .1rem 2.35rem;
+}
+
+.nav-tabs {
+    background-color: #ffffff;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #ff0000;
+    background: linear-gradient(to right, #4C87C6, #199C48);
+    border-color: #dee2e6 #dee2e6 #fff;
+        border-top-color: rgb(222, 226, 230);
+        border-right-color: #C8D02D;
+        border-bottom-color: rgb(255, 255, 255);
+        border-left-color: rgb(222, 226, 230);
+}
+
+.nav-item {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nav-link {
+    color: #222;
+}
+
+.button_tabs {
+    border-radius: 0%;
+    -moz-border-radius: 0%;
+    -webkit-border-radius: 0%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.btn_dos {
+    margin-right: 8%;
+    width: 100%;
+}
+
+.btn_with_margin {
+    margin-right: 3%;
+}
+
+#margin_bot {
+    margin-bottom: 1%;
+}
+
+footer {
+    background-color: #545454;
+    position: relative;
+    height: 230px;
+    margin-top: 20%;
+}
+
+#ctec_logo_small {
+    width: 20%;
+    height: auto;
+}
+
+.col-md-4 {
+    padding-left: 3%;
+    padding-bottom: 1%;
+    color: #ffffff;
+}
+
+.col-md-4 > p {
+    font-size: 0.7em;
+    width: 250px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 18px;
+    font-weight: 300;
+    letter-spacing: 0px;
+}
+
+ul.list-unstyled > li {
+    display: inline;
+    padding-left: 1%;
+}
+
+.list-unstyled >li>a#correo {
+    color: white
+}
+
+.list-unstyled >li>p#telefono {
+    color: white
+}
+
+.footer-copyright {
+    background-color: white;
+    color: #333;
+}
+
+.footer-copyright > p {
+    position: absolute;
+    left: 3%;
+    top: 120%;
+    vertical-align: middle;
+    font-size: 0.8em;
+}
+
+#ctecLinkFooter {
+    color: black;
+    font-weight: bold;
+}
+
+#ltoR {
+    list-style: none;
+    display: inline-block;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 70%;
+}
+
+img.lfooter {
+    width: 25%;
+    padding-left: 3%;
+}
+
+#a, #b {
+    float: left;
+}
+
+/* Paginas Auxiliares */
+.contentPage {
+    width: 100%;
+    text-align: center;
+    background-color: #ffffff;
+    color: #1e1e1e;
+}
+
+.containerPage {
+    margin: 7% auto;
+    width: 120vh; /* why?? */
+}
+
+.containerPage > h1 {
+    font-size: 1.7em;
+    font-weight: 300;
+}
+
+.containerPage > h3 {
+    margin-left: -50%;
+    margin-top: 3%;
+}
+
+#first_paragraph {
+    margin-top: 7%;
+}
+
+.containerPage > p {
+    font-size: 1em;
+    margin-top: 3%;
+}
+
+.textPage > a {
+    color: #184988;
+    text-decoration: none;
+}
+
+.containerPage > h1, .containerPage > p {
+    text-align: justify;
+}
+
+.justAlist {
+    list-style: none;
+    text-align: justify;
+}
+
+.justAlist > li > a {
+    color: #4c87c6;
+    text-decoration: none;
+}
+
+.justAlist > li > a:focus:hover, .justAlist > li > a:hover {
+    color: #199c48;
+}
+
+.fontsList {
+    list-style: none;
+    text-align: justify;
+    margin-top: 5%;
+}
+
+.fontsList > li {
+    background-color: #DEE0E2;
+}
+
+.fa-chevron-down {
+    color: #ffffff;
+    position: absolute;
+    top: 90vh;
+    left: 50%;
+}
+
+.navbar-nav li:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    padding: 7%;
+    font-size: 0.9em;
+}
+
+.dropdown-menu > li > a {
+    color: #4c87c6;
+}
+
+a:focus, a:hover, a:focus:visited {
+    color: #199c48;
+}
+
+.navbar-link:focus:active, .navbar-link:focus:hover, .nav-link:hover, .nav-link:focus:visited {
+    color: #199c48;
+}
+
+#mainNav .navbar-nav>li>a:focus:hover, #mainNav .navbar-nav>li>a:hover, #mainNav .navbar-nav>li>a:focus:visited {
+    color: #199c48;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 992px) {
+    #mainNav .navbar-nav>li>a:focus:hover, #mainNav .navbar-nav>li>a:hover, #mainNav .navbar-nav>li>a:focus:visited {
+        color: #199c48;
+    }
+}
+
+.kpiSection > .sharing_space {
+    width: 1%;
+}
+
+/* Sharing */
+.some-network {
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 15px;
+    text-align: center;
+}
+  
+.share-button {
+    cursor: pointer;
+}

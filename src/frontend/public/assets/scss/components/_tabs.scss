@@ -1,0 +1,59 @@
+
+.kpiTabs {
+   padding: 3rem 0 1rem;
+   @include screen(xs){
+      padding: 2rem 0 0;
+   }
+
+   &-link {
+      text-transform: uppercase;
+      @include raleway(400, 13px);
+      color: $gray-tabs;
+      max-width: 150px;
+      text-align: center;
+
+      @include screen(md){
+         font-size: 12px;
+         min-width: 25%;
+         flex: 0 0 auto;
+         padding: 10px 5px 20px;
+      }
+
+      @include screen(sm){
+         font-size: 11px;
+         flex: 0 0 auto;
+         padding: 0px 3px 28px;
+      }
+
+      @include screen(xs){
+         font-size: 10px;
+         flex: 0 0 auto;
+         padding-bottom: 10px;
+         min-width: 70%;
+         &:not(:last-child){
+            min-width: auto;
+            max-width: 30%;
+            padding: 0px 3px 24px;
+         }
+      }
+
+      &.active {
+         color: $blue-tabs;
+         position: relative;
+         font-weight: 700;
+
+         &::before {
+            content: '';
+            width: 100%;
+            border-top: 3px solid $blue-tabs;
+            position: absolute;
+            top: -1em;
+            left: 0;
+            @include screen(md) {
+               top: 0;
+            }
+         }
+      }
+   }
+
+}

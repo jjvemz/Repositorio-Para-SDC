@@ -1,0 +1,34 @@
+.socios{
+   font-size: 16px;
+   @include screen(sm) {
+      font-size: 13px;
+   }
+   @include screen(xs) {
+      font-size: 9px;
+   }
+
+   .d-flex {
+      height: 5em; //80px
+   }
+
+   &__item {
+      height: 2.25em; //36px
+
+      &--md {
+         height: 2.875em; //46px
+      }
+
+      &--sm {
+         height: 3.75em; //60px
+      }
+
+      &--xs {
+         height: 5.625em; //90px;
+      }
+
+   }
+
+}
+.carousel-item {
+   transition: transform 2s ease;
+}

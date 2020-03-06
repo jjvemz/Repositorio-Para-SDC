@@ -1,0 +1,2657 @@
+{
+   "type": "FeatureCollection",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "epsg:32719"
+      }
+    },
+    "regiones_centroides": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -69.65752396667588,
+            -18.49025394481695
+          ]
+        },
+        "properties": {
+          "Region": "Arica y Parinacota",
+          "Capital": "Arica",
+          "Area": "16,873.3",
+          "Pop": "226,068",
+          "X": -69.6575239667,
+          "Y": -18.4902539448
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -69.43360235784105,
+            -20.119116275297944
+          ]
+        },
+        "properties": {
+          "Region": "TarapacÃ¡",
+          "Capital": "Iquique",
+          "Area": "42,225.8",
+          "Pop": "330,558",
+          "X": -69.4336023578,
+          "Y": -20.1191162753
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -69.14800708565907,
+            -23.378231309215206
+          ]
+        },
+        "properties": {
+          "Region": "Antofagasta",
+          "Capital": "Antofagasta",
+          "Area": "126,049.1",
+          "Pop": "607,534",
+          "X": -69.1480070857,
+          "Y": -23.3782313092
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -69.89974508355066,
+            -27.22395278865392
+          ]
+        },
+        "properties": {
+          "Region": "Atacama",
+          "Capital": "CopiapÃ³",
+          "Area": "75,176.2",
+          "Pop": "286,168",
+          "X": -69.8997450836,
+          "Y": -27.2239527887
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -70.93295125307554,
+            -30.526198115302794
+          ]
+        },
+        "properties": {
+          "Region": "Coquimbo",
+          "Capital": "La Serena",
+          "Area": "40,579.9",
+          "Pop": "757,586",
+          "X": -70.9329512531,
+          "Y": -30.5261981153
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -70.89659911779492,
+            -32.59566784361986
+          ]
+        },
+        "properties": {
+          "Region": "ValparaÃ­so",
+          "Capital": "ValparaÃ­so",
+          "Area": "16,396.1",
+          "Pop": "1,815,902",
+          "X": -70.8965991178,
+          "Y": -32.5956678436
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -70.65299221712651,
+            -33.49265334607583
+          ]
+        },
+        "properties": {
+          "Region": "Metropolitana",
+          "Capital": "Santiago",
+          "Area": "15,403.2",
+          "Pop": "7,112,808",
+          "X": -70.6529922171,
+          "Y": -33.4926533461
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -71.1148483746128,
+            -34.452385399039464
+          ]
+        },
+        "properties": {
+          "Region": "O'Higgins",
+          "Capital": "Rancagua",
+          "Area": "16,387.0",
+          "Pop": "914,555",
+          "X": -71.1148483746,
+          "Y": -34.452385399
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -71.42550537265626,
+            -35.22659506498097
+          ]
+        },
+        "properties": {
+          "Region": "Maule",
+          "Capital": "Talca",
+          "Area": "30,296.1",
+          "Pop": "1,044,950",
+          "X": -71.4255053727,
+          "Y": -35.226595065
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -72.30544255982521,
+            -37.03107386882478
+          ]
+        },
+        "properties": {
+          "Region": "BiobÃ­o",
+          "Capital": "ConcepciÃ³n",
+          "Area": "23,890.2",
+          "Pop": "1,556,805",
+          "X": -72.3054425598,
+          "Y": -37.0310738688
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -72.39151640799699,
+            -38.59374554699105
+          ]
+        },
+        "properties": {
+          "Region": "La AraucanÃ­a",
+          "Capital": "Temuco",
+          "Area": "31,842.3",
+          "Pop": "957,224",
+          "X": -72.391516408,
+          "Y": -38.593745547
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -72.6504343597721,
+            -39.991785003534254
+          ]
+        },
+        "properties": {
+          "Region": "Los RÃ­os",
+          "Capital": "Valdivia",
+          "Area": "18,429.5",
+          "Pop": "384,837",
+          "X": -72.6504343598,
+          "Y": -39.9917850035
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -72.89801997032086,
+            -41.38928760826264
+          ]
+        },
+        "properties": {
+          "Region": "Los Lagos",
+          "Capital": "Puerto Montt",
+          "Area": "48,583.6",
+          "Pop": "828,708",
+          "X": -72.8980199703,
+          "Y": -41.3892876083
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -73.17916796873456,
+            -45.949228045538476
+          ]
+        },
+        "properties": {
+          "Region": "AysÃ©n",
+          "Capital": "Coihaique",
+          "Area": "108,494.4",
+          "Pop": "103,158",
+          "X": -73.1791679687,
+          "Y": -45.9492280455
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -72.34316856855294,
+            -51.85070469905161
+          ]
+        },
+        "properties": {
+          "Region": "Magallanes",
+          "Capital": "Punta Arenas",
+          "Area": "132,291.1",
+          "Pop": "166,533",
+          "X": -72.3431685686,
+          "Y": -51.8507046991
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -71.67166046244516,
+            -35.83027265556569
+          ]
+        },
+        "properties": {
+          "Region": "Nuble",
+          "Capital": "Chillan",
+          "Area": "13,178.5",
+          "Pop": "480,609",
+          "X": -71.6716604624,
+          "Y": -35.8302726556
+        }
+      }
+    ],   
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.6035582,-33.4136216 ]
+    },
+    "properties": {
+    "FIELD1":3473,
+    "ID":10003695,
+    "Isconfidential":"No",
+    "ProjectName":"TITANIUM - LA PORTADA",
+    "Street":"AV. ISIDORA GOYENECHEA  2800",
+    "City":"SANTIAGO DE CHILE",
+    "State":" ",
+    "Zipcode":"11111",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-CS 1.0 Pilot",
+    "PointsAchieved":40,
+    "CertLevel":"Gold",
+    "CertDate":"12/10/10 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Profit Org.",
+    "GrossSqFoot":"8,900,000,000",
+    "TotalPropArea":"720,000,000",
+    "ProjectTypes":"Commercial Office",
+    "OwnerOrganization":"INMOBILIARIA TITANIUM",
+    "RegistrationDate":"3/3/06 0:00",
+    "Pais":"Chile",
+    "direccion":"AV. ISIDORA GOYENECHEA  2800, SANTIAGO DE CHILE,  , Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -109.42758178710938,-27.147939682006836 ]
+    },
+    "properties": {
+    "FIELD1":4487,
+    "ID":10024791,
+    "Isconfidential":"No",
+    "ProjectName":"HOTEL: POSADA DE MIKE RAPU",
+    "Street":"Te# Miro O#ne s/n, Casilla 31, Isla de Pascua",
+    "City":"EASTER ISLAND",
+    "State":" ",
+    "Zipcode":"11111",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-NC 2.2",
+    "PointsAchieved":36,
+    "CertLevel":"Silver",
+    "CertDate":"2/10/09 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Profit Org.",
+    "GrossSqFoot":"574,560,000",
+    "TotalPropArea":"10,333,350,000",
+    "ProjectTypes":"Hotel/Resort",
+    "OwnerOrganization":"EXPLORA CHILE  S. A.",
+    "RegistrationDate":"10/2/06 0:00",
+    "Pais":"Chile",
+    "direccion":"Te# Miro O#ne s/n, Casilla 31, Isla de Pascua, EASTER ISLAND,  , Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.5301508,-33.3840941 ]
+    },
+    "properties": {
+    "FIELD1":4934,
+    "ID":10039434,
+    "Isconfidential":"No",
+    "ProjectName":"CLINICA LAS CONDES NEW H3 BUILDING",
+    "Street":"LO FONTECILLA  441",
+    "City":"SANTIAGO",
+    "State":" ",
+    "Zipcode":"11111",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-NC 2.2",
+    "PointsAchieved":null,
+    "CertLevel":"",
+    "CertDate":"",
+    "IsCertified":"No",
+    "OwnerTypes":"Profit Org.",
+    "GrossSqFoot":"3,254,800,000",
+    "TotalPropArea":"",
+    "ProjectTypes":"Health Care",
+    "OwnerOrganization":"INMOBILIARIA CLC S.A.",
+    "RegistrationDate":"12/13/06 0:00",
+    "Pais":"Chile",
+    "direccion":"LO FONTECILLA  441, SANTIAGO,  , Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -109.43649,-27.15257 ]
+    },
+    "properties": {
+    "FIELD1":9539,
+    "ID":10151532,
+    "Isconfidential":"No",
+    "ProjectName":"HOTEL HANGAROA",
+    "Street":"Avenida Pont  s/n",
+    "City":"Hangaroa - Easter Island",
+    "State":" ",
+    "Zipcode":"none",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-NC 2.2",
+    "PointsAchieved":null,
+    "CertLevel":"",
+    "CertDate":"",
+    "IsCertified":"No",
+    "OwnerTypes":"Profit Org.",
+    "GrossSqFoot":"1,150,000,000",
+    "TotalPropArea":"",
+    "ProjectTypes":"Restaurant, Hotel/Resort",
+    "OwnerOrganization":" ",
+    "RegistrationDate":"11/2/07 0:00",
+    "Pais":"Chile",
+    "direccion":"Avenida Pont  s/n, Hangaroa - Easter Island,  , Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.50437,-27.80712 ]
+    },
+    "properties": {
+    "FIELD1":9967,
+    "ID":10163607,
+    "Isconfidential":"No",
+    "ProjectName":"Homecenter SODIMAC Copiapo",
+    "Street":"Panamericana Acceso Sur 140",
+    "City":"Copiapo",
+    "State":" ",
+    "Zipcode":"11111",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-NC 2.2",
+    "PointsAchieved":34,
+    "CertLevel":"Silver",
+    "CertDate":"8/24/09 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Profit Org.",
+    "GrossSqFoot":"1,106,550,000",
+    "TotalPropArea":"2,653,630,000",
+    "ProjectTypes":"Retail",
+    "OwnerOrganization":" ",
+    "RegistrationDate":"12/3/07 0:00",
+    "Pais":"Chile",
+    "direccion":"Panamericana Acceso Sur 140, Copiapo,  , Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.56055,-33.51499 ]
+    },
+    "properties": {
+    "FIELD1":12500,
+    "ID":10231029,
+    "Isconfidential":"No",
+    "ProjectName":"EDIFICIO COSTANERA COSAS",
+    "Street":"Almirante Pastene Street No. 333 and 311",
+    "City":"Providencia, Santiago",
+    "State":" ",
+    "Zipcode":"7500506",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-CS 2.0",
+    "PointsAchieved":34,
+    "CertLevel":"Gold",
+    "CertDate":"10/21/10 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Profit Org.",
+    "GrossSqFoot":"700,510,000",
+    "TotalPropArea":"176,140,000",
+    "ProjectTypes":"Commercial Office",
+    "OwnerOrganization":"TiempoPresente Ltda.",
+    "RegistrationDate":"4/30/08 0:00",
+    "Pais":"Chile",
+    "direccion":"Almirante Pastene Street No. 333 and 311, Providencia, Santiago,  , Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.49858,-33.39032 ]
+    },
+    "properties": {
+    "FIELD1":14125,
+    "ID":10262404,
+    "Isconfidential":"No",
+    "ProjectName":"Express de Lider Plaza Los Dominicos",
+    "Street":"Av. La Plaza 590",
+    "City":"Santiago",
+    "State":" ",
+    "Zipcode":"73400",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-NC 2.2",
+    "PointsAchieved":null,
+    "CertLevel":"",
+    "CertDate":"",
+    "IsCertified":"No",
+    "OwnerTypes":"Profit Org.",
+    "GrossSqFoot":"702,950,000",
+    "TotalPropArea":"",
+    "ProjectTypes":"Retail",
+    "OwnerOrganization":"SAITEC - LIDER",
+    "RegistrationDate":"7/2/08 0:00",
+    "Pais":"Chile",
+    "direccion":"Av. La Plaza 590, Santiago,  , Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.9386701,-41.4711318 ]
+    },
+    "properties": {
+    "FIELD1":14637,
+    "ID":10271657,
+    "Isconfidential":"No",
+    "ProjectName":"EDIFICIO DE LA CONSTRUCCION  mn",
+    "Street":"175 Quillota St.",
+    "City":"Puerto Montt",
+    "State":" ",
+    "Zipcode":"5480000",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-CS 2.0",
+    "PointsAchieved":29,
+    "CertLevel":"Silver",
+    "CertDate":"8/30/11 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Profit Org.",
+    "GrossSqFoot":"1,099,620,000",
+    "TotalPropArea":"102,160,000",
+    "ProjectTypes":"Commercial Office",
+    "OwnerOrganization":"Constructoras Puerto Montt S.A.",
+    "RegistrationDate":"7/22/08 0:00",
+    "Pais":"Chile",
+    "direccion":"175 Quillota St., Puerto Montt,  , Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.5703,-33.40414 ]
+    },
+    "properties": {
+    "FIELD1":14638,
+    "ID":10271660,
+    "Isconfidential":"No",
+    "ProjectName":"EDIFICIO CERRO EL PLOMO",
+    "Street":"Calle Cerro El Plomo No.6000",
+    "City":"Santiago",
+    "State":" ",
+    "Zipcode":"73155",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-CS 2.0",
+    "PointsAchieved":34,
+    "CertLevel":"Gold",
+    "CertDate":"8/6/14 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Profit Org.",
+    "GrossSqFoot":"3,310,000,000",
+    "TotalPropArea":"509,160,000",
+    "ProjectTypes":"Commercial Office",
+    "OwnerOrganization":" ",
+    "RegistrationDate":"7/22/08 0:00",
+    "Pais":"Chile",
+    "direccion":"Calle Cerro El Plomo No.6000, Santiago,  , Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.35142,-27.34547 ]
+    },
+    "properties": {
+    "FIELD1":15779,
+    "ID":10291601,
+    "Isconfidential":"No",
+    "ProjectName":"IRI Copiapo - Fundacion Teleton",
+    "Street":"Av. Carmen Vilches esq. Pje. El Colorado",
+    "City":"Copiapo",
+    "State":" ",
+    "Zipcode":"1530000",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-NC 2.2",
+    "PointsAchieved":38,
+    "CertLevel":"Silver",
+    "CertDate":"9/14/12 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Non-Profit Org.",
+    "GrossSqFoot":"262,850,000",
+    "TotalPropArea":"1,089,090,000",
+    "ProjectTypes":"Special Needs, Health Care",
+    "OwnerOrganization":"Sociedad Proayuda del NiÃ±o Lisiado",
+    "RegistrationDate":"9/1/08 0:00",
+    "Pais":"Chile",
+    "direccion":"Av. Carmen Vilches esq. Pje. El Colorado, Copiapo,  , Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.5270803,-33.3773259 ]
+    },
+    "properties": {
+    "FIELD1":15968,
+    "ID":10294857,
+    "Isconfidential":"No",
+    "ProjectName":"Plaza San Damian Office Building",
+    "Street":"Las Condes Avenue 11287",
+    "City":"Santiago",
+    "State":" ",
+    "Zipcode":"7590992",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-CS 2.0",
+    "PointsAchieved":36,
+    "CertLevel":"Gold",
+    "CertDate":"2/10/13 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Profit Org.",
+    "GrossSqFoot":"1,904,020,000",
+    "TotalPropArea":"457,090,000",
+    "ProjectTypes":"Commercial Office",
+    "OwnerOrganization":" ",
+    "RegistrationDate":"9/7/08 0:00",
+    "Pais":"Chile",
+    "direccion":"Las Condes Avenue 11287, Santiago,  , Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.6198008,-33.3918983 ]
+    },
+    "properties": {
+    "FIELD1":15983,
+    "ID":10295140,
+    "Isconfidential":"No",
+    "ProjectName":"EDIFICIO HORIZONTES",
+    "Street":"Avenida del Parque 4520",
+    "City":"SANTIAGO",
+    "State":" ",
+    "Zipcode":"8580000",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-CS 2.0",
+    "PointsAchieved":31,
+    "CertLevel":"Silver",
+    "CertDate":"5/7/14 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Profit Org.",
+    "GrossSqFoot":"545,000,000",
+    "TotalPropArea":"",
+    "ProjectTypes":"Commercial Office",
+    "OwnerOrganization":" ",
+    "RegistrationDate":"9/8/08 0:00",
+    "Pais":"Chile",
+    "direccion":"Avenida del Parque 4520, SANTIAGO,  , Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.58387,-33.41541 ]
+    },
+    "properties": {
+    "FIELD1":15986,
+    "ID":10295170,
+    "Isconfidential":"No",
+    "ProjectName":"MALL PLAZA EGADA",
+    "Street":"Av. Americo Vespucio Sur",
+    "City":"Santiago",
+    "State":" ",
+    "Zipcode":"7850000",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-CS 2.0",
+    "PointsAchieved":34,
+    "CertLevel":"Gold",
+    "CertDate":"11/3/15 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Profit Org.",
+    "GrossSqFoot":"16,200,000,000",
+    "TotalPropArea":"3,314,900,000",
+    "ProjectTypes":"Multi-Unit Residence, Commercial Office, Retail, Health Care, Restaurant, Financial & Comm.",
+    "OwnerOrganization":" ",
+    "RegistrationDate":"9/8/08 0:00",
+    "Pais":"Chile",
+    "direccion":"Av. Americo Vespucio Sur, Santiago,  , Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.6407847,-33.4575568 ]
+    },
+    "properties": {
+    "FIELD1":16217,
+    "ID":10300284,
+    "Isconfidential":"No",
+    "ProjectName":"HOMECENTER SODIMAC QUILICURA",
+    "Street":"Manuel Antonio Matta  581",
+    "City":"Santiago",
+    "State":" ",
+    "Zipcode":"8700065",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-NC 2.2",
+    "PointsAchieved":33,
+    "CertLevel":"Silver",
+    "CertDate":"12/2/14 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Profit Org.",
+    "GrossSqFoot":"1,320,000,000",
+    "TotalPropArea":"",
+    "ProjectTypes":"Commercial Office, Retail",
+    "OwnerOrganization":" ",
+    "RegistrationDate":"9/16/08 0:00",
+    "Pais":"Chile",
+    "direccion":"Manuel Antonio Matta  581, Santiago,  , Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05298,-36.84621 ]
+    },
+    "properties": {
+    "FIELD1":17048,
+    "ID":10320850,
+    "Isconfidential":"No",
+    "ProjectName":"Edificio corporativo ESSBIO",
+    "Street":"Arrau Mendez 1100",
+    "City":"Concepcion",
+    "State":" ",
+    "Zipcode":"4030000",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-NC 2.2",
+    "PointsAchieved":null,
+    "CertLevel":"",
+    "CertDate":"",
+    "IsCertified":"No",
+    "OwnerTypes":"Profit Org.",
+    "GrossSqFoot":"435,930,000",
+    "TotalPropArea":"",
+    "ProjectTypes":"Commercial Office",
+    "OwnerOrganization":" ",
+    "RegistrationDate":"10/20/08 0:00",
+    "Pais":"Chile",
+    "direccion":"Arrau Mendez 1100, Concepcion,  , Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.3959732055664,-23.639450073242188 ]
+    },
+    "properties": {
+    "FIELD1":17139,
+    "ID":10322935,
+    "Isconfidential":"No",
+    "ProjectName":"EDIFICIO FUNDACION MINERA ESCONDIDA",
+    "Street":"B O'Higgings Ave.  1280",
+    "City":"ANTOFAGASTA",
+    "State":" ",
+    "Zipcode":"1270168",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-NC 2.2",
+    "PointsAchieved":40,
+    "CertLevel":"Gold",
+    "CertDate":"6/9/11 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Profit Org.",
+    "GrossSqFoot":"154,360,000",
+    "TotalPropArea":"151,720,000",
+    "ProjectTypes":"Other",
+    "OwnerOrganization":"Fundacion Minera Escondida",
+    "RegistrationDate":"10/23/08 0:00",
+    "Pais":"Chile",
+    "direccion":"B O'Higgings Ave.  1280, ANTOFAGASTA,  , Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.50217,-51.72413 ]
+    },
+    "properties": {
+    "FIELD1":18274,
+    "ID":10346028,
+    "Isconfidential":"No",
+    "ProjectName":"Hotel Salto Chico - Explora Patagonia",
+    "Street":"Torres del Paine National Park",
+    "City":"Puerto Natales",
+    "State":" ",
+    "Zipcode":"6160000",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-EB O&M",
+    "PointsAchieved":null,
+    "CertLevel":"",
+    "CertDate":"",
+    "IsCertified":"No",
+    "OwnerTypes":"Individual",
+    "GrossSqFoot":"592,000,000",
+    "TotalPropArea":"",
+    "ProjectTypes":"Hotel/Resort, Restaurant",
+    "OwnerOrganization":" ",
+    "RegistrationDate":"12/4/08 0:00",
+    "Pais":"Chile",
+    "direccion":"Torres del Paine National Park, Puerto Natales,  , Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.19908905029297,-22.909570693969727 ]
+    },
+    "properties": {
+    "FIELD1":18275,
+    "ID":10346047,
+    "Isconfidential":"No",
+    "ProjectName":"Hotel de Larache - Explora Atacama",
+    "Street":"Domingo Atienza s/n, Ayllu de Larache",
+    "City":"San Pedro de Atacama",
+    "State":" ",
+    "Zipcode":"1410000",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-EB O&M",
+    "PointsAchieved":null,
+    "CertLevel":"",
+    "CertDate":"",
+    "IsCertified":"No",
+    "OwnerTypes":"Individual",
+    "GrossSqFoot":"807,300,000",
+    "TotalPropArea":"",
+    "ProjectTypes":"Hotel/Resort, Restaurant",
+    "OwnerOrganization":" ",
+    "RegistrationDate":"12/4/08 0:00",
+    "Pais":"Chile",
+    "direccion":"Domingo Atienza s/n, Ayllu de Larache, San Pedro de Atacama,  , Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.16179,-34.91088 ]
+    },
+    "properties": {
+    "FIELD1":18970,
+    "ID":10355100,
+    "Isconfidential":"No",
+    "ProjectName":"Almazara Don Alfonso",
+    "Street":"FUNDO SAN ALFONSO mn",
+    "City":"CURICO",
+    "State":" ",
+    "Zipcode":"3340000",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-NC 2.2",
+    "PointsAchieved":null,
+    "CertLevel":"",
+    "CertDate":"",
+    "IsCertified":"No",
+    "OwnerTypes":"Profit Org.",
+    "GrossSqFoot":"270,000,000",
+    "TotalPropArea":"",
+    "ProjectTypes":"Industrial",
+    "OwnerOrganization":" ",
+    "RegistrationDate":"12/22/08 0:00",
+    "Pais":"Chile",
+    "direccion":"FUNDO SAN ALFONSO mn, CURICO,  , Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.88237,-53.11221 ]
+    },
+    "properties": {
+    "FIELD1":19026,
+    "ID":10355690,
+    "Isconfidential":"No",
+    "ProjectName":"Edificio Magallanes",
+    "Street":"Av. P. Ibanez 05872",
+    "City":"Punta Arenas",
+    "State":" ",
+    "Zipcode":"12",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-NC 2.2",
+    "PointsAchieved":null,
+    "CertLevel":"",
+    "CertDate":"",
+    "IsCertified":"No",
+    "OwnerTypes":"Individual",
+    "GrossSqFoot":"250,000,000",
+    "TotalPropArea":"",
+    "ProjectTypes":"Multi-Unit Residence, Single-Family Home",
+    "OwnerOrganization":" ",
+    "RegistrationDate":"12/23/08 0:00",
+    "Pais":"Chile",
+    "direccion":"Av. P. Ibanez 05872, Punta Arenas,  , Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.60021,-33.41784 ]
+    },
+    "properties": {
+    "FIELD1":19280,
+    "ID":10358107,
+    "Isconfidential":"No",
+    "ProjectName":"Territoria El Bosque",
+    "Street":"Av. Apoquindo 2827",
+    "City":"Santiago",
+    "State":" ",
+    "Zipcode":"7510025",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-CS 2.0",
+    "PointsAchieved":34,
+    "CertLevel":"Gold",
+    "CertDate":"1/21/14 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Profit Org.",
+    "GrossSqFoot":"2,179,640,000",
+    "TotalPropArea":"313,180,000",
+    "ProjectTypes":"Commercial Office, Retail",
+    "OwnerOrganization":" ",
+    "RegistrationDate":"12/31/08 0:00",
+    "Pais":"Chile",
+    "direccion":"Av. Apoquindo 2827, Santiago,  , Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.90392,-22.44726 ]
+    },
+    "properties": {
+    "FIELD1":20120,
+    "ID":10384274,
+    "Isconfidential":"No",
+    "ProjectName":"INSTITUTO DE REHABILITACION CALAMA",
+    "Street":"TENIENTE MERINO 3551",
+    "City":"CALAMA",
+    "State":" ",
+    "Zipcode":"0",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-NC 2.2",
+    "PointsAchieved":39,
+    "CertLevel":"Gold",
+    "CertDate":"5/7/14 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Non-Profit Org.",
+    "GrossSqFoot":"201,140,000",
+    "TotalPropArea":"1,127,740,000",
+    "ProjectTypes":"Health Care",
+    "OwnerOrganization":"Sociedad Proayuda del NiÃ±o Lisiado",
+    "RegistrationDate":"2/6/09 0:00",
+    "Pais":"Chile",
+    "direccion":"TENIENTE MERINO 3551, CALAMA,  , Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.07679,-45.57935 ]
+    },
+    "properties": {
+    "FIELD1":20121,
+    "ID":10384287,
+    "Isconfidential":"No",
+    "ProjectName":"IRI Coyhaique - Fundacion Teleton",
+    "Street":"Ejercito Esq. Avda Norte Sur S/NÂº",
+    "City":"COYHAIQUE",
+    "State":" ",
+    "Zipcode":"0",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-NC 2.2",
+    "PointsAchieved":44,
+    "CertLevel":"Gold",
+    "CertDate":"5/29/14 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Non-Profit Org.",
+    "GrossSqFoot":"156,720,000",
+    "TotalPropArea":"1,075,790,000",
+    "ProjectTypes":"Special Needs, Health Care",
+    "OwnerOrganization":"Sociedad Proayuda del NiÃ±o Lisiado",
+    "RegistrationDate":"2/6/09 0:00",
+    "Pais":"Chile",
+    "direccion":"Ejercito Esq. Avda Norte Sur S/NÂº, COYHAIQUE,  , Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.21797,-39.83943 ]
+    },
+    "properties": {
+    "FIELD1":20123,
+    "ID":10384306,
+    "Isconfidential":"No",
+    "ProjectName":"INSTITUTO DE REHABILITACION VALDIVIA",
+    "Street":"Francia Ave. with General Rene Schneider St.",
+    "City":"Valdivia",
+    "State":" ",
+    "Zipcode":"5090000",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-NC 2.2",
+    "PointsAchieved":null,
+    "CertLevel":"",
+    "CertDate":"",
+    "IsCertified":"No",
+    "OwnerTypes":"Non-Profit Org.",
+    "GrossSqFoot":"252,199,000",
+    "TotalPropArea":"1,076,390,000",
+    "ProjectTypes":"Health Care",
+    "OwnerOrganization":"Sociedad Proayuda del NiÃ±o Lisiado",
+    "RegistrationDate":"2/6/09 0:00",
+    "Pais":"Chile",
+    "direccion":"Francia Ave. with General Rene Schneider St., Valdivia,  , Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.65285,-33.43165 ]
+    },
+    "properties": {
+    "FIELD1":21094,
+    "ID":10415674,
+    "Isconfidential":"No",
+    "ProjectName":"TRANSOCEANICA BUSINESS PARK",
+    "Street":"5880 Santa Maria Ave.",
+    "City":"Santiago",
+    "State":" ",
+    "Zipcode":"7660268",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-NC 2.2",
+    "PointsAchieved":39,
+    "CertLevel":"Gold",
+    "CertDate":"4/25/11 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Profit Org.",
+    "GrossSqFoot":"1,846,030,000",
+    "TotalPropArea":"",
+    "ProjectTypes":"Commercial Office, Retail",
+    "OwnerOrganization":" ",
+    "RegistrationDate":"3/10/09 0:00",
+    "Pais":"Chile",
+    "direccion":"5880 Santa Maria Ave., Santiago,  , Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.58242,-33.57771 ]
+    },
+    "properties": {
+    "FIELD1":22800,
+    "ID":10491325,
+    "Isconfidential":"No",
+    "ProjectName":"Edificio YOEMAR",
+    "Street":"Calle Local",
+    "City":"Santiago",
+    "State":" ",
+    "Zipcode":"1111111",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-CS 2.0",
+    "PointsAchieved":35,
+    "CertLevel":"Gold",
+    "CertDate":"10/16/15 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Profit Org.",
+    "GrossSqFoot":"1,879,070,000",
+    "TotalPropArea":"",
+    "ProjectTypes":"Commercial Office, Retail",
+    "OwnerOrganization":"New contact",
+    "RegistrationDate":"4/30/09 0:00",
+    "Pais":"Chile",
+    "direccion":"Calle Local, Santiago,  , Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.3883942,-23.6091817 ]
+    },
+    "properties": {
+    "FIELD1":23495,
+    "ID":10500132,
+    "Isconfidential":"No",
+    "ProjectName":"AGUAS DE ANTOFAGASTA",
+    "Street":"Av. Pedro Aguirre Cerda 6496",
+    "City":"ANTOFAGASTA",
+    "State":" ",
+    "Zipcode":"1240431",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-NC 2.2",
+    "PointsAchieved":null,
+    "CertLevel":"",
+    "CertDate":"",
+    "IsCertified":"No",
+    "OwnerTypes":"Profit Org.",
+    "GrossSqFoot":"755,000,000",
+    "TotalPropArea":"",
+    "ProjectTypes":"Commercial Office",
+    "OwnerOrganization":" ",
+    "RegistrationDate":"5/25/09 0:00",
+    "Pais":"Chile",
+    "direccion":"Av. Pedro Aguirre Cerda 6496, ANTOFAGASTA,  , Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.25228,-39.81094 ]
+    },
+    "properties": {
+    "FIELD1":25934,
+    "ID":10519569,
+    "Isconfidential":"No",
+    "ProjectName":"CASA PROCHELLE",
+    "Street":"Av. Los Robles 04, Isla Teja",
+    "City":"Valdivia",
+    "State":" ",
+    "Zipcode":"5090000",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-NC 2.2",
+    "PointsAchieved":null,
+    "CertLevel":"",
+    "CertDate":"",
+    "IsCertified":"No",
+    "OwnerTypes":"Local Government",
+    "GrossSqFoot":"132,000,000",
+    "TotalPropArea":"",
+    "ProjectTypes":"Community Dev., Other",
+    "OwnerOrganization":" ",
+    "RegistrationDate":"6/22/09 0:00",
+    "Pais":"Chile",
+    "direccion":"Av. Los Robles 04, Isla Teja, Valdivia,  , Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.72531127929688,-32.749481201171875 ]
+    },
+    "properties": {
+    "FIELD1":30463,
+    "ID":10706021,
+    "Isconfidential":"No",
+    "ProjectName":"FALABELLA SAN FELIPE",
+    "Street":"AV. BERNARDO OÂ´HIGGINS NÂ° 1150, SAN FELI",
+    "City":"SAN FELIPE",
+    "State":" ",
+    "Zipcode":"0",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED for Retail (CI) Pilot",
+    "PointsAchieved":25,
+    "CertLevel":"Certified",
+    "CertDate":"11/4/11 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Profit Org.",
+    "GrossSqFoot":"367,900,000",
+    "TotalPropArea":"",
+    "ProjectTypes":"Retail",
+    "OwnerOrganization":" ",
+    "RegistrationDate":"4/29/11 0:00",
+    "Pais":"Chile",
+    "direccion":"AV. BERNARDO OÂ´HIGGINS NÂ° 1150, SAN FELI, SAN FELIPE,  , Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.9209045,-22.4503235 ]
+    },
+    "properties": {
+    "FIELD1":30464,
+    "ID":10706022,
+    "Isconfidential":"No",
+    "ProjectName":"FALABELLA CALAMA",
+    "Street":"AV. BALMACEDA 3242",
+    "City":"CALAMA",
+    "State":" ",
+    "Zipcode":"0",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED for Retail (CI) Pilot",
+    "PointsAchieved":26,
+    "CertLevel":"Certified",
+    "CertDate":"4/26/13 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Profit Org.",
+    "GrossSqFoot":"1,010,400,000",
+    "TotalPropArea":"",
+    "ProjectTypes":"Retail",
+    "OwnerOrganization":" ",
+    "RegistrationDate":"4/29/11 0:00",
+    "Pais":"Chile",
+    "direccion":"AV. BALMACEDA 3242, CALAMA,  , Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.04932,-36.76654 ]
+    },
+    "properties": {
+    "FIELD1":30465,
+    "ID":10706023,
+    "Isconfidential":"No",
+    "ProjectName":"REMODELACION TIENDA FALABELLA TREBOL",
+    "Street":"AV. JORGE ALESSANDRI 3177 TALCAHUANO, VI",
+    "City":"TALCAHUANO",
+    "State":" ",
+    "Zipcode":"0",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED for Retail (CI) Pilot",
+    "PointsAchieved":null,
+    "CertLevel":"",
+    "CertDate":"",
+    "IsCertified":"No",
+    "OwnerTypes":"Profit Org.",
+    "GrossSqFoot":"1,364,860,000",
+    "TotalPropArea":"",
+    "ProjectTypes":"Retail",
+    "OwnerOrganization":" ",
+    "RegistrationDate":"4/29/11 0:00",
+    "Pais":"Chile",
+    "direccion":"AV. JORGE ALESSANDRI 3177 TALCAHUANO, VI, TALCAHUANO,  , Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.2586572,-29.9126287 ]
+    },
+    "properties": {
+    "FIELD1":30466,
+    "ID":10706025,
+    "Isconfidential":"No",
+    "ProjectName":"REMODELACION TIENDA FALABELLA LA SERENA",
+    "Street":"AV. ALBERTO SOLARI 1400",
+    "City":"LA SERENA",
+    "State":" ",
+    "Zipcode":"0",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED for Retail (CI) Pilot",
+    "PointsAchieved":null,
+    "CertLevel":"",
+    "CertDate":"",
+    "IsCertified":"No",
+    "OwnerTypes":"Profit Org.",
+    "GrossSqFoot":"1,206,840,000",
+    "TotalPropArea":"",
+    "ProjectTypes":"Retail",
+    "OwnerOrganization":" ",
+    "RegistrationDate":"4/29/11 0:00",
+    "Pais":"Chile",
+    "direccion":"AV. ALBERTO SOLARI 1400, LA SERENA,  , Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.21882629394531,-35.23200607299805 ]
+    },
+    "properties": {
+    "FIELD1":30470,
+    "ID":10706032,
+    "Isconfidential":"No",
+    "ProjectName":"FALABELLA CORDOBA",
+    "Street":"Duarte Quiros 1400 local 1190 - Alto Alb",
+    "City":"CORDOBA",
+    "State":" ",
+    "Zipcode":"0",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED for Retail (CI) Pilot",
+    "PointsAchieved":null,
+    "CertLevel":"",
+    "CertDate":"",
+    "IsCertified":"No",
+    "OwnerTypes":"Profit Org.",
+    "GrossSqFoot":"1,015,180,000",
+    "TotalPropArea":"",
+    "ProjectTypes":"Retail",
+    "OwnerOrganization":" ",
+    "RegistrationDate":"4/29/11 0:00",
+    "Pais":"Chile",
+    "direccion":"Duarte Quiros 1400 local 1190 - Alto Alb, CORDOBA,  , Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.66168,-33.45137 ]
+    },
+    "properties": {
+    "FIELD1":32137,
+    "ID":10799283,
+    "Isconfidential":"No",
+    "ProjectName":"Starbucks Barrio Universitario",
+    "Street":"Vergara 324",
+    "City":"Santiago",
+    "State":" ",
+    "Zipcode":" ",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED for Retail (CI) Pilot",
+    "PointsAchieved":23,
+    "CertLevel":"Certified",
+    "CertDate":"11/1/12 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Profit Org.",
+    "GrossSqFoot":"16,700,000",
+    "TotalPropArea":"",
+    "ProjectTypes":"Retail",
+    "OwnerOrganization":" ",
+    "RegistrationDate":"9/6/12 0:00",
+    "Pais":"Chile",
+    "direccion":"Vergara 324, Santiago,  , Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.59808,-33.4653 ]
+    },
+    "properties": {
+    "FIELD1":32816,
+    "ID":10832294,
+    "Isconfidential":"No",
+    "ProjectName":"Starbucks Portal Nunoa",
+    "Street":"Av. Jose Pedro Alessandri 1166, Nunoa",
+    "City":"Santiago",
+    "State":" ",
+    "Zipcode":"7750000",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED for Retail (CI) Pilot",
+    "PointsAchieved":23,
+    "CertLevel":"Certified",
+    "CertDate":"12/10/12 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Profit Org.",
+    "GrossSqFoot":"8,350,000",
+    "TotalPropArea":"",
+    "ProjectTypes":"Retail",
+    "OwnerOrganization":" ",
+    "RegistrationDate":"12/10/12 0:00",
+    "Pais":"Chile",
+    "direccion":"Av. Jose Pedro Alessandri 1166, Nunoa, Santiago,  , Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.74479,-33.3495 ]
+    },
+    "properties": {
+    "FIELD1":32817,
+    "ID":10832295,
+    "Isconfidential":"No",
+    "ProjectName":"Starbucks Espacio M",
+    "Street":"Compania de Jesus & Morande",
+    "City":"Santiago",
+    "State":" ",
+    "Zipcode":"9250000",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED for Retail (CI) Pilot",
+    "PointsAchieved":23,
+    "CertLevel":"Certified",
+    "CertDate":"12/10/12 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Profit Org.",
+    "GrossSqFoot":"18,810,000",
+    "TotalPropArea":"",
+    "ProjectTypes":"Retail",
+    "OwnerOrganization":" ",
+    "RegistrationDate":"12/10/12 0:00",
+    "Pais":"Chile",
+    "direccion":"Compania de Jesus & Morande, Santiago,  , Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.6067506,-33.4162353 ]
+    },
+    "properties": {
+    "FIELD1":33062,
+    "ID":10842168,
+    "Isconfidential":"No",
+    "ProjectName":"Starbucks Costanera Center",
+    "Street":"Avenida Andres Bello No. 2465",
+    "City":"Santiago",
+    "State":"RM - Santiago",
+    "Zipcode":" ",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED for Retail (CI) Pilot",
+    "PointsAchieved":23,
+    "CertLevel":"Certified",
+    "CertDate":"4/23/13 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"",
+    "GrossSqFoot":"0.0000",
+    "TotalPropArea":"",
+    "ProjectTypes":"",
+    "OwnerOrganization":"",
+    "RegistrationDate":"4/23/13 0:00",
+    "Pais":"Chile",
+    "direccion":"Avenida Andres Bello No. 2465, Santiago, RM - Santiago, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.64115,-33.27974 ]
+    },
+    "properties": {
+    "FIELD1":35746,
+    "ID":10872850,
+    "Isconfidential":"No",
+    "ProjectName":"Starbucks Plaza San Carlos",
+    "Street":"La Plaza esq. Las Flores Metropolitana",
+    "City":"Santiago",
+    "State":" ",
+    "Zipcode":"7610662",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED for Retail (CI) Pilot",
+    "PointsAchieved":22,
+    "CertLevel":"Certified",
+    "CertDate":"7/19/13 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Profit Org.",
+    "GrossSqFoot":"15,000,000",
+    "TotalPropArea":"",
+    "ProjectTypes":"Retail",
+    "OwnerOrganization":" ",
+    "RegistrationDate":"7/15/13 0:00",
+    "Pais":"Chile",
+    "direccion":"La Plaza esq. Las Flores Metropolitana, Santiago,  , Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.65116,-33.44279 ]
+    },
+    "properties": {
+    "FIELD1":35774,
+    "ID":10873135,
+    "Isconfidential":"No",
+    "ProjectName":"Starbucks Edificio Ariztia",
+    "Street":"La Bolsa & Nueva Yorka",
+    "City":"Santiago",
+    "State":" ",
+    "Zipcode":"110",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED for Retail (CI) Pilot",
+    "PointsAchieved":23,
+    "CertLevel":"Certified",
+    "CertDate":"11/6/13 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Profit Org.",
+    "GrossSqFoot":"15,000,000",
+    "TotalPropArea":"",
+    "ProjectTypes":"Retail",
+    "OwnerOrganization":" ",
+    "RegistrationDate":"11/6/13 0:00",
+    "Pais":"Chile",
+    "direccion":"La Bolsa & Nueva Yorka, Santiago,  , Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.7201658,-33.3545927 ]
+    },
+    "properties": {
+    "FIELD1":54304,
+    "ID":1000001065,
+    "Isconfidential":"No",
+    "ProjectName":"Edificio Beauchef 851",
+    "Street":"851 Beauchef",
+    "City":"Santiago",
+    "State":"RM - Santiago",
+    "Zipcode":"8370456",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-NC v2009",
+    "PointsAchieved":65,
+    "CertLevel":"Gold",
+    "CertDate":"9/26/17 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Educational: University, Public",
+    "GrossSqFoot":"3,554,028,000",
+    "TotalPropArea":"721,180,000",
+    "ProjectTypes":"Campus (corp/school)",
+    "OwnerOrganization":"Universidad De Chile",
+    "RegistrationDate":"7/29/09 0:00",
+    "Pais":"Chile",
+    "direccion":"851 Beauchef, Santiago, RM - Santiago, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.66168,-33.45137 ]
+    },
+    "properties": {
+    "FIELD1":54383,
+    "ID":1000001169,
+    "Isconfidential":"No",
+    "ProjectName":"UNIVERSIDAD DIEGO PORTALES BIBLIOTECA",
+    "Street":"Calle Vergara 324",
+    "City":"SANTIAGO",
+    "State":"RM - Santiago",
+    "Zipcode":"7510034",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-NC v2009",
+    "PointsAchieved":66,
+    "CertLevel":"Gold",
+    "CertDate":"8/1/12 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Educational: University, Private",
+    "GrossSqFoot":"1,579,917,000",
+    "TotalPropArea":"177,860,000",
+    "ProjectTypes":"Core Learning Space: College/University",
+    "OwnerOrganization":"University",
+    "RegistrationDate":"8/10/09 0:00",
+    "Pais":"Chile",
+    "direccion":"Calle Vergara 324, SANTIAGO, RM - Santiago, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.620432,-33.3875475 ]
+    },
+    "properties": {
+    "FIELD1":56264,
+    "ID":1000003554,
+    "Isconfidential":"No",
+    "ProjectName":"Banco Itau - Edificio Santa Clara",
+    "Street":"Avenida Los Jardines 991-995",
+    "City":"Santiago",
+    "State":"RM - Santiago",
+    "Zipcode":"8580000",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-CS v2009",
+    "PointsAchieved":65,
+    "CertLevel":"Gold",
+    "CertDate":"11/2/11 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Corporate: Privately Held",
+    "GrossSqFoot":"843,649,700",
+    "TotalPropArea":"563,680,000",
+    "ProjectTypes":"Retail: Bank Branch",
+    "OwnerOrganization":"ITAU Chile Inversiones Servicios Y Admin",
+    "RegistrationDate":"12/30/09 0:00",
+    "Pais":"Chile",
+    "direccion":"Avenida Los Jardines 991-995, Santiago, RM - Santiago, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.85181,-33.4489 ]
+    },
+    "properties": {
+    "FIELD1":56295,
+    "ID":1000003592,
+    "Isconfidential":"No",
+    "ProjectName":"DATA CENTER CIUDAD DE LOS VALLES",
+    "Street":"Los Vientos Ave. 2243",
+    "City":"Santiago",
+    "State":"RM - Santiago",
+    "Zipcode":"9020000",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-NC v2009",
+    "PointsAchieved":null,
+    "CertLevel":"",
+    "CertDate":"",
+    "IsCertified":"No",
+    "OwnerTypes":"Corporate: Publicly Traded",
+    "GrossSqFoot":"832,900,000",
+    "TotalPropArea":"935,600,000",
+    "ProjectTypes":"Office: Mixed-Use",
+    "OwnerOrganization":"Entel Chile S.A.",
+    "RegistrationDate":"1/3/10 0:00",
+    "Pais":"Chile",
+    "direccion":"Los Vientos Ave. 2243, Santiago, RM - Santiago, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.94822,-41.47458 ]
+    },
+    "properties": {
+    "FIELD1":56296,
+    "ID":1000003593,
+    "Isconfidential":"No",
+    "ProjectName":"Hogar Numero 19 Fundacion Las Rosas",
+    "Street":"Manuel Bulnes 591",
+    "City":"Valdivia",
+    "State":"X - Puerto Montt",
+    "Zipcode":"5090000",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-NC v2009",
+    "PointsAchieved":58,
+    "CertLevel":"Silver",
+    "CertDate":"6/18/12 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Religious",
+    "GrossSqFoot":"283,500,100",
+    "TotalPropArea":"1,271,510,000",
+    "ProjectTypes":"Lodging: Other lodging",
+    "OwnerOrganization":"Fundacion Oportunidad",
+    "RegistrationDate":"1/3/10 0:00",
+    "Pais":"Chile",
+    "direccion":"Manuel Bulnes 591, Valdivia, X - Puerto Montt, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.61576,-33.42449 ]
+    },
+    "properties": {
+    "FIELD1":56297,
+    "ID":1000003594,
+    "Isconfidential":"No",
+    "ProjectName":"EDIFICIO DE OFICINAS LA CONCEPCION",
+    "Street":"Calle La Concepcion 141",
+    "City":"Santiago",
+    "State":"RM - Santiago",
+    "Zipcode":"7510000",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-CS v2009",
+    "PointsAchieved":57,
+    "CertLevel":"Silver",
+    "CertDate":"8/1/12 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Investor: Individual/Family",
+    "GrossSqFoot":"947,116,700",
+    "TotalPropArea":"213,210,000",
+    "ProjectTypes":"Office: Mixed-Use",
+    "OwnerOrganization":"Santolaya Ingenieros Consultores Ltda.",
+    "RegistrationDate":"1/3/10 0:00",
+    "Pais":"Chile",
+    "direccion":"Calle La Concepcion 141, Santiago, RM - Santiago, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.89745330810547,-53.15119934082031 ]
+    },
+    "properties": {
+    "FIELD1":56451,
+    "ID":1000003776,
+    "Isconfidential":"No",
+    "ProjectName":"HOTEL THE SINGULAR PATAGONIA",
+    "Street":"Km. 5,5 Norte - Puerto Bories Provincia Ultima Esperanza",
+    "City":"PUERTO NATALES",
+    "State":"XII - Punta Arenas",
+    "Zipcode":"6200000",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-NC v2009",
+    "PointsAchieved":51,
+    "CertLevel":"Silver",
+    "CertDate":"12/13/12 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Investor: Individual/Family",
+    "GrossSqFoot":"1,675,834,200",
+    "TotalPropArea":"7,856,630,000",
+    "ProjectTypes":"Lodging: Hotel/Motel/Resort, Select Service",
+    "OwnerOrganization":"The Singular",
+    "RegistrationDate":"1/6/10 0:00",
+    "Pais":"Chile",
+    "direccion":"Km. 5,5 Norte - Puerto Bories Provincia Ultima Esperanza, PUERTO NATALES, XII - Punta Arenas, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.61096,-33.42037 ]
+    },
+    "properties": {
+    "FIELD1":56561,
+    "ID":1000003896,
+    "Isconfidential":"No",
+    "ProjectName":"Edificio Nueva de Lyon 145",
+    "Street":"Nueva De Lyon 145",
+    "City":"Santiago",
+    "State":"RM - Santiago",
+    "Zipcode":"7510025",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-CS v2009",
+    "PointsAchieved":56,
+    "CertLevel":"Silver",
+    "CertDate":"5/24/12 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Corporate: Privately Held",
+    "GrossSqFoot":"1,574,410,000",
+    "TotalPropArea":"276,410,000",
+    "ProjectTypes":"Office: Mixed-Use",
+    "OwnerOrganization":"ENERGY ARQ",
+    "RegistrationDate":"1/8/10 0:00",
+    "Pais":"Chile",
+    "direccion":"Nueva De Lyon 145, Santiago, RM - Santiago, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.5580827,-33.0431981 ]
+    },
+    "properties": {
+    "FIELD1":56770,
+    "ID":1000004124,
+    "Isconfidential":"No",
+    "ProjectName":"Centro Distribucion SOCOFAR",
+    "Street":"Loteo Lomas de Montemar, Lote B 3.5 - Av. Blanca Estela",
+    "City":"Vina del Mar",
+    "State":"V - Valparaiso",
+    "Zipcode":"111111",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-NC v2009",
+    "PointsAchieved":null,
+    "CertLevel":"",
+    "CertDate":"",
+    "IsCertified":"No",
+    "OwnerTypes":"Corporate: Privately Held",
+    "GrossSqFoot":"4,300,000,000",
+    "TotalPropArea":"",
+    "ProjectTypes":"Warehouse and Distribution Center: Nonrefrigerated, Distribu",
+    "OwnerOrganization":"Administradora de Centros Distribucion",
+    "RegistrationDate":"1/9/10 0:00",
+    "Pais":"Chile",
+    "direccion":"Loteo Lomas de Montemar, Lote B 3.5 - Av. Blanca Estela, Vina del Mar, V - Valparaiso, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.76457,-33.39571 ]
+    },
+    "properties": {
+    "FIELD1":56771,
+    "ID":1000004125,
+    "Isconfidential":"No",
+    "ProjectName":"Planta Embotelladora Andina",
+    "Street":"Miraflores 8953",
+    "City":"Santiago",
+    "State":"RM - Santiago",
+    "Zipcode":"1111111",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-NC v2009",
+    "PointsAchieved":41,
+    "CertLevel":"Certified",
+    "CertDate":"6/28/13 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Corporate: Publicly Traded",
+    "GrossSqFoot":"3,583,382,000",
+    "TotalPropArea":"6,026,770,000",
+    "ProjectTypes":"Industrial Manufacturing",
+    "OwnerOrganization":"EMBOTELLADORA ANDINA S.A.",
+    "RegistrationDate":"1/9/10 0:00",
+    "Pais":"Chile",
+    "direccion":"Miraflores 8953, Santiago, RM - Santiago, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.64853,-33.44176 ]
+    },
+    "properties": {
+    "FIELD1":56772,
+    "ID":1000004126,
+    "Isconfidential":"No",
+    "ProjectName":"Edificio Puerto Centro",
+    "Street":"Moneda 1640",
+    "City":"Santiago",
+    "State":"RM - Santiago",
+    "Zipcode":"8340533",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-CS v2009",
+    "PointsAchieved":60,
+    "CertLevel":"Gold",
+    "CertDate":"1/9/15 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Investor: Investment Manager",
+    "GrossSqFoot":"1,231,981,700",
+    "TotalPropArea":"137,070,000",
+    "ProjectTypes":"Office: Mixed-Use",
+    "OwnerOrganization":"Constructora Moneda Fanor S.A.",
+    "RegistrationDate":"1/9/10 0:00",
+    "Pais":"Chile",
+    "direccion":"Moneda 1640, Santiago, RM - Santiago, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.6197,-33.42437 ]
+    },
+    "properties": {
+    "FIELD1":57920,
+    "ID":1000005546,
+    "Isconfidential":"No",
+    "ProjectName":"EDIFICIO PLAZA BELLET",
+    "Street":"Antonio Bellet 444",
+    "City":"Providencia",
+    "State":"RM - Santiago",
+    "Zipcode":"7510034",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-CS v2009",
+    "PointsAchieved":54,
+    "CertLevel":"Silver",
+    "CertDate":"4/30/14 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Investor: Individual/Family",
+    "GrossSqFoot":"1,087,420,000",
+    "TotalPropArea":"224,750,000",
+    "ProjectTypes":"Office: Mixed-Use",
+    "OwnerOrganization":"Constructora E Inmobiliaria Plaza Bellet",
+    "RegistrationDate":"3/31/10 0:00",
+    "Pais":"Chile",
+    "direccion":"Antonio Bellet 444, Providencia, RM - Santiago, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.15151,-20.21139 ]
+    },
+    "properties": {
+    "FIELD1":58237,
+    "ID":1000005943,
+    "Isconfidential":"No",
+    "ProjectName":"Edificio Esmeralda BHP",
+    "Street":"Esmeralda 340",
+    "City":"IQUIQUE",
+    "State":"I - Iquique",
+    "Zipcode":"1100000",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-CI v2009",
+    "PointsAchieved":65,
+    "CertLevel":"Gold",
+    "CertDate":"4/7/11 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Corporate: Privately Held",
+    "GrossSqFoot":"255,438,400",
+    "TotalPropArea":"",
+    "ProjectTypes":"Office: Administrative/Professional",
+    "OwnerOrganization":"BHP Chile Inc",
+    "RegistrationDate":"4/21/10 0:00",
+    "Pais":"Chile",
+    "direccion":"Esmeralda 340, IQUIQUE, I - Iquique, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.56627,-33.40841 ]
+    },
+    "properties": {
+    "FIELD1":59095,
+    "ID":1000007059,
+    "Isconfidential":"No",
+    "ProjectName":"Edificio Foster",
+    "Street":"Av. Apoquindo 3468",
+    "City":"Santiago",
+    "State":"RM - Santiago",
+    "Zipcode":"7550105",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-CS v2009",
+    "PointsAchieved":55,
+    "CertLevel":"Silver",
+    "CertDate":"5/31/13 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Investor: REIT,Non-traded",
+    "GrossSqFoot":"1,612,475,200",
+    "TotalPropArea":"273,080,000",
+    "ProjectTypes":"Office: Mixed-Use",
+    "OwnerOrganization":"Const. E Inmob. Enrique Foster S.A.",
+    "RegistrationDate":"6/18/10 0:00",
+    "Pais":"Chile",
+    "direccion":"Av. Apoquindo 3468, Santiago, RM - Santiago, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.14558,-20.23281 ]
+    },
+    "properties": {
+    "FIELD1":59136,
+    "ID":1000007108,
+    "Isconfidential":"No",
+    "ProjectName":"Edificio oficina Dona Ines de Collahuasi",
+    "Street":"Avenida Baquedano 946",
+    "City":"Iquique",
+    "State":"I - Iquique",
+    "Zipcode":"1100960",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-NC v2009",
+    "PointsAchieved":null,
+    "CertLevel":"",
+    "CertDate":"",
+    "IsCertified":"No",
+    "OwnerTypes":"Corporate: Privately Held",
+    "GrossSqFoot":"147,889,800",
+    "TotalPropArea":"48,640,000",
+    "ProjectTypes":"Office: Administrative/Professional",
+    "OwnerOrganization":"CompaÃ±ia Minera Dona Ines de Collahuasi",
+    "RegistrationDate":"6/21/10 0:00",
+    "Pais":"Chile",
+    "direccion":"Avenida Baquedano 946, Iquique, I - Iquique, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.682062,-33.4019855 ]
+    },
+    "properties": {
+    "FIELD1":59631,
+    "ID":1000007728,
+    "Isconfidential":"No",
+    "ProjectName":"EDIFICIO CORPORATIVO SODIMAC",
+    "Street":"Av. Pdte. Frei Montalva 3063",
+    "City":"Santiago",
+    "State":"RM - Santiago",
+    "Zipcode":"8640000",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-NC v2009",
+    "PointsAchieved":null,
+    "CertLevel":"",
+    "CertDate":"",
+    "IsCertified":"No",
+    "OwnerTypes":"Corporate: Privately Held",
+    "GrossSqFoot":"1,340,000,000",
+    "TotalPropArea":"3,117,180,000",
+    "ProjectTypes":"Office: Other Office",
+    "OwnerOrganization":"SODIMAC S.A.",
+    "RegistrationDate":"7/21/10 0:00",
+    "Pais":"Chile",
+    "direccion":"Av. Pdte. Frei Montalva 3063, Santiago, RM - Santiago, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.5997797,-33.4177812 ]
+    },
+    "properties": {
+    "FIELD1":60366,
+    "ID":1000008563,
+    "Isconfidential":"No",
+    "ProjectName":"BODEGAS BODENOR FLEXCENTER S A",
+    "Street":"Loteo Lo Boza, Parcelacion El Bosque Lote 10",
+    "City":"Santiago",
+    "State":"RM - Santiago",
+    "Zipcode":"7630440",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-CS v2009",
+    "PointsAchieved":61,
+    "CertLevel":"Gold",
+    "CertDate":"3/20/14 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Corporate: Privately Held",
+    "GrossSqFoot":"4,849,880,000",
+    "TotalPropArea":"7,933,360,000",
+    "ProjectTypes":"Warehouse and Distribution Center: Nonrefrigerated, Distribu",
+    "OwnerOrganization":"BodenorFlexcenter",
+    "RegistrationDate":"8/11/10 0:00",
+    "Pais":"Chile",
+    "direccion":"Loteo Lo Boza, Parcelacion El Bosque Lote 10, Santiago, RM - Santiago, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.56582,-33.38731 ]
+    },
+    "properties": {
+    "FIELD1":60469,
+    "ID":1000008670,
+    "Isconfidential":"No",
+    "ProjectName":"Banco BCI Vitacura Oriente",
+    "Street":"Avenida Vitacura 6852 Vitacura",
+    "City":"Santiago",
+    "State":"RM - Santiago",
+    "Zipcode":"7640538",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-NC v2009",
+    "PointsAchieved":66,
+    "CertLevel":"Gold",
+    "CertDate":"8/24/11 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Investor: Bank",
+    "GrossSqFoot":"23,100,000",
+    "TotalPropArea":"63,610,000",
+    "ProjectTypes":"Retail: Bank Branch",
+    "OwnerOrganization":"BCI Bank",
+    "RegistrationDate":"8/12/10 0:00",
+    "Pais":"Chile",
+    "direccion":"Avenida Vitacura 6852 Vitacura, Santiago, RM - Santiago, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.85092,-33.45428 ]
+    },
+    "properties": {
+    "FIELD1":60581,
+    "ID":1000008804,
+    "Isconfidential":"No",
+    "ProjectName":"Edificio Corporativo MOLYMET",
+    "Street":"Camino Las Lilas 66, San Bernardo",
+    "City":"Santiago",
+    "State":"RM - Santiago",
+    "Zipcode":"0",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-NC v2009",
+    "PointsAchieved":81,
+    "CertLevel":"Platinum",
+    "CertDate":"3/14/13 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Corporate: Privately Held",
+    "GrossSqFoot":"468,486,100",
+    "TotalPropArea":"4,109,870,000",
+    "ProjectTypes":"Office: Administrative/Professional",
+    "OwnerOrganization":"MOLYMET Molibdenos Y Metales",
+    "RegistrationDate":"8/19/10 0:00",
+    "Pais":"Chile",
+    "direccion":"Camino Las Lilas 66, San Bernardo, Santiago, RM - Santiago, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.51371,-33.37944 ]
+    },
+    "properties": {
+    "FIELD1":61351,
+    "ID":1000009751,
+    "Isconfidential":"No",
+    "ProjectName":"Casa de Cata Vina Maipo",
+    "Street":"Vina Maipo",
+    "City":"Maipo",
+    "State":"RM - Santiago",
+    "Zipcode":"9500000",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-NC v2009",
+    "PointsAchieved":null,
+    "CertLevel":"",
+    "CertDate":"",
+    "IsCertified":"No",
+    "OwnerTypes":"Corporate: Publicly Traded",
+    "GrossSqFoot":"43,050,000",
+    "TotalPropArea":"",
+    "ProjectTypes":"Public Assembly: Other Assembly",
+    "OwnerOrganization":"ViÃ±a Concha Y Toro",
+    "RegistrationDate":"10/5/10 0:00",
+    "Pais":"Chile",
+    "direccion":"Vina Maipo, Maipo, RM - Santiago, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.5682427,-33.4381047 ]
+    },
+    "properties": {
+    "FIELD1":61358,
+    "ID":1000009760,
+    "Isconfidential":"No",
+    "ProjectName":"Grange Infant School",
+    "Street":"Av. Principe De Gales 6154",
+    "City":"Santiago",
+    "State":"RM - Santiago",
+    "Zipcode":"7850179",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED FOR SCHOOLS v2009",
+    "PointsAchieved":null,
+    "CertLevel":"",
+    "CertDate":"",
+    "IsCertified":"No",
+    "OwnerTypes":"Educational: K-12 School, Private",
+    "GrossSqFoot":"477,430,000",
+    "TotalPropArea":"",
+    "ProjectTypes":"Core Learning Space: K-12, Elementary/Middle School",
+    "OwnerOrganization":"The Grange School",
+    "RegistrationDate":"10/5/10 0:00",
+    "Pais":"Chile",
+    "direccion":"Av. Principe De Gales 6154, Santiago, RM - Santiago, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.6127512,-33.3941564 ]
+    },
+    "properties": {
+    "FIELD1":61438,
+    "ID":1000009870,
+    "Isconfidential":"No",
+    "ProjectName":"FACULTAD DE ECONOMIA UDP",
+    "Street":"La Rinconada 4750",
+    "City":"Huechuraba",
+    "State":"RM - Santiago",
+    "Zipcode":"8580000",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-NC v2009",
+    "PointsAchieved":null,
+    "CertLevel":"",
+    "CertDate":"",
+    "IsCertified":"No",
+    "OwnerTypes":"Educational: University, Private",
+    "GrossSqFoot":"2,096,400,500",
+    "TotalPropArea":"651,910,000",
+    "ProjectTypes":"Core Learning Space: College/University",
+    "OwnerOrganization":"Univerdidad Diego Portales",
+    "RegistrationDate":"10/11/10 0:00",
+    "Pais":"Chile",
+    "direccion":"La Rinconada 4750, Huechuraba, RM - Santiago, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.60476,-33.413402 ]
+    },
+    "properties": {
+    "FIELD1":62058,
+    "ID":1000010577,
+    "Isconfidential":"No",
+    "ProjectName":"PARQUE TITANIUM TORRE NORTE",
+    "Street":"Av. Andres Bello 2782",
+    "City":"Santiago",
+    "State":"RM - Santiago",
+    "Zipcode":"7550659",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-CS v2009",
+    "PointsAchieved":null,
+    "CertLevel":"",
+    "CertDate":"",
+    "IsCertified":"No",
+    "OwnerTypes":"Corporate: Privately Held",
+    "GrossSqFoot":"2,811,185,000",
+    "TotalPropArea":"537,380,000",
+    "ProjectTypes":"Office: Administrative/Professional",
+    "OwnerOrganization":"Inmobiliaria Titanium S.A.",
+    "RegistrationDate":"11/1/10 0:00",
+    "Pais":"Chile",
+    "direccion":"Av. Andres Bello 2782, Santiago, RM - Santiago, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.60952,-33.41913 ]
+    },
+    "properties": {
+    "FIELD1":62065,
+    "ID":1000010585,
+    "Isconfidential":"No",
+    "ProjectName":"EDIFICIO COSTANERA SUECIA",
+    "Street":"Andr#s Bello Ave. 2299",
+    "City":"Santiago",
+    "State":"RM - Santiago",
+    "Zipcode":"7510030",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-CS v2009",
+    "PointsAchieved":null,
+    "CertLevel":"",
+    "CertDate":"",
+    "IsCertified":"No",
+    "OwnerTypes":"Investor: Individual/Family",
+    "GrossSqFoot":"764,980,000",
+    "TotalPropArea":"148,540,000",
+    "ProjectTypes":"Office: Administrative/Professional",
+    "OwnerOrganization":"Rene Carvajal Y Cia Ltda",
+    "RegistrationDate":"11/1/10 0:00",
+    "Pais":"Chile",
+    "direccion":"Andr#s Bello Ave. 2299, Santiago, RM - Santiago, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.57193,-33.40524 ]
+    },
+    "properties": {
+    "FIELD1":62245,
+    "ID":1000010805,
+    "Isconfidential":"No",
+    "ProjectName":"Edificio Rosario Norte",
+    "Street":"CERRO EL PLOMO 5755, LAS CONDES",
+    "City":"Santiago De Chile",
+    "State":"RM - Santiago",
+    "Zipcode":"0",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-NC v2009",
+    "PointsAchieved":54,
+    "CertLevel":"Silver",
+    "CertDate":"4/26/16 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Investor: Insurance Company",
+    "GrossSqFoot":"5,688,670,000",
+    "TotalPropArea":"780,560,000",
+    "ProjectTypes":"Office: Financial",
+    "OwnerOrganization":"Bice Vida CompaÃ±ia De Seguros S.A.",
+    "RegistrationDate":"11/10/10 0:00",
+    "Pais":"Chile",
+    "direccion":"CERRO EL PLOMO 5755, LAS CONDES, Santiago De Chile, RM - Santiago, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.5154956,-33.3769328 ]
+    },
+    "properties": {
+    "FIELD1":62423,
+    "ID":1000011061,
+    "Isconfidential":"No",
+    "ProjectName":"Edificio Corporativo TEXINCO Ltda",
+    "Street":"Ave Chena 12175",
+    "City":"San Bernardo",
+    "State":"RM - Santiago",
+    "Zipcode":"8050000",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-NC v2009",
+    "PointsAchieved":null,
+    "CertLevel":"",
+    "CertDate":"",
+    "IsCertified":"No",
+    "OwnerTypes":"Investor: Equity Fund",
+    "GrossSqFoot":"106,168,900",
+    "TotalPropArea":"957,140,000",
+    "ProjectTypes":"Office: Other Office",
+    "OwnerOrganization":"TEXINCO Ltda",
+    "RegistrationDate":"11/19/10 0:00",
+    "Pais":"Chile",
+    "direccion":"Ave Chena 12175, San Bernardo, RM - Santiago, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.5072,-33.41555 ]
+    },
+    "properties": {
+    "FIELD1":62430,
+    "ID":1000011070,
+    "Isconfidential":"No",
+    "ProjectName":"Edificio Apoquindo 5400",
+    "Street":"Av. Apoquindo 5400 Las Condes",
+    "City":"Santiago",
+    "State":"RM - Santiago",
+    "Zipcode":"7560911",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-CS v2009",
+    "PointsAchieved":61,
+    "CertLevel":"Gold",
+    "CertDate":"9/10/13 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Investor: Investment Manager",
+    "GrossSqFoot":"2,900,487,100",
+    "TotalPropArea":"439,990,000",
+    "ProjectTypes":"Office: Mixed-Use",
+    "OwnerOrganization":"INMOB. Y CONSTRUCTORA APOQUINDO 5400",
+    "RegistrationDate":"11/22/10 0:00",
+    "Pais":"Chile",
+    "direccion":"Av. Apoquindo 5400 Las Condes, Santiago, RM - Santiago, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.67267,-33.53448 ]
+    },
+    "properties": {
+    "FIELD1":63424,
+    "ID":1000012362,
+    "Isconfidential":"No",
+    "ProjectName":"KOMATSU CORPORATIVO",
+    "Street":"Americo Vespucio 591",
+    "City":"Santiago",
+    "State":"RM - Santiago",
+    "Zipcode":"8730596",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-NC v2009",
+    "PointsAchieved":55,
+    "CertLevel":"Silver",
+    "CertDate":"4/7/14 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Corporate: Privately Held",
+    "GrossSqFoot":"567,076,700",
+    "TotalPropArea":"615,380,000",
+    "ProjectTypes":"Office: Administrative/Professional",
+    "OwnerOrganization":"Komatsu",
+    "RegistrationDate":"1/18/11 0:00",
+    "Pais":"Chile",
+    "direccion":"Americo Vespucio 591, Santiago, RM - Santiago, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.5746205,-33.4286403 ]
+    },
+    "properties": {
+    "FIELD1":63542,
+    "ID":1000012519,
+    "Isconfidential":"No",
+    "ProjectName":"I-Apt Paz Corp",
+    "Street":"Av. Americo Vespucio 1798",
+    "City":"Santiago",
+    "State":"RM - Santiago",
+    "Zipcode":"7630272",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-NC v2009",
+    "PointsAchieved":63,
+    "CertLevel":"Gold",
+    "CertDate":"4/21/14 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Investor: Investment Manager",
+    "GrossSqFoot":"1,153,400,000",
+    "TotalPropArea":"432,390,000",
+    "ProjectTypes":"Multi-Family Residential: Apartment",
+    "OwnerOrganization":"PAZCORP S.A.",
+    "RegistrationDate":"1/25/11 0:00",
+    "Pais":"Chile",
+    "direccion":"Av. Americo Vespucio 1798, Santiago, RM - Santiago, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.6444181,-35.4301403 ]
+    },
+    "properties": {
+    "FIELD1":63556,
+    "ID":1000012539,
+    "Isconfidential":"No",
+    "ProjectName":"OFICINAS ORIENCOOP TALCA",
+    "Street":"Calle 2 Sur 2154",
+    "City":"Talca",
+    "State":"VII - Talca",
+    "Zipcode":"3460405",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-NC v2009",
+    "PointsAchieved":50,
+    "CertLevel":"Silver",
+    "CertDate":"6/16/16 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Corporate: Privately Held",
+    "GrossSqFoot":"65,336,900",
+    "TotalPropArea":"41,550,000",
+    "ProjectTypes":"Office: Mixed-Use",
+    "OwnerOrganization":"Oriencoop, Cooperativa De Ahorro Y Credi",
+    "RegistrationDate":"1/25/11 0:00",
+    "Pais":"Chile",
+    "direccion":"Calle 2 Sur 2154, Talca, VII - Talca, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.5981,-33.39573 ]
+    },
+    "properties": {
+    "FIELD1":63634,
+    "ID":1000012638,
+    "Isconfidential":"No",
+    "ProjectName":"EDIFICIO NARCISO GOYCOLEA",
+    "Street":"Narciso Goycolea 4055",
+    "City":"Santiago",
+    "State":"RM - Santiago",
+    "Zipcode":"7510031",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-CS v2009",
+    "PointsAchieved":65,
+    "CertLevel":"Gold",
+    "CertDate":"9/24/15 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Investor: Investment Manager",
+    "GrossSqFoot":"845,385,900",
+    "TotalPropArea":"444,680,000",
+    "ProjectTypes":"Office: Mixed-Use",
+    "OwnerOrganization":"Inmobiliaria Y Constructora Goycolea S.A",
+    "RegistrationDate":"1/30/11 0:00",
+    "Pais":"Chile",
+    "direccion":"Narciso Goycolea 4055, Santiago, RM - Santiago, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.58438,-33.40285 ]
+    },
+    "properties": {
+    "FIELD1":63734,
+    "ID":1000012761,
+    "Isconfidential":"No",
+    "ProjectName":"Renaissance Santiago Hotel",
+    "Street":"Av. Kennedy 4700",
+    "City":"Santiago",
+    "State":"RM - Santiago",
+    "Zipcode":"7630454",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-NC v2009",
+    "PointsAchieved":62,
+    "CertLevel":"Gold",
+    "CertDate":"11/17/14 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Investor: Investment Manager",
+    "GrossSqFoot":"1,363,181,800",
+    "TotalPropArea":"376,740,000",
+    "ProjectTypes":"Lodging: Hotel/Motel/Resort, Full Service",
+    "OwnerOrganization":"Construcciones Y Promociones Iberica Ltd",
+    "RegistrationDate":"2/3/11 0:00",
+    "Pais":"Chile",
+    "direccion":"Av. Kennedy 4700, Santiago, RM - Santiago, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.65001678466797,-33.43722152709961 ]
+    },
+    "properties": {
+    "FIELD1":63780,
+    "ID":1000012823,
+    "Isconfidential":"No",
+    "ProjectName":"Edificio Corporativo ANDINA",
+    "Street":"EMBOTELLADORA ANDINA CHILE S.A. MIRAFLORES 8593 COMUNA R",
+    "City":"Santiago",
+    "State":"RM - Santiago",
+    "Zipcode":"1111111",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-NC v2009",
+    "PointsAchieved":11,
+    "CertLevel":"",
+    "CertDate":"",
+    "IsCertified":"No",
+    "OwnerTypes":"Corporate: Publicly Traded",
+    "GrossSqFoot":"897,672,400",
+    "TotalPropArea":"1,018,330,000",
+    "ProjectTypes":"Office: Administrative/Professional",
+    "OwnerOrganization":"EMBOTELLADORA ANDINA CHILE S.A",
+    "RegistrationDate":"2/6/11 0:00",
+    "Pais":"Chile",
+    "direccion":"EMBOTELLADORA ANDINA CHILE S.A. MIRAFLORES 8593 COMUNA R, Santiago, RM - Santiago, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.7275309,-34.171956 ]
+    },
+    "properties": {
+    "FIELD1":63840,
+    "ID":1000012914,
+    "Isconfidential":"No",
+    "ProjectName":"ESSBIO",
+    "Street":"Av. Membrillar 499",
+    "City":"Rancagua",
+    "State":"VI - Rancagua",
+    "Zipcode":"2841872",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-NC v2009",
+    "PointsAchieved":null,
+    "CertLevel":"",
+    "CertDate":"",
+    "IsCertified":"No",
+    "OwnerTypes":"Corporate: Publicly Traded",
+    "GrossSqFoot":"123,270,000",
+    "TotalPropArea":"133,300,000",
+    "ProjectTypes":"Office: Administrative/Professional",
+    "OwnerOrganization":"ESSBIO S.A.",
+    "RegistrationDate":"2/9/11 0:00",
+    "Pais":"Chile",
+    "direccion":"Av. Membrillar 499, Rancagua, VI - Rancagua, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.05883,-36.79231 ]
+    },
+    "properties": {
+    "FIELD1":64338,
+    "ID":1000013543,
+    "Isconfidential":"No",
+    "ProjectName":"Edificio Oficinas San Andres",
+    "Street":"Avenida San Andres 43",
+    "City":"Concepcion",
+    "State":"VIII - ConcepciÂ¾n",
+    "Zipcode":"0",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-CS v2009",
+    "PointsAchieved":51,
+    "CertLevel":"Silver",
+    "CertDate":"10/5/17 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Investor: Investment Manager",
+    "GrossSqFoot":"1,200,234,400",
+    "TotalPropArea":"265,100,000",
+    "ProjectTypes":"Office: Other Office",
+    "OwnerOrganization":"Inmobiliaria Y Constructora San Andres",
+    "RegistrationDate":"3/7/11 0:00",
+    "Pais":"Chile",
+    "direccion":"Avenida San Andres 43, Concepcion, VIII - ConcepciÂ¾n, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.62186,-33.38572 ]
+    },
+    "properties": {
+    "FIELD1":64570,
+    "ID":1000013865,
+    "Isconfidential":"No",
+    "ProjectName":"CITYPARK I - Corporativo Cruz Verde",
+    "Street":"Avenida El Salto 4963/ 5051",
+    "City":"Santiago",
+    "State":"RM - Santiago",
+    "Zipcode":"8580668",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-NC v2009",
+    "PointsAchieved":62,
+    "CertLevel":"Gold",
+    "CertDate":"5/4/15 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Corporate: Privately Held",
+    "GrossSqFoot":"1,476,535,600",
+    "TotalPropArea":"544,630,000",
+    "ProjectTypes":"Office: Other Office",
+    "OwnerOrganization":"CRUZ VERDE S.A.",
+    "RegistrationDate":"3/21/11 0:00",
+    "Pais":"Chile",
+    "direccion":"Avenida El Salto 4963/ 5051, Santiago, RM - Santiago, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.5663479,-33.3875764 ]
+    },
+    "properties": {
+    "FIELD1":64733,
+    "ID":1000014107,
+    "Isconfidential":"No",
+    "ProjectName":"Edificio White",
+    "Street":"Avenida Vitacura 6840",
+    "City":"Santiago",
+    "State":"RM - Santiago",
+    "Zipcode":"7640538",
+    "Country":"CL",
+    "LEEDSystemVersionDisplayName":"LEED-CS v2009",
+    "PointsAchieved":61,
+    "CertLevel":"Gold",
+    "CertDate":"2/3/14 0:00",
+    "IsCertified":"Yes",
+    "OwnerTypes":"Corporate: Privately Held",
+    "GrossSqFoot":"554,450,000",
+    "TotalPropArea":"210,080,000",
+    "ProjectTypes":"Office: Mixed-Use",
+    "OwnerOrganization":"Inmobiliaria White",
+    "RegistrationDate":"3/31/11 0:00",
+    "Pais":"Chile",
+    "direccion":"Avenida Vitacura 6840, Santiago, RM - Santiago, Chile"
+    }
+  }
+]
+}

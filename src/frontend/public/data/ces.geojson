@@ -1,0 +1,1445 @@
+{
+   "type": "FeatureCollection",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "epsg:32719"
+      }
+    },
+    "regiones_centroides": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -69.65752396667588,
+            -18.49025394481695
+          ]
+        },
+        "properties": {
+          "Region": "Arica y Parinacota",
+          "Capital": "Arica",
+          "Area": "16,873.3",
+          "Pop": "226,068",
+          "X": -69.6575239667,
+          "Y": -18.4902539448
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -69.43360235784105,
+            -20.119116275297944
+          ]
+        },
+        "properties": {
+          "Region": "Tarapacá¡",
+          "Capital": "Iquique",
+          "Area": "42,225.8",
+          "Pop": "330,558",
+          "X": -69.4336023578,
+          "Y": -20.1191162753
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -69.14800708565907,
+            -23.378231309215206
+          ]
+        },
+        "properties": {
+          "Region": "Antofagasta",
+          "Capital": "Antofagasta",
+          "Area": "126,049.1",
+          "Pop": "607,534",
+          "X": -69.1480070857,
+          "Y": -23.3782313092
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -69.89974508355066,
+            -27.22395278865392
+          ]
+        },
+        "properties": {
+          "Region": "Atacama",
+          "Capital": "Copiapó",
+          "Area": "75,176.2",
+          "Pop": "286,168",
+          "X": -69.8997450836,
+          "Y": -27.2239527887
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -70.93295125307554,
+            -30.526198115302794
+          ]
+        },
+        "properties": {
+          "Region": "Coquimbo",
+          "Capital": "La Serena",
+          "Area": "40,579.9",
+          "Pop": "757,586",
+          "X": -70.9329512531,
+          "Y": -30.5261981153
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -70.89659911779492,
+            -32.59566784361986
+          ]
+        },
+        "properties": {
+          "Region": "Valparaíso",
+          "Capital": "Valparaíso",
+          "Area": "16,396.1",
+          "Pop": "1,815,902",
+          "X": -70.8965991178,
+          "Y": -32.5956678436
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -70.65299221712651,
+            -33.49265334607583
+          ]
+        },
+        "properties": {
+          "Region": "Metropolitana",
+          "Capital": "Santiago",
+          "Area": "15,403.2",
+          "Pop": "7,112,808",
+          "X": -70.6529922171,
+          "Y": -33.4926533461
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -71.1148483746128,
+            -34.452385399039464
+          ]
+        },
+        "properties": {
+          "Region": "O'Higgins",
+          "Capital": "Rancagua",
+          "Area": "16,387.0",
+          "Pop": "914,555",
+          "X": -71.1148483746,
+          "Y": -34.452385399
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -71.42550537265626,
+            -35.22659506498097
+          ]
+        },
+        "properties": {
+          "Region": "Maule",
+          "Capital": "Talca",
+          "Area": "30,296.1",
+          "Pop": "1,044,950",
+          "X": -71.4255053727,
+          "Y": -35.226595065
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -72.30544255982521,
+            -37.03107386882478
+          ]
+        },
+        "properties": {
+          "Region": "Bio bi­o",
+          "Capital": "Concepción",
+          "Area": "23,890.2",
+          "Pop": "1,556,805",
+          "X": -72.3054425598,
+          "Y": -37.0310738688
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -72.39151640799699,
+            -38.59374554699105
+          ]
+        },
+        "properties": {
+          "Region": "La Araucaní­a",
+          "Capital": "Temuco",
+          "Area": "31,842.3",
+          "Pop": "957,224",
+          "X": -72.391516408,
+          "Y": -38.593745547
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -72.6504343597721,
+            -39.991785003534254
+          ]
+        },
+        "properties": {
+          "Region": "Los Rí­os",
+          "Capital": "Valdivia",
+          "Area": "18,429.5",
+          "Pop": "384,837",
+          "X": -72.6504343598,
+          "Y": -39.9917850035
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -72.89801997032086,
+            -41.38928760826264
+          ]
+        },
+        "properties": {
+          "Region": "Los Lagos",
+          "Capital": "Puerto Montt",
+          "Area": "48,583.6",
+          "Pop": "828,708",
+          "X": -72.8980199703,
+          "Y": -41.3892876083
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -73.17916796873456,
+            -45.949228045538476
+          ]
+        },
+        "properties": {
+          "Region": "Aysén",
+          "Capital": "Coihaique",
+          "Area": "108,494.4",
+          "Pop": "103,158",
+          "X": -73.1791679687,
+          "Y": -45.9492280455
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -72.34316856855294,
+            -51.85070469905161
+          ]
+        },
+        "properties": {
+          "Region": "Magallanes",
+          "Capital": "Punta Arenas",
+          "Area": "132,291.1",
+          "Pop": "166,533",
+          "X": -72.3431685686,
+          "Y": -51.8507046991
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -71.67166046244516,
+            -35.83027265556569
+          ]
+        },
+        "properties": {
+          "Region": "Nuble",
+          "Capital": "Chillan",
+          "Area": "13,178.5",
+          "Pop": "480,609",
+          "X": -71.6716604624,
+          "Y": -35.8302726556
+        }
+      }
+    ],
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.3392,-39.64453 ]
+    },
+    "properties": {
+    "FIELD1":0,
+    "N°":1,
+    "PROYECTO":"Escuela Manuel Anabalón Sáez ",
+    "VERSION":"Piloto",
+    "PROGRAMA":"Educación",
+    "MANDANTE | UNIDAD TECNICA":"Corporación Municipal de Panguipulli",
+    "CLASIFICACIÓN OGUC":"Equip. Educación",
+    "CLASIFICACIÓN INE":"Servicios",
+    "CLASIFICACIÓN CPR":"Público",
+    "FONDOS MANDANTE":"Corporación Municipal de Panguipulli",
+    "USUARIO":"",
+    "Num Región":13,
+    "UBICACION":"Región de los Ríos",
+    "Comuna":"Panguipulli",
+    "Dirección":"Arturo Alessandri 147",
+    "AÑO INSCRIPCION":2014,
+    "MES INSCRIPCION":null,
+    "SUPERFICIE":"3.964,0",
+    "Unnamed: 17":"",
+    "ARQUITECTO":"Gubbins Arquitectos",
+    "ASESOR":"Pablo Sills",
+    "CONTACTO":"pablo@osgreen.net",
+    "ENTIDAD EVALUADORA":"88 Limitada",
+    "ESTADO":"Certificado",
+    "PUNTAJE PRE CERTIFICACIÓN":"50",
+    "AÑO PRECERTIFICACION":2015,
+    "MES PRECERTIFICACION":null,
+    "PUNTAJE CERTIFICACIÓN":"",
+    "AÑO CERTIFICACION":2015,
+    "MES CERTIFICACION":1,
+    "CATEGORÍA":"",
+    "Pre o Cert":"2",
+    "año pre o cert":"2015",
+    "Pais":"Chile",
+    "direccion":"Arturo Alessandri 147, Panguipulli, Región de los Ríos, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.1221408,-40.576299 ]
+    },
+    "properties": {
+    "FIELD1":2,
+    "N°":3,
+    "PROYECTO":"Sede Osorno CChC",
+    "VERSION":"Piloto",
+    "PROGRAMA":"Oficinas",
+    "MANDANTE | UNIDAD TECNICA":"Cámara Chilena de la Construcción A.G.",
+    "CLASIFICACIÓN OGUC":"Equip. Servicios",
+    "CLASIFICACIÓN INE":"Servicios",
+    "CLASIFICACIÓN CPR":"Público",
+    "FONDOS MANDANTE":"Cámara Chilena de la Construcción A.G.",
+    "USUARIO":"",
+    "Num Región":14,
+    "UBICACION":"Región de los Lagos",
+    "Comuna":"Osorno",
+    "Dirección":"Francisco Bilbao 1640",
+    "AÑO INSCRIPCION":2014,
+    "MES INSCRIPCION":null,
+    "SUPERFICIE":"350",
+    "Unnamed: 17":"",
+    "ARQUITECTO":"Scheel Arquitectos",
+    "ASESOR":"",
+    "CONTACTO":"",
+    "ENTIDAD EVALUADORA":"EFIZITY",
+    "ESTADO":"Certificado",
+    "PUNTAJE PRE CERTIFICACIÓN":"",
+    "AÑO PRECERTIFICACION":null,
+    "MES PRECERTIFICACION":null,
+    "PUNTAJE CERTIFICACIÓN":"",
+    "AÑO CERTIFICACION":2014,
+    "MES CERTIFICACION":12,
+    "CATEGORÍA":"",
+    "Pre o Cert":"1",
+    "año pre o cert":"2014",
+    "Pais":"Chile",
+    "direccion":"Francisco Bilbao 1640, Osorno, Región de los Lagos, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.6877,-33.4323 ]
+    },
+    "properties": {
+    "FIELD1":3,
+    "N°":4,
+    "PROYECTO":"Liceo Experimental Artístico",
+    "VERSION":"Piloto",
+    "PROGRAMA":"Educación",
+    "MANDANTE | UNIDAD TECNICA":"Ministerio de Educación",
+    "CLASIFICACIÓN OGUC":"Equip. Educación",
+    "CLASIFICACIÓN INE":"Servicios",
+    "CLASIFICACIÓN CPR":"Público",
+    "FONDOS MANDANTE":"0",
+    "USUARIO":"",
+    "Num Región":7,
+    "UBICACION":"Región Metropolitana",
+    "Comuna":"Quinta Normal",
+    "Dirección":"Mapocho 3885",
+    "AÑO INSCRIPCION":2014,
+    "MES INSCRIPCION":null,
+    "SUPERFICIE":"5.169",
+    "Unnamed: 17":"",
+    "ARQUITECTO":"Martín Hurtado",
+    "ASESOR":"",
+    "CONTACTO":"",
+    "ENTIDAD EVALUADORA":"DECON UC",
+    "ESTADO":"Certificado",
+    "PUNTAJE PRE CERTIFICACIÓN":"30,7",
+    "AÑO PRECERTIFICACION":2015,
+    "MES PRECERTIFICACION":null,
+    "PUNTAJE CERTIFICACIÓN":"31,7",
+    "AÑO CERTIFICACION":2018,
+    "MES CERTIFICACION":5,
+    "CATEGORÍA":"Certificado",
+    "Pre o Cert":"2",
+    "año pre o cert":"2018",
+    "Pais":"Chile",
+    "direccion":"Mapocho 3885, Quinta Normal, Región Metropolitana, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.928257,-41.4571919 ]
+    },
+    "properties": {
+    "FIELD1":5,
+    "N°":6,
+    "PROYECTO":"Edificio PDI Puerto Montt",
+    "VERSION":"Piloto",
+    "PROGRAMA":"Seguridad",
+    "MANDANTE | UNIDAD TECNICA":"DA MOP Regíon de los Lagos",
+    "CLASIFICACIÓN OGUC":"Equip. Seguridad",
+    "CLASIFICACIÓN INE":"Servicios",
+    "CLASIFICACIÓN CPR":"Público",
+    "FONDOS MANDANTE":"Policía de Investigaciones de Chile",
+    "USUARIO":"",
+    "Num Región":14,
+    "UBICACION":"Región de los Lagos",
+    "Comuna":"Puerto Montt",
+    "Dirección":"Monseñor Ramón Munita 536",
+    "AÑO INSCRIPCION":2014,
+    "MES INSCRIPCION":null,
+    "SUPERFICIE":"4.182,0",
+    "Unnamed: 17":"",
+    "ARQUITECTO":"PLAN Arquitectos Ltda.",
+    "ASESOR":"",
+    "CONTACTO":"",
+    "ENTIDAD EVALUADORA":"IDIEM",
+    "ESTADO":"Certificado",
+    "PUNTAJE PRE CERTIFICACIÓN":"",
+    "AÑO PRECERTIFICACION":null,
+    "MES PRECERTIFICACION":null,
+    "PUNTAJE CERTIFICACIÓN":"",
+    "AÑO CERTIFICACION":2015,
+    "MES CERTIFICACION":12,
+    "CATEGORÍA":"Certificado",
+    "Pre o Cert":"1",
+    "año pre o cert":"2015",
+    "Pais":"Chile",
+    "direccion":"Monseñor Ramón Munita 536, Puerto Montt, Región de los Lagos, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.58171,-33.37944 ]
+    },
+    "properties": {
+    "FIELD1":6,
+    "N°":7,
+    "PROYECTO":"Corporativo Transoceánica",
+    "VERSION":"Piloto",
+    "PROGRAMA":"Oficinas",
+    "MANDANTE | UNIDAD TECNICA":"Inmobiliaria Business Park S.A.",
+    "CLASIFICACIÓN OGUC":"Equip. Servicios",
+    "CLASIFICACIÓN INE":"Servicios",
+    "CLASIFICACIÓN CPR":"Público",
+    "FONDOS MANDANTE":"Inmobiliaria Business Park S.A.",
+    "USUARIO":"",
+    "Num Región":7,
+    "UBICACION":"Región Metropolitana",
+    "Comuna":"Vitacura",
+    "Dirección":"Santa María 5888",
+    "AÑO INSCRIPCION":2015,
+    "MES INSCRIPCION":null,
+    "SUPERFICIE":"13.256,0",
+    "Unnamed: 17":"",
+    "ARQUITECTO":"+ arquitectos",
+    "ASESOR":"",
+    "CONTACTO":"",
+    "ENTIDAD EVALUADORA":"CIAES UCN",
+    "ESTADO":"Certificado",
+    "PUNTAJE PRE CERTIFICACIÓN":"",
+    "AÑO PRECERTIFICACION":null,
+    "MES PRECERTIFICACION":null,
+    "PUNTAJE CERTIFICACIÓN":"",
+    "AÑO CERTIFICACION":2015,
+    "MES CERTIFICACION":10,
+    "CATEGORÍA":"Sobresaliente",
+    "Pre o Cert":"1",
+    "año pre o cert":"2015",
+    "Pais":"Chile",
+    "direccion":"Santa María 5888, Vitacura, Región Metropolitana, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.0334016,-38.9331789 ]
+    },
+    "properties": {
+    "FIELD1":12,
+    "N°":13,
+    "PROYECTO":"Cuartel Bomberos Cunco",
+    "VERSION":"",
+    "PROGRAMA":"Seguridad",
+    "MANDANTE | UNIDAD TECNICA":"DA MOP Regíon de la Araucanía",
+    "CLASIFICACIÓN OGUC":"Equip. Seguridad",
+    "CLASIFICACIÓN INE":"Servicios",
+    "CLASIFICACIÓN CPR":"Público",
+    "FONDOS MANDANTE":"GORE Araucanía",
+    "USUARIO":"",
+    "Num Región":12,
+    "UBICACION":"Región de la Araucanía",
+    "Comuna":"Cunco",
+    "Dirección":"José Manuel Balmaceda 369",
+    "AÑO INSCRIPCION":2016,
+    "MES INSCRIPCION":1,
+    "SUPERFICIE":"832",
+    "Unnamed: 17":"",
+    "ARQUITECTO":"Arquiferreira",
+    "ASESOR":"Rodrigo Escobar",
+    "CONTACTO":"rodrigo.escobar@serrago.cl",
+    "ENTIDAD EVALUADORA":"88 Limitada",
+    "ESTADO":"Certificado",
+    "PUNTAJE PRE CERTIFICACIÓN":"56,5",
+    "AÑO PRECERTIFICACION":2016,
+    "MES PRECERTIFICACION":10,
+    "PUNTAJE CERTIFICACIÓN":"60,5",
+    "AÑO CERTIFICACION":2018,
+    "MES CERTIFICACION":8,
+    "CATEGORÍA":"Destacado",
+    "Pre o Cert":"2",
+    "año pre o cert":"2018",
+    "Pais":"Chile",
+    "direccion":"José Manuel Balmaceda 369, Cunco, Región de la Araucanía, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.81096,-37.73154 ]
+    },
+    "properties": {
+    "FIELD1":20,
+    "N°":21,
+    "PROYECTO":"Edificio Adm. Central Angostura ",
+    "VERSION":"",
+    "PROGRAMA":"Oficinas",
+    "MANDANTE | UNIDAD TECNICA":"Colbún S.A.",
+    "CLASIFICACIÓN OGUC":"Equip. Servicios",
+    "CLASIFICACIÓN INE":"Servicios",
+    "CLASIFICACIÓN CPR":"Público",
+    "FONDOS MANDANTE":"Colbún S.A.",
+    "USUARIO":"Colbún S.A.",
+    "Num Región":11,
+    "UBICACION":"Región del Biobío",
+    "Comuna":"Quilaco",
+    "Dirección":"Ruta Q-61-R, km.55, lote 1D",
+    "AÑO INSCRIPCION":2016,
+    "MES INSCRIPCION":7,
+    "SUPERFICIE":"4241",
+    "Unnamed: 17":"",
+    "ARQUITECTO":"Prado Arquitectos",
+    "ASESOR":"Mario Coronado",
+    "CONTACTO":"mariocoronadoc@gmail.com",
+    "ENTIDAD EVALUADORA":"CITEC UBB",
+    "ESTADO":"Certificado",
+    "PUNTAJE PRE CERTIFICACIÓN":"33,5",
+    "AÑO PRECERTIFICACION":2018,
+    "MES PRECERTIFICACION":6,
+    "PUNTAJE CERTIFICACIÓN":"33",
+    "AÑO CERTIFICACION":2018,
+    "MES CERTIFICACION":12,
+    "CATEGORÍA":"Certificado",
+    "Pre o Cert":"2",
+    "año pre o cert":"2018",
+    "Pais":"Chile",
+    "direccion":"Ruta Q-61-R, km.55, lote 1D, Quilaco, Región del Biobío, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.25291,-29.88033 ]
+    },
+    "properties": {
+    "FIELD1":21,
+    "N°":22,
+    "PROYECTO":"Biblioteca Regional La Serena",
+    "VERSION":"",
+    "PROGRAMA":"Cultura",
+    "MANDANTE | UNIDAD TECNICA":"DA MOP Región de Coquimbo",
+    "CLASIFICACIÓN OGUC":"Equip. Culto y Cultura",
+    "CLASIFICACIÓN INE":"Servicios",
+    "CLASIFICACIÓN CPR":"Público",
+    "FONDOS MANDANTE":"MINEDUC",
+    "USUARIO":"Direccion de Bibliotecas Archivos y Museos",
+    "Num Región":5,
+    "UBICACION":"Región de Coquimbo",
+    "Comuna":"La Serena",
+    "Dirección":"Juan José Latorre 782",
+    "AÑO INSCRIPCION":2016,
+    "MES INSCRIPCION":7,
+    "SUPERFICIE":"5541",
+    "Unnamed: 17":"",
+    "ARQUITECTO":"Valle y Cornejo Arquitectos Ltda.",
+    "ASESOR":"Maria Luisa Del Campo",
+    "CONTACTO":"mdelcampo@kipus.cl",
+    "ENTIDAD EVALUADORA":"IDIEM",
+    "ESTADO":"Certificado",
+    "PUNTAJE PRE CERTIFICACIÓN":"45",
+    "AÑO PRECERTIFICACION":2016,
+    "MES PRECERTIFICACION":10,
+    "PUNTAJE CERTIFICACIÓN":"46",
+    "AÑO CERTIFICACION":2017,
+    "MES CERTIFICACION":11,
+    "CATEGORÍA":"Certificado",
+    "Pre o Cert":"2",
+    "año pre o cert":"2017",
+    "Pais":"Chile",
+    "direccion":"Juan José Latorre 782, La Serena, Región de Coquimbo, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.1906939,-22.0861871 ]
+    },
+    "properties": {
+    "FIELD1":23,
+    "N°":24,
+    "PROYECTO":"Colegio Bernardo O'Higgins ",
+    "VERSION":"",
+    "PROGRAMA":"Educación",
+    "MANDANTE | UNIDAD TECNICA":"DA MOP Regíon de Antofagasta",
+    "CLASIFICACIÓN OGUC":"Equip. Educación",
+    "CLASIFICACIÓN INE":"Servicios",
+    "CLASIFICACIÓN CPR":"Público",
+    "FONDOS MANDANTE":"Ministerio de Educación",
+    "USUARIO":"",
+    "Num Región":3,
+    "UBICACION":"Región de Antofagasta",
+    "Comuna":"Tocopilla",
+    "Dirección":"Av. 18 de Septiembre 2732",
+    "AÑO INSCRIPCION":2016,
+    "MES INSCRIPCION":7,
+    "SUPERFICIE":"3865",
+    "Unnamed: 17":"",
+    "ARQUITECTO":"Valle y Cornejo Arquitectos Ltda.",
+    "ASESOR":"Maria Luisa Del Campo",
+    "CONTACTO":"mdelcampo@kipus.cl",
+    "ENTIDAD EVALUADORA":"CIAES UCN",
+    "ESTADO":"Certificado",
+    "PUNTAJE PRE CERTIFICACIÓN":"48",
+    "AÑO PRECERTIFICACION":2016,
+    "MES PRECERTIFICACION":10,
+    "PUNTAJE CERTIFICACIÓN":"48",
+    "AÑO CERTIFICACION":2017,
+    "MES CERTIFICACION":9,
+    "CATEGORÍA":"Certificado",
+    "Pre o Cert":"2",
+    "año pre o cert":"2017",
+    "Pais":"Chile",
+    "direccion":"Av. 18 de Septiembre 2732, Tocopilla, Región de Antofagasta, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.621,-33.42517 ]
+    },
+    "properties": {
+    "FIELD1":24,
+    "N°":25,
+    "PROYECTO":"Oficinas Caja Los Andes Providencia",
+    "VERSION":"",
+    "PROGRAMA":"Oficinas",
+    "MANDANTE | UNIDAD TECNICA":"Caja de Compensación Los Andes",
+    "CLASIFICACIÓN OGUC":"Equip. Servicios",
+    "CLASIFICACIÓN INE":"Servicios",
+    "CLASIFICACIÓN CPR":"Público",
+    "FONDOS MANDANTE":"Caja de Compensación Los Andes",
+    "USUARIO":"",
+    "Num Región":7,
+    "UBICACION":"Región Metropolitana",
+    "Comuna":"Providencia",
+    "Dirección":"General Calderón 121",
+    "AÑO INSCRIPCION":2016,
+    "MES INSCRIPCION":7,
+    "SUPERFICIE":"12043",
+    "Unnamed: 17":"",
+    "ARQUITECTO":"Mas Fernandez Arq. - Lira Arq.",
+    "ASESOR":"Efizity - Tamara Quiroz",
+    "CONTACTO":"tquiroz@efizity.com",
+    "ENTIDAD EVALUADORA":"DECON UC",
+    "ESTADO":"Certificado",
+    "PUNTAJE PRE CERTIFICACIÓN":"",
+    "AÑO PRECERTIFICACION":null,
+    "MES PRECERTIFICACION":null,
+    "PUNTAJE CERTIFICACIÓN":"56",
+    "AÑO CERTIFICACION":2017,
+    "MES CERTIFICACION":1,
+    "CATEGORÍA":"Destacado",
+    "Pre o Cert":"1",
+    "año pre o cert":"2017",
+    "Pais":"Chile",
+    "direccion":"General Calderón 121, Providencia, Región Metropolitana, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.8266822,-27.0704431 ]
+    },
+    "properties": {
+    "FIELD1":25,
+    "N°":26,
+    "PROYECTO":"Centro Deportivo Integral Caldera",
+    "VERSION":"",
+    "PROGRAMA":"Deporte",
+    "MANDANTE | UNIDAD TECNICA":"Instituto Nacional de Deportes",
+    "CLASIFICACIÓN OGUC":"Equip. Deporte",
+    "CLASIFICACIÓN INE":"Servicios",
+    "CLASIFICACIÓN CPR":"Público",
+    "FONDOS MANDANTE":"Instituto Nacional de Deportes",
+    "USUARIO":"",
+    "Num Región":4,
+    "UBICACION":"Región de Atacama",
+    "Comuna":"Caldera",
+    "Dirección":"Carvallo 946",
+    "AÑO INSCRIPCION":2016,
+    "MES INSCRIPCION":11,
+    "SUPERFICIE":"3410",
+    "Unnamed: 17":"",
+    "ARQUITECTO":"PHH Arquitectos",
+    "ASESOR":"Daniela Olmos",
+    "CONTACTO":"urbexergia@gmail.com",
+    "ENTIDAD EVALUADORA":"88 Limitada",
+    "ESTADO":"Certificado",
+    "PUNTAJE PRE CERTIFICACIÓN":"56",
+    "AÑO PRECERTIFICACION":2017,
+    "MES PRECERTIFICACION":10,
+    "PUNTAJE CERTIFICACIÓN":"56",
+    "AÑO CERTIFICACION":2018,
+    "MES CERTIFICACION":5,
+    "CATEGORÍA":"Destacado",
+    "Pre o Cert":"2",
+    "año pre o cert":"2018",
+    "Pais":"Chile",
+    "direccion":"Carvallo 946, Caldera, Región de Atacama, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.64873,-33.54091 ]
+    },
+    "properties": {
+    "FIELD1":29,
+    "N°":30,
+    "PROYECTO":"Centro Deportivo Integral San Ramon",
+    "VERSION":"",
+    "PROGRAMA":"Deporte",
+    "MANDANTE | UNIDAD TECNICA":"Instituto Nacional de Deportes",
+    "CLASIFICACIÓN OGUC":"Equip. Deporte",
+    "CLASIFICACIÓN INE":"Servicios",
+    "CLASIFICACIÓN CPR":"Público",
+    "FONDOS MANDANTE":"Instituto Nacional de Deportes",
+    "USUARIO":"",
+    "Num Región":7,
+    "UBICACION":"Región Metropolitana",
+    "Comuna":"San Ramón",
+    "Dirección":"Av. Américo Vespucio 1315",
+    "AÑO INSCRIPCION":2016,
+    "MES INSCRIPCION":11,
+    "SUPERFICIE":"3172",
+    "Unnamed: 17":"",
+    "ARQUITECTO":"Massmann Arquitectos ",
+    "ASESOR":"Rodrigo Escobar",
+    "CONTACTO":"rodrigo.escobar@serrago.cl",
+    "ENTIDAD EVALUADORA":"88 Limitada",
+    "ESTADO":"Certificado",
+    "PUNTAJE PRE CERTIFICACIÓN":"",
+    "AÑO PRECERTIFICACION":null,
+    "MES PRECERTIFICACION":null,
+    "PUNTAJE CERTIFICACIÓN":"43,5",
+    "AÑO CERTIFICACION":2017,
+    "MES CERTIFICACION":12,
+    "CATEGORÍA":"Certificado",
+    "Pre o Cert":"1",
+    "año pre o cert":"2017",
+    "Pais":"Chile",
+    "direccion":"Av. Américo Vespucio 1315, San Ramón, Región Metropolitana, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.4398139,-38.5334015 ]
+    },
+    "properties": {
+    "FIELD1":43,
+    "N°":44,
+    "PROYECTO":"Comisaría Lautaro",
+    "VERSION":"",
+    "PROGRAMA":"Seguridad",
+    "MANDANTE | UNIDAD TECNICA":"DA MOP Regíon de la Araucanía",
+    "CLASIFICACIÓN OGUC":"Equip. Seguridad",
+    "CLASIFICACIÓN INE":"Servicios",
+    "CLASIFICACIÓN CPR":"Público",
+    "FONDOS MANDANTE":"Carabineros de Chile",
+    "USUARIO":"Carabineros de Chile",
+    "Num Región":12,
+    "UBICACION":"Región de la Araucanía",
+    "Comuna":"Lautaro",
+    "Dirección":"José Manuel Balmaceda 1094",
+    "AÑO INSCRIPCION":2017,
+    "MES INSCRIPCION":1,
+    "SUPERFICIE":"1328",
+    "Unnamed: 17":"",
+    "ARQUITECTO":"Marcelo Carrasco",
+    "ASESOR":"Rodrigo Vargas",
+    "CONTACTO":"rodrigovargastraub@gmail.com",
+    "ENTIDAD EVALUADORA":"88 Limitada",
+    "ESTADO":"Certificado",
+    "PUNTAJE PRE CERTIFICACIÓN":"48,5",
+    "AÑO PRECERTIFICACION":2017,
+    "MES PRECERTIFICACION":6,
+    "PUNTAJE CERTIFICACIÓN":"48,5",
+    "AÑO CERTIFICACION":2018,
+    "MES CERTIFICACION":11,
+    "CATEGORÍA":"Certificado",
+    "Pre o Cert":"2",
+    "año pre o cert":"2018",
+    "Pais":"Chile",
+    "direccion":"José Manuel Balmaceda 1094, Lautaro, Región de la Araucanía, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.19743,-22.09246 ]
+    },
+    "properties": {
+    "FIELD1":46,
+    "N°":47,
+    "PROYECTO":"Reposición Teatro Andrés Pérez",
+    "VERSION":"",
+    "PROGRAMA":"Cultura",
+    "MANDANTE | UNIDAD TECNICA":"DA MOP Región de Antofagasfa",
+    "CLASIFICACIÓN OGUC":"Equip. Culto y Cultura",
+    "CLASIFICACIÓN INE":"Servicios",
+    "CLASIFICACIÓN CPR":"Público",
+    "FONDOS MANDANTE":"",
+    "USUARIO":"",
+    "Num Región":3,
+    "UBICACION":"Región de Antofagasta",
+    "Comuna":"Tocopilla",
+    "Dirección":"Freire 1249",
+    "AÑO INSCRIPCION":2017,
+    "MES INSCRIPCION":2,
+    "SUPERFICIE":"931",
+    "Unnamed: 17":"",
+    "ARQUITECTO":"Valle y Cornejo Arquitectos Ltda.",
+    "ASESOR":"Maria Luisa Del Campo",
+    "CONTACTO":"mdelcampo@kipus.cl",
+    "ENTIDAD EVALUADORA":"CIAES UCN",
+    "ESTADO":"Certificado",
+    "PUNTAJE PRE CERTIFICACIÓN":"48,5",
+    "AÑO PRECERTIFICACION":2017,
+    "MES PRECERTIFICACION":5,
+    "PUNTAJE CERTIFICACIÓN":"58",
+    "AÑO CERTIFICACION":2017,
+    "MES CERTIFICACION":12,
+    "CATEGORÍA":"Destacado",
+    "Pre o Cert":"2",
+    "año pre o cert":"2017",
+    "Pais":"Chile",
+    "direccion":"Freire 1249, Tocopilla, Región de Antofagasta, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.1340335,-36.6218568 ]
+    },
+    "properties": {
+    "FIELD1":50,
+    "N°":51,
+    "PROYECTO":"6° Comisaría Chillán Viejo",
+    "VERSION":"",
+    "PROGRAMA":"Seguridad",
+    "MANDANTE | UNIDAD TECNICA":"DA MOP Regíon del Biobío",
+    "CLASIFICACIÓN OGUC":"Equip. Seguridad",
+    "CLASIFICACIÓN INE":"Servicios",
+    "CLASIFICACIÓN CPR":"Público",
+    "FONDOS MANDANTE":"Carabineros de Chile",
+    "USUARIO":"Carabineros de Chile",
+    "Num Región":10,
+    "UBICACION":"Región del Ñuble",
+    "Comuna":"Chillán Viejo",
+    "Dirección":"Av. O'Higgins 2804",
+    "AÑO INSCRIPCION":2017,
+    "MES INSCRIPCION":3,
+    "SUPERFICIE":"1116",
+    "Unnamed: 17":"",
+    "ARQUITECTO":"BGL Arquitectos Asociados Ltda.",
+    "ASESOR":"Francisco Pizarro",
+    "CONTACTO":"fp.energy1@gmail.com",
+    "ENTIDAD EVALUADORA":"CITEC UBB",
+    "ESTADO":"Precertificado",
+    "PUNTAJE PRE CERTIFICACIÓN":"45",
+    "AÑO PRECERTIFICACION":2017,
+    "MES PRECERTIFICACION":9,
+    "PUNTAJE CERTIFICACIÓN":"",
+    "AÑO CERTIFICACION":null,
+    "MES CERTIFICACION":null,
+    "CATEGORÍA":"",
+    "Pre o Cert":"0",
+    "año pre o cert":"2017",
+    "Pais":"Chile",
+    "direccion":"Av. O'Higgins 2804, Chillán Viejo, Región del Ñuble, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.69422,-33.43997 ]
+    },
+    "properties": {
+    "FIELD1":52,
+    "N°":53,
+    "PROYECTO":"22° Comisaría Quinta Normal",
+    "VERSION":"",
+    "PROGRAMA":"Seguridad",
+    "MANDANTE | UNIDAD TECNICA":"DA MOP Regíon Metropolitana",
+    "CLASIFICACIÓN OGUC":"Equip. Seguridad",
+    "CLASIFICACIÓN INE":"Servicios",
+    "CLASIFICACIÓN CPR":"Público",
+    "FONDOS MANDANTE":"Carabineros de Chile",
+    "USUARIO":"Carabineros de Chile",
+    "Num Región":7,
+    "UBICACION":"Región Metropolitana",
+    "Comuna":"Quinta Normal",
+    "Dirección":"Santo Domingo 4390",
+    "AÑO INSCRIPCION":2017,
+    "MES INSCRIPCION":3,
+    "SUPERFICIE":"1702",
+    "Unnamed: 17":"",
+    "ARQUITECTO":"Dino Gervasoni",
+    "ASESOR":"John Fookes",
+    "CONTACTO":"jfookes@ecobuilding.cl",
+    "ENTIDAD EVALUADORA":"EFIZITY",
+    "ESTADO":"Certificado",
+    "PUNTAJE PRE CERTIFICACIÓN":"48",
+    "AÑO PRECERTIFICACION":2017,
+    "MES PRECERTIFICACION":8,
+    "PUNTAJE CERTIFICACIÓN":"",
+    "AÑO CERTIFICACION":2018,
+    "MES CERTIFICACION":10,
+    "CATEGORÍA":"Destacado",
+    "Pre o Cert":"2",
+    "año pre o cert":"2018",
+    "Pais":"Chile",
+    "direccion":"Santo Domingo 4390, Quinta Normal, Región Metropolitana, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.6836398,-33.5235103 ]
+    },
+    "properties": {
+    "FIELD1":59,
+    "N°":60,
+    "PROYECTO":"Centro Deportivo Integral Lo Espejo",
+    "VERSION":"",
+    "PROGRAMA":"Deporte",
+    "MANDANTE | UNIDAD TECNICA":"Instituto Nacional de Deportes",
+    "CLASIFICACIÓN OGUC":"Equip. Deporte",
+    "CLASIFICACIÓN INE":"Servicios",
+    "CLASIFICACIÓN CPR":"Público",
+    "FONDOS MANDANTE":"Instituto Nacional de Deportes",
+    "USUARIO":"",
+    "Num Región":7,
+    "UBICACION":"Región Metropolitana",
+    "Comuna":"Lo Espejo",
+    "Dirección":"Guanajuato 7915",
+    "AÑO INSCRIPCION":2017,
+    "MES INSCRIPCION":3,
+    "SUPERFICIE":"2846",
+    "Unnamed: 17":"",
+    "ARQUITECTO":"Iglesis Arquitectos",
+    "ASESOR":"Pablo Canales",
+    "CONTACTO":"pablo@latitud.cl",
+    "ENTIDAD EVALUADORA":"EFIZITY",
+    "ESTADO":"Certificado",
+    "PUNTAJE PRE CERTIFICACIÓN":"41",
+    "AÑO PRECERTIFICACION":2017,
+    "MES PRECERTIFICACION":7,
+    "PUNTAJE CERTIFICACIÓN":"40",
+    "AÑO CERTIFICACION":2018,
+    "MES CERTIFICACION":6,
+    "CATEGORÍA":"Certificado",
+    "Pre o Cert":"2",
+    "año pre o cert":"2018",
+    "Pais":"Chile",
+    "direccion":"Guanajuato 7915, Lo Espejo, Región Metropolitana, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.3959732055664,-23.639450073242188 ]
+    },
+    "properties": {
+    "FIELD1":61,
+    "N°":62,
+    "PROYECTO":"Subcomisaría La Portada",
+    "VERSION":"",
+    "PROGRAMA":"Seguridad",
+    "MANDANTE | UNIDAD TECNICA":"DA MOP Regíon de Antofagasta",
+    "CLASIFICACIÓN OGUC":"Equip. Seguridad",
+    "CLASIFICACIÓN INE":"Servicios",
+    "CLASIFICACIÓN CPR":"Público",
+    "FONDOS MANDANTE":"Carabineros de Chile",
+    "USUARIO":"Carabineros de Chile",
+    "Num Región":3,
+    "UBICACION":"Región de Antofagasta",
+    "Comuna":"Antofagasta",
+    "Dirección":"Av. Rica Ventura 11955",
+    "AÑO INSCRIPCION":2017,
+    "MES INSCRIPCION":4,
+    "SUPERFICIE":"889",
+    "Unnamed: 17":"",
+    "ARQUITECTO":"MAO Arquitectos Ltda.",
+    "ASESOR":"Maria Luisa Del Campo",
+    "CONTACTO":"mdelcampo@kipus.cl",
+    "ENTIDAD EVALUADORA":"CIAES UCN",
+    "ESTADO":"Certificado",
+    "PUNTAJE PRE CERTIFICACIÓN":"48,5",
+    "AÑO PRECERTIFICACION":2017,
+    "MES PRECERTIFICACION":6,
+    "PUNTAJE CERTIFICACIÓN":"48,5",
+    "AÑO CERTIFICACION":2018,
+    "MES CERTIFICACION":3,
+    "CATEGORÍA":"Certificado",
+    "Pre o Cert":"2",
+    "año pre o cert":"2018",
+    "Pais":"Chile",
+    "direccion":"Av. Rica Ventura 11955, Antofagasta, Región de Antofagasta, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.9294517,-53.1536494 ]
+    },
+    "properties": {
+    "FIELD1":63,
+    "N°":64,
+    "PROYECTO":"Centro de Día del Adulto Mayor Punta Arenas",
+    "VERSION":"",
+    "PROGRAMA":"Servicios",
+    "MANDANTE | UNIDAD TECNICA":"DA MOP Region de Magallanes",
+    "CLASIFICACIÓN OGUC":"Equip. Social",
+    "CLASIFICACIÓN INE":"Servicios",
+    "CLASIFICACIÓN CPR":"Público",
+    "FONDOS MANDANTE":"SENAMA - MDS ",
+    "USUARIO":"",
+    "Num Región":16,
+    "UBICACION":"Región de Magallanes",
+    "Comuna":"Punta Arenas",
+    "Dirección":"Av. Pdte. Eduardo Frei Montalva 862",
+    "AÑO INSCRIPCION":2017,
+    "MES INSCRIPCION":5,
+    "SUPERFICIE":"843",
+    "Unnamed: 17":"",
+    "ARQUITECTO":"Néstor Vásquez",
+    "ASESOR":"Pasiva - Gonzalo Mut",
+    "CONTACTO":"gmut@pasiva.cl",
+    "ENTIDAD EVALUADORA":"IDIEM",
+    "ESTADO":"Certificado",
+    "PUNTAJE PRE CERTIFICACIÓN":"71",
+    "AÑO PRECERTIFICACION":2017,
+    "MES PRECERTIFICACION":9,
+    "PUNTAJE CERTIFICACIÓN":"69",
+    "AÑO CERTIFICACION":2018,
+    "MES CERTIFICACION":2,
+    "CATEGORÍA":"Destacado",
+    "Pre o Cert":"2",
+    "año pre o cert":"2018",
+    "Pais":"Chile",
+    "direccion":"Av. Pdte. Eduardo Frei Montalva 862, Punta Arenas, Región de Magallanes, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.69359,-35.45116 ]
+    },
+    "properties": {
+    "FIELD1":64,
+    "N°":65,
+    "PROYECTO":"Campamento Vialidad N°1 Paso Pehuenche",
+    "VERSION":"",
+    "PROGRAMA":"Servicios",
+    "MANDANTE | UNIDAD TECNICA":"DA MOP Región del Maule",
+    "CLASIFICACIÓN OGUC":"Equip. Servicios",
+    "CLASIFICACIÓN INE":"Servicios",
+    "CLASIFICACIÓN CPR":"Público",
+    "FONDOS MANDANTE":"FNDR - GORE",
+    "USUARIO":"",
+    "Num Región":9,
+    "UBICACION":"Región del Maule",
+    "Comuna":"San Clemente",
+    "Dirección":"Ruta CH-115 Km 120.5",
+    "AÑO INSCRIPCION":2017,
+    "MES INSCRIPCION":5,
+    "SUPERFICIE":"630",
+    "Unnamed: 17":"",
+    "ARQUITECTO":"Juan Claudio López Rübke",
+    "ASESOR":"Francisco Pizarro",
+    "CONTACTO":"fp.energy1@gmail.com",
+    "ENTIDAD EVALUADORA":"88 Limitada",
+    "ESTADO":"Precertificado",
+    "PUNTAJE PRE CERTIFICACIÓN":"39,5",
+    "AÑO PRECERTIFICACION":2018,
+    "MES PRECERTIFICACION":1,
+    "PUNTAJE CERTIFICACIÓN":"",
+    "AÑO CERTIFICACION":null,
+    "MES CERTIFICACION":null,
+    "CATEGORÍA":"",
+    "Pre o Cert":"0",
+    "año pre o cert":"2018",
+    "Pais":"Chile",
+    "direccion":"Ruta CH-115 Km 120.5, San Clemente, Región del Maule, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.6804233,-33.2038564 ]
+    },
+    "properties": {
+    "FIELD1":69,
+    "N°":70,
+    "PROYECTO":"8° Comisaría de Colina",
+    "VERSION":"",
+    "PROGRAMA":"Seguridad",
+    "MANDANTE | UNIDAD TECNICA":"DA MOP Regíon Metropolitana",
+    "CLASIFICACIÓN OGUC":"Equip. Seguridad",
+    "CLASIFICACIÓN INE":"Servicios",
+    "CLASIFICACIÓN CPR":"Público",
+    "FONDOS MANDANTE":"Carabineros de Chile",
+    "USUARIO":"Carabineros de Chile",
+    "Num Región":7,
+    "UBICACION":"Región Metropolitana",
+    "Comuna":"Colina",
+    "Dirección":"La Inmaculada Concepción 575",
+    "AÑO INSCRIPCION":2017,
+    "MES INSCRIPCION":6,
+    "SUPERFICIE":"1830",
+    "Unnamed: 17":"",
+    "ARQUITECTO":"Castelblanco Arquitectos Asoc.",
+    "ASESOR":"Matías Yachan",
+    "CONTACTO":"Matias.yachan@e3ingenieria.cl",
+    "ENTIDAD EVALUADORA":"EFIZITY",
+    "ESTADO":"Certificado",
+    "PUNTAJE PRE CERTIFICACIÓN":"40,7",
+    "AÑO PRECERTIFICACION":2018,
+    "MES PRECERTIFICACION":3,
+    "PUNTAJE CERTIFICACIÓN":"40,7",
+    "AÑO CERTIFICACION":2018,
+    "MES CERTIFICACION":6,
+    "CATEGORÍA":"Certificado",
+    "Pre o Cert":"2",
+    "año pre o cert":"2018",
+    "Pais":"Chile",
+    "direccion":"La Inmaculada Concepción 575, Colina, Región Metropolitana, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.25213,-39.81032 ]
+    },
+    "properties": {
+    "FIELD1":75,
+    "N°":77,
+    "PROYECTO":"Sala Cuna Funcionarios UACh",
+    "VERSION":"",
+    "PROGRAMA":"Educación",
+    "MANDANTE | UNIDAD TECNICA":"Universidad Austral de Chile",
+    "CLASIFICACIÓN OGUC":"Equip. Educación",
+    "CLASIFICACIÓN INE":"Servicios",
+    "CLASIFICACIÓN CPR":"Público",
+    "FONDOS MANDANTE":"Universidad Austral de Chile",
+    "USUARIO":"Universidad Austral de Chile",
+    "Num Región":13,
+    "UBICACION":"Región de los Ríos",
+    "Comuna":"Valdivia",
+    "Dirección":"Las Encinas 220",
+    "AÑO INSCRIPCION":2017,
+    "MES INSCRIPCION":8,
+    "SUPERFICIE":"531",
+    "Unnamed: 17":"",
+    "ARQUITECTO":"Universidad Austral de Chile",
+    "ASESOR":"Mauricio Ramírez",
+    "CONTACTO":"mauricio@88limitada.cl",
+    "ENTIDAD EVALUADORA":"EFIZITY",
+    "ESTADO":"Certificado",
+    "PUNTAJE PRE CERTIFICACIÓN":"52,5",
+    "AÑO PRECERTIFICACION":2018,
+    "MES PRECERTIFICACION":2,
+    "PUNTAJE CERTIFICACIÓN":"55,5",
+    "AÑO CERTIFICACION":2018,
+    "MES CERTIFICACION":4,
+    "CATEGORÍA":"Destacado",
+    "Pre o Cert":"2",
+    "año pre o cert":"2018",
+    "Pais":"Chile",
+    "direccion":"Las Encinas 220, Valdivia, Región de los Ríos, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.24548,-39.83293 ]
+    },
+    "properties": {
+    "FIELD1":76,
+    "N°":78,
+    "PROYECTO":"Clínica Psicológica UACh",
+    "VERSION":"",
+    "PROGRAMA":"Educación",
+    "MANDANTE | UNIDAD TECNICA":"Universidad Austral de Chile",
+    "CLASIFICACIÓN OGUC":"Equip. Educación",
+    "CLASIFICACIÓN INE":"Servicios",
+    "CLASIFICACIÓN CPR":"Público",
+    "FONDOS MANDANTE":"Universidad Austral de Chile",
+    "USUARIO":"Universidad Austral de Chile",
+    "Num Región":13,
+    "UBICACION":"Región de los Ríos",
+    "Comuna":"Valdivia",
+    "Dirección":"Prolongación Calle Rudloff S/N",
+    "AÑO INSCRIPCION":2017,
+    "MES INSCRIPCION":8,
+    "SUPERFICIE":"180",
+    "Unnamed: 17":"",
+    "ARQUITECTO":"Universidad Austral de Chile",
+    "ASESOR":"Mauricio Ramírez",
+    "CONTACTO":"mauricio@88limitada.cl",
+    "ENTIDAD EVALUADORA":"EFIZITY",
+    "ESTADO":"Certificado",
+    "PUNTAJE PRE CERTIFICACIÓN":"44,5",
+    "AÑO PRECERTIFICACION":2018,
+    "MES PRECERTIFICACION":1,
+    "PUNTAJE CERTIFICACIÓN":"44,5",
+    "AÑO CERTIFICACION":2018,
+    "MES CERTIFICACION":3,
+    "CATEGORÍA":"Certificado",
+    "Pre o Cert":"2",
+    "año pre o cert":"2018",
+    "Pais":"Chile",
+    "direccion":"Prolongación Calle Rudloff S/N, Valdivia, Región de los Ríos, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.9019999,-53.1205447 ]
+    },
+    "properties": {
+    "FIELD1":82,
+    "N°":84,
+    "PROYECTO":"Centro Asistencial Docente e Investigación Universidad de Magallanes",
+    "VERSION":"",
+    "PROGRAMA":"Educación",
+    "MANDANTE | UNIDAD TECNICA":"DA MOP Región de Magallanes",
+    "CLASIFICACIÓN OGUC":"Equip. Educación",
+    "CLASIFICACIÓN INE":"Servicios",
+    "CLASIFICACIÓN CPR":"Público",
+    "FONDOS MANDANTE":"GORE",
+    "USUARIO":"Universidad de Magallanes",
+    "Num Región":16,
+    "UBICACION":"Región de Magallanes",
+    "Comuna":"Punta Arenas",
+    "Dirección":"Av. los Flamencos 1364",
+    "AÑO INSCRIPCION":2017,
+    "MES INSCRIPCION":10,
+    "SUPERFICIE":"7068",
+    "Unnamed: 17":"",
+    "ARQUITECTO":"Brito Navarro Arquitectos",
+    "ASESOR":"Efizity - Tamara Quiroz",
+    "CONTACTO":"tquiroz@efizity.com",
+    "ENTIDAD EVALUADORA":"DECON UC",
+    "ESTADO":"Certificado",
+    "PUNTAJE PRE CERTIFICACIÓN":"39",
+    "AÑO PRECERTIFICACION":2017,
+    "MES PRECERTIFICACION":12,
+    "PUNTAJE CERTIFICACIÓN":"39",
+    "AÑO CERTIFICACION":2018,
+    "MES CERTIFICACION":10,
+    "CATEGORÍA":"Certificado",
+    "Pre o Cert":"2",
+    "año pre o cert":"2018",
+    "Pais":"Chile",
+    "direccion":"Av. los Flamencos 1364, Punta Arenas, Región de Magallanes, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.2236423,-39.8245915 ]
+    },
+    "properties": {
+    "FIELD1":99,
+    "N°":101,
+    "PROYECTO":"CECREA Valdivia",
+    "VERSION":"",
+    "PROGRAMA":"Cultura",
+    "MANDANTE | UNIDAD TECNICA":"DA MOP Región de los Ríos",
+    "CLASIFICACIÓN OGUC":"Equip. Culto y Cultura",
+    "CLASIFICACIÓN INE":"Servicios",
+    "CLASIFICACIÓN CPR":"Público",
+    "FONDOS MANDANTE":"CNCA",
+    "USUARIO":"",
+    "Num Región":13,
+    "UBICACION":"Región de los Ríos",
+    "Comuna":"Valdivia",
+    "Dirección":"Av. Ecuador 2000",
+    "AÑO INSCRIPCION":2018,
+    "MES INSCRIPCION":2,
+    "SUPERFICIE":"1512",
+    "Unnamed: 17":"",
+    "ARQUITECTO":"Ronald Scheel",
+    "ASESOR":"Ronald Scheel",
+    "CONTACTO":"rscheel@scheelarquitectos.com",
+    "ENTIDAD EVALUADORA":"EFIZITY",
+    "ESTADO":"Precertificado",
+    "PUNTAJE PRE CERTIFICACIÓN":"30,5",
+    "AÑO PRECERTIFICACION":2018,
+    "MES PRECERTIFICACION":4,
+    "PUNTAJE CERTIFICACIÓN":"",
+    "AÑO CERTIFICACION":null,
+    "MES CERTIFICACION":null,
+    "CATEGORÍA":"",
+    "Pre o Cert":"0",
+    "año pre o cert":"2018",
+    "Pais":"Chile",
+    "direccion":"Av. Ecuador 2000, Valdivia, Región de los Ríos, Chile"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.7597453,-42.4834518 ]
+    },
+    "properties": {
+    "FIELD1":117,
+    "N°":119,
+    "PROYECTO":"CECREA Castro",
+    "VERSION":"",
+    "PROGRAMA":"Cultura",
+    "MANDANTE | UNIDAD TECNICA":"Ilustre Municipalidad de Castro",
+    "CLASIFICACIÓN OGUC":"Equip. Culto y Cultura",
+    "CLASIFICACIÓN INE":"Servicios",
+    "CLASIFICACIÓN CPR":"Público",
+    "FONDOS MANDANTE":"",
+    "USUARIO":"",
+    "Num Región":14,
+    "UBICACION":"Región de los Lagos",
+    "Comuna":"Castro",
+    "Dirección":"Eusebio Lillo 160",
+    "AÑO INSCRIPCION":2018,
+    "MES INSCRIPCION":8,
+    "SUPERFICIE":"1392",
+    "Unnamed: 17":"",
+    "ARQUITECTO":"Empresas LN",
+    "ASESOR":"Tamara Catalán",
+    "CONTACTO":"tam.catalan@gmail.com",
+    "ENTIDAD EVALUADORA":"Ecosustenta",
+    "ESTADO":"En desarrollo",
+    "PUNTAJE PRE CERTIFICACIÓN":"",
+    "AÑO PRECERTIFICACION":null,
+    "MES PRECERTIFICACION":null,
+    "PUNTAJE CERTIFICACIÓN":"",
+    "AÑO CERTIFICACION":null,
+    "MES CERTIFICACION":null,
+    "CATEGORÍA":"",
+    "Pre o Cert":"ninguna",
+    "año pre o cert":"ninguna",
+    "Pais":"Chile",
+    "direccion":"Eusebio Lillo 160, Castro, Región de los Lagos, Chile"
+    }
+  }
+]
+}

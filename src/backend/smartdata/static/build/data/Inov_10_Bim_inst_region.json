@@ -1,0 +1,701 @@
+[
+  [
+    {
+      "titulo": "Instituciones con capacitación formal de BIM por tipo de institución y región",
+      "Fuente": "ENCUESTA BIM",
+      "LinkDatosOriginales": "https://smartdata-demo.sfo2.digitaloceanspaces.com/data/Innovacion.xlsx",
+      "comment": "Cantidad de carreras que con formación profesional BIM por tipo de institución y región. Fuente: Plan BIM",
+      "linkPlot": "",
+      "glosario": ""
+    }
+  ],
+  [
+    {
+      "anio": 2016,
+      "regiones": {
+        "Aysén": {
+          "meses": {
+            "Dic": {
+              "Total general": 1,
+              "tooltip": {
+                "Total general": 1,
+                "Fecha: ": "2016/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "1"
+              }
+            }
+          }
+        },
+        "Antofagasta": {
+          "meses": {
+            "Dic": {
+              "Total general": 2,
+              "tooltip": {
+                "Total general": 2,
+                "Fecha: ": "2016/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "2"
+              }
+            }
+          }
+        },
+        "Arica y Parinacota": {
+          "meses": {
+            "Dic": {
+              "Total general": 1,
+              "tooltip": {
+                "Total general": 1,
+                "Fecha: ": "2016/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "1"
+              }
+            }
+          }
+        },
+        "Atacama": {
+          "meses": {
+            "Dic": {
+              "Total general": 0,
+              "tooltip": {
+                "Total general": 0,
+                "Fecha: ": "2016/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "0"
+              }
+            }
+          }
+        },
+        "Coquimbo": {
+          "meses": {
+            "Dic": {
+              "Total general": 2,
+              "tooltip": {
+                "Total general": 2,
+                "Fecha: ": "2016/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "2"
+              }
+            }
+          }
+        },
+        "Araucanía": {
+          "meses": {
+            "Dic": {
+              "Total general": 3,
+              "tooltip": {
+                "Total general": 3,
+                "Fecha: ": "2016/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "3"
+              }
+            }
+          }
+        },
+        "Los Lagos": {
+          "meses": {
+            "Dic": {
+              "Total general": 2,
+              "tooltip": {
+                "Total general": 2,
+                "Fecha: ": "2016/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "2"
+              }
+            }
+          }
+        },
+        "Los Ríos": {
+          "meses": {
+            "Dic": {
+              "Total general": 2,
+              "tooltip": {
+                "Total general": 2,
+                "Fecha: ": "2016/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "2"
+              }
+            }
+          }
+        },
+        "Magallanes": {
+          "meses": {
+            "Dic": {
+              "Total general": 1,
+              "tooltip": {
+                "Total general": 1,
+                "Fecha: ": "2016/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "1"
+              }
+            }
+          }
+        },
+        "Ñuble": {
+          "meses": {
+            "Dic": {
+              "Total general": 2,
+              "tooltip": {
+                "Total general": 2,
+                "Fecha: ": "2016/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "2"
+              }
+            }
+          }
+        },
+        "Tarapacá": {
+          "meses": {
+            "Dic": {
+              "Total general": 2,
+              "tooltip": {
+                "Total general": 2,
+                "Fecha: ": "2016/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "2"
+              }
+            }
+          }
+        },
+        "Valparaíso": {
+          "meses": {
+            "Dic": {
+              "Total general": 8,
+              "tooltip": {
+                "Total general": 8,
+                "Fecha: ": "2016/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "8"
+              }
+            }
+          }
+        },
+        "Biobio": {
+          "meses": {
+            "Dic": {
+              "Total general": 11,
+              "tooltip": {
+                "Total general": 11,
+                "Fecha: ": "2016/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "11"
+              }
+            }
+          }
+        },
+        "Maule": {
+          "meses": {
+            "Dic": {
+              "Total general": 6,
+              "tooltip": {
+                "Total general": 6,
+                "Fecha: ": "2016/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "6"
+              }
+            }
+          }
+        },
+        "O'Higgins": {
+          "meses": {
+            "Dic": {
+              "Total general": 2,
+              "tooltip": {
+                "Total general": 2,
+                "Fecha: ": "2016/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "2"
+              }
+            }
+          }
+        },
+        "Metropolitana": {
+          "meses": {
+            "Dic": {
+              "Total general": 25,
+              "tooltip": {
+                "Total general": 25,
+                "Fecha: ": "2016/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "25"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "anio": 2017,
+      "regiones": {
+        "Aysén": {
+          "meses": {
+            "Dic": {
+              "Total general": 1,
+              "tooltip": {
+                "Total general": 1,
+                "Fecha: ": "2017/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "1"
+              }
+            }
+          }
+        },
+        "Antofagasta": {
+          "meses": {
+            "Dic": {
+              "Total general": 2,
+              "tooltip": {
+                "Total general": 2,
+                "Fecha: ": "2017/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "2"
+              }
+            }
+          }
+        },
+        "Arica y Parinacota": {
+          "meses": {
+            "Dic": {
+              "Total general": 1,
+              "tooltip": {
+                "Total general": 1,
+                "Fecha: ": "2017/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "1"
+              }
+            }
+          }
+        },
+        "Atacama": {
+          "meses": {
+            "Dic": {
+              "Total general": 0,
+              "tooltip": {
+                "Total general": 0,
+                "Fecha: ": "2017/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "0"
+              }
+            }
+          }
+        },
+        "Coquimbo": {
+          "meses": {
+            "Dic": {
+              "Total general": 2,
+              "tooltip": {
+                "Total general": 2,
+                "Fecha: ": "2017/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "2"
+              }
+            }
+          }
+        },
+        "Araucanía": {
+          "meses": {
+            "Dic": {
+              "Total general": 3,
+              "tooltip": {
+                "Total general": 3,
+                "Fecha: ": "2017/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "3"
+              }
+            }
+          }
+        },
+        "Los Lagos": {
+          "meses": {
+            "Dic": {
+              "Total general": 2,
+              "tooltip": {
+                "Total general": 2,
+                "Fecha: ": "2017/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "2"
+              }
+            }
+          }
+        },
+        "Los Ríos": {
+          "meses": {
+            "Dic": {
+              "Total general": 2,
+              "tooltip": {
+                "Total general": 2,
+                "Fecha: ": "2017/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "2"
+              }
+            }
+          }
+        },
+        "Magallanes": {
+          "meses": {
+            "Dic": {
+              "Total general": 1,
+              "tooltip": {
+                "Total general": 1,
+                "Fecha: ": "2017/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "1"
+              }
+            }
+          }
+        },
+        "Ñuble": {
+          "meses": {
+            "Dic": {
+              "Total general": 2,
+              "tooltip": {
+                "Total general": 2,
+                "Fecha: ": "2017/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "2"
+              }
+            }
+          }
+        },
+        "Tarapacá": {
+          "meses": {
+            "Dic": {
+              "Total general": 2,
+              "tooltip": {
+                "Total general": 2,
+                "Fecha: ": "2017/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "2"
+              }
+            }
+          }
+        },
+        "Valparaíso": {
+          "meses": {
+            "Dic": {
+              "Total general": 8,
+              "tooltip": {
+                "Total general": 8,
+                "Fecha: ": "2017/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "8"
+              }
+            }
+          }
+        },
+        "Biobio": {
+          "meses": {
+            "Dic": {
+              "Total general": 7,
+              "tooltip": {
+                "Total general": 7,
+                "Fecha: ": "2017/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "7"
+              }
+            }
+          }
+        },
+        "Maule": {
+          "meses": {
+            "Dic": {
+              "Total general": 6,
+              "tooltip": {
+                "Total general": 6,
+                "Fecha: ": "2017/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "6"
+              }
+            }
+          }
+        },
+        "O'Higgins": {
+          "meses": {
+            "Dic": {
+              "Total general": 2,
+              "tooltip": {
+                "Total general": 2,
+                "Fecha: ": "2017/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "2"
+              }
+            }
+          }
+        },
+        "Metropolitana": {
+          "meses": {
+            "Dic": {
+              "Total general": 23,
+              "tooltip": {
+                "Total general": 23,
+                "Fecha: ": "2017/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "23"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "anio": 2018,
+      "regiones": {
+        "Aysén": {
+          "meses": {
+            "Dic": {
+              "Total general": 1,
+              "tooltip": {
+                "Total general": 1,
+                "Fecha: ": "2018/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "1"
+              }
+            }
+          }
+        },
+        "Antofagasta": {
+          "meses": {
+            "Dic": {
+              "Total general": 2,
+              "tooltip": {
+                "Total general": 2,
+                "Fecha: ": "2018/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "2"
+              }
+            }
+          }
+        },
+        "Arica y Parinacota": {
+          "meses": {
+            "Dic": {
+              "Total general": 1,
+              "tooltip": {
+                "Total general": 1,
+                "Fecha: ": "2018/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "1"
+              }
+            }
+          }
+        },
+        "Atacama": {
+          "meses": {
+            "Dic": {
+              "Total general": 1,
+              "tooltip": {
+                "Total general": 1,
+                "Fecha: ": "2018/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "1"
+              }
+            }
+          }
+        },
+        "Coquimbo": {
+          "meses": {
+            "Dic": {
+              "Total general": 2,
+              "tooltip": {
+                "Total general": 2,
+                "Fecha: ": "2018/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "2"
+              }
+            }
+          }
+        },
+        "Araucanía": {
+          "meses": {
+            "Dic": {
+              "Total general": 3,
+              "tooltip": {
+                "Total general": 3,
+                "Fecha: ": "2018/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "3"
+              }
+            }
+          }
+        },
+        "Los Lagos": {
+          "meses": {
+            "Dic": {
+              "Total general": 2,
+              "tooltip": {
+                "Total general": 2,
+                "Fecha: ": "2018/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "2"
+              }
+            }
+          }
+        },
+        "Los Ríos": {
+          "meses": {
+            "Dic": {
+              "Total general": 2,
+              "tooltip": {
+                "Total general": 2,
+                "Fecha: ": "2018/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "2"
+              }
+            }
+          }
+        },
+        "Magallanes": {
+          "meses": {
+            "Dic": {
+              "Total general": 1,
+              "tooltip": {
+                "Total general": 1,
+                "Fecha: ": "2018/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "1"
+              }
+            }
+          }
+        },
+        "Ñuble": {
+          "meses": {
+            "Dic": {
+              "Total general": 2,
+              "tooltip": {
+                "Total general": 2,
+                "Fecha: ": "2018/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "2"
+              }
+            }
+          }
+        },
+        "Tarapacá": {
+          "meses": {
+            "Dic": {
+              "Total general": 2,
+              "tooltip": {
+                "Total general": 2,
+                "Fecha: ": "2018/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "2"
+              }
+            }
+          }
+        },
+        "Valparaíso": {
+          "meses": {
+            "Dic": {
+              "Total general": 8,
+              "tooltip": {
+                "Total general": 8,
+                "Fecha: ": "2018/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "8"
+              }
+            }
+          }
+        },
+        "Biobio": {
+          "meses": {
+            "Dic": {
+              "Total general": 10,
+              "tooltip": {
+                "Total general": 10,
+                "Fecha: ": "2018/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "10"
+              }
+            }
+          }
+        },
+        "Maule": {
+          "meses": {
+            "Dic": {
+              "Total general": 6,
+              "tooltip": {
+                "Total general": 6,
+                "Fecha: ": "2018/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "6"
+              }
+            }
+          }
+        },
+        "O'Higgins": {
+          "meses": {
+            "Dic": {
+              "Total general": 2,
+              "tooltip": {
+                "Total general": 2,
+                "Fecha: ": "2018/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "2"
+              }
+            }
+          }
+        },
+        "Metropolitana": {
+          "meses": {
+            "Dic": {
+              "Total general": 25,
+              "tooltip": {
+                "Total general": 25,
+                "Fecha: ": "2018/ Dic",
+                "Postgrado": "0",
+                "Postítulo": "0",
+                "Pregrado": "25"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+]
