@@ -17,7 +17,7 @@ def write_json_UTF8(jsonDir, name_file):
     with codecs.open(name_file, 'r', encoding = "iso-8859-1") as file:
           lines = file.read()
 
-    with codecs.open(name_file, 'w', encoding = 'utf8') as file:
+    with codecs.open(name_file, 'w', encoding = "iso-8859-1") as file:
           file.write(lines)
     print("CREATED: ", name_file)
  ## B. Fixing numbers

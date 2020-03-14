@@ -9,18 +9,18 @@ import codecs
 global global_dir
 global init_data_name
 
-## A. Writing Json file with format 
+## A. Writing Json file with format
 def write_json_UTF8(jsonDir, name_file):
     with open(name_file, 'w') as outfile:
         json.dump(jsonDir, outfile, ensure_ascii=False)
-    
-    with codecs.open(name_file, 'r', encoding = "iso-8859-1") as file:
+
+    with codecs.open(name_file, 'r', encoding ="iso-8859-1") as file:
           lines = file.read()
-    
-    with codecs.open(name_file, 'w', encoding = 'utf8') as file:
+
+    with codecs.open(name_file, 'w', encoding = "iso-8859-1") as file:
           file.write(lines)
     print("CREATED: ", name_file)
- ## B. Fixing numbers 
+ ## B. Fixing numbers
 def repair_num(value):
 
     try:
@@ -37,7 +37,7 @@ def repair_num(value):
                 aux = aux+letra
             elif letra == "-" and len(aux)==0:
                 aux = aux+letra
-         
+
         if aux == "":
             pass
 
@@ -104,7 +104,7 @@ def DataToJson(df, varible_v, variable_meaning, reg_name, toolTip_v, toolTip_men
             else:
                 # si no hayd data
                 data_value = repair_num(df[v_reg].values[i])
-                
+
                 if str(data_value).lower() == "nan" or len(str(data_value).lower()) == 0:
                     data_value = 0
                 if  abs(data_value - int(data_value)) > 0.0001:
@@ -124,7 +124,7 @@ def DataToJson(df, varible_v, variable_meaning, reg_name, toolTip_v, toolTip_men
                 tip = {}
 
                 data_value = repair_num(df[v_reg].values[i])
-                
+
                 if str(data_value).lower() == "nan" :
                     data_value = "No Data"
                 else:
@@ -161,7 +161,7 @@ def DataToJson(df, varible_v, variable_meaning, reg_name, toolTip_v, toolTip_men
 
                 tip["Fecha: "] = str(int(df["anio"].values[i])) + \
                     "/ " + df["mesSTR"].values[i]
-                
+
                 dirData["regiones"][reg_name[index]
                                     ]["meses"][mes]["tooltip"] = tip
 
@@ -170,14 +170,14 @@ def DataToJson(df, varible_v, variable_meaning, reg_name, toolTip_v, toolTip_men
     return listData
 
 
-## D. Creating image to download 
+## D. Creating image to download
 sns.set()
 def create_image(df, varible_v, variable_meaning, save_dir):
     objetive_var = varible_v
 
     plt.close()
     plt.clf()
-    
+
     df['date'] = df["Mes"].map(str) + '-' + df["anio"].map(str)
     for value in df['date'] :
         df['date'] = pd.to_datetime(

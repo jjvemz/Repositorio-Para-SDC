@@ -1,28 +1,11 @@
 import React, { Component } from 'react'
 import { NavLink, Redirect } from 'react-router-dom'
-import AutocompleteBar from '../commons/SearchBarAutocomplete';
+import AppBar from '../commons/appBar';
 
 
 export default class NavVisit extends Component {
 
-
-  state={
-    redirect: false
-  }
-
-  setRedirect = () =>{
-    this.setState({
-      redirect : true
-    })
-  }
-
-  renderRedirect =() =>{
-    if(this.state.redirect){
-      return <Redirect to='/Results' />
-    }
-  }
   render() {
-    console.log(this.props);
     return (
       <nav className="navbar navbar-light navbar-expand-lg bg-white fixed-top" id="mainNav">
         <div className="container">
@@ -34,8 +17,7 @@ export default class NavVisit extends Component {
           <div className="collapse navbar-collapse" id="navbarResponsive">
             <ul className="nav navbar-nav ml-auto nav-pills">
               <li className="nav-item" role="presentation">
-
-                <AutocompleteBar id= "mySearchBar"></AutocompleteBar>
+                <AppBar id= "mySearchBar"/>
               </li>
             <ul className="nav navbar-nav ml-auto nav-pills">
               <li className="nav-item" role="presentation">

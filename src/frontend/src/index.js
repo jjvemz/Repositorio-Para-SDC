@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {Provider } from 'react-redux';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import { env } from './configEnv';
 
-ReactDOM.render(<App env={env} />, document.getElementById('appRoot'));
+ReactDOM.render(<App/>, document.getElementById('appRoot'));
 
 serviceWorker.unregister();
