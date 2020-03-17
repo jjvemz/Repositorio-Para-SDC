@@ -42,7 +42,7 @@ export default class NavVisit extends Component {
                 <NavLink to="/fuentes" className="nav-link js-scroll-trigger">Fuente de datos</NavLink>
               </li>
               <li className="nav-item" role="presentation">
-                <NavLink to="/Contacts" className="nav-link js-scroll-trigger">Contacto</NavLink>
+                <NavLink to="/Contacto" className="nav-link js-scroll-trigger">Contacto</NavLink>
               </li>
               {/*
               <li className="nav-item" role="presentation">

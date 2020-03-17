@@ -2,7 +2,7 @@ import React , { Component } from 'react';
 import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
 import NavVisit from './components/commons/NavVisit';
 import Home from './components/Home';
-import Contacts from './components/Contacts';
+import Contacto from './components/Contacto';
 import Macroeconomia from './components/Macroeconomia';
 import Cchc from './components/Cchc';
 import Sustentabilidad from './components/Sustentabilidad';
@@ -63,7 +63,7 @@ export default class App extends Component {
               <Route path='/indicadores/Seguridad' exact={true} component={Seguridad} />
               <Route path='/quienes' exact={true} component={Quienes} />
               <Route path='/fuentes' exact={true} component={Fuentes} />
-              <Route path='/contacts' exact={true} component={Contacts} />
+              <Route path='/contacto' exact={true} component={Contacto} />
               <Route path='/huincha' exact={true} component={Huincha} />
               <Route path='/results' exact={true} component={Results} />
               <Route path='/details/:graphId' component={Details} />

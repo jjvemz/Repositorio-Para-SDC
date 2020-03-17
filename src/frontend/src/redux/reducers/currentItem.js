@@ -6,16 +6,12 @@ const defaultState = [];
 function reducer(state = defaultState, { type, payload }) {
     switch (type) {
         case findCurrentItemType: {
-            if (!payload) {
-                return null;
+            return items.find(n => n.id === payload);
             }
 
-            return items.find(n => n.id === payload);
-        }
-
-        default:
+            default:
             return state;
-    }
+          }
 }
 
 export default reducer;

@@ -28,27 +28,6 @@ class Details extends Component {
     findCurrentItem(graphId);
   }
 
-/*
-  function mySwitch(e){
-    switch (e) {
-      case "MapGraph":   return ([<MapGraph kpi_name = {currentItem.name} isAllYears={true}></MapGraph>]);
-
-      case "MultilineGraph": return ([<MultilineGraph kpi_name = {currentItem.name} isAllYears={true}></MultilineGraph>]);
-
-      case "RegionStackedGraph": return ([<RegionStackedGraph kpi_name = {currentItem.name} isAllYears={true}></RegionStackedGraph>]);
-
-      case "RegionTreemapGraph": return ([<RegionTreemapGraph kpi_name = {currentItem.name} isAllYears={true}></RegionTreemapGraph>]);
-
-      case "StackedGraph": return ([<StackedGraph kpi_name = {currentItem.name} isAllYears={true}></StackedGraph>]);
-
-      case "TreemapGraph": return ([<TreemapGraph kpi_name = {currentItem.name} isAllYears={true}></TreemapGraph>]);
-
-      case "TotalStackedGraph":return ([<TotalStackedGraph kpi_name = {currentItem.name} isAllYears={true}></TotalStackedGraph>]);
-      default: return([<p>Holi, esto no funciono. Arreglalo juanjo</p>])
-
-    }
-  }
-*/
 
   goTo(path){this.props.history.push(path);}
 

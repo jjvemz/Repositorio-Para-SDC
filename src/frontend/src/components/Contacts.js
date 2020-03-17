@@ -27,7 +27,7 @@ export default class Contacts extends Component {
       phone: '',
       rubro: '',
       motivo: '',
-      message: ''
+      message: '',
     }
 	  }
   }
@@ -53,8 +53,8 @@ export default class Contacts extends Component {
      to_mail: 'smartdata@ctecinnovacion.cl',
      from_name: this.state.mail,
      motive: this.state.motivo,
+     Thename: this.state.name + " " + this.state.lastName,
      from_Fname: this.state.name,
-     from_Lname: this.state.lastname,
      Thebusiness: this.state.bussines,
      workplace: this.state.rubro,
      message_html: this.state.message,
@@ -81,9 +81,9 @@ export default class Contacts extends Component {
      phone: '',
      rubro: '',
      motivo: '',
-     message: '',
+     message: ' ',
    })
-
+   return(<Redirect to ='/contacto' />)
   }
 
   validateMail(){
@@ -141,153 +141,157 @@ export default class Contacts extends Component {
   render(){
     console.log(this.state);
     return(
-      <div class="container">
-          <div class="column-left">
-            <h2 style={{marginBottom:"0px",}}>Nuestra direccion</h2>
-              <h3>Estamos ubicados a minutos de la estacion Parque OHiggins</h3>
-              <hr></hr>
-              <h5 style={{marginBottom:"4px",}}>CTeC  </h5>
-              <p>Somos el Centro Tecnológico para la Innovación en la Construcción, y nuestro objetivo es contribuir al proceso de transformación de la industria de la construcción nacional.</p>
-              <p style={{marginBottom:"4px",}}>
-              </p>
-              <p style={{marginBottom:"4px",}}>
-                <TouchableOpacity>
-                  <a class="arrow_link" onPress={()=>{this.dialCall(+56977666273)}}>Llámanos: +56 2 2978 0749</a>
-                </TouchableOpacity>
-              </p>
-          </div>
-          <div class="column-center">
-            <div class="image_frame image_item no_link scale_with-grid aligncenter no_border">
-              <img class="scale-with-grid" src={"https://ctecinnovacion.cl/dev/wp-content/uploads/2018/04/home_ctec_map_pin_big.png"} alt="home_ctec_map_pin_big" width="250px" height="232px"/>
+      <section>
+        <main>
+          <div class ="container">
+            <div class="Contact-container">
+                <div class="column-left">
+                  <h2 style={{marginBottom:"0px",}}>Nuestra direccion</h2>
+                    <h3>Estamos ubicados a minutos de la estacion Parque OHiggins</h3>
+                    <hr></hr>
+                    <h5 style={{marginBottom:"4px",}}>CTeC  </h5>
+                    <p>Somos el Centro Tecnológico para la Innovación en la Construcción, y nuestro objetivo es contribuir al proceso de transformación de la industria de la construcción nacional.</p>
+                    <p style={{marginBottom:"4px",}}>
+                    </p>
+                    <p style={{marginBottom:"4px",}}>
+                      <TouchableOpacity>
+                        <a class="arrow_link" onPress={()=>{this.dialCall(+56977666273)}}>Llámanos: +56 2 2978 0749</a>
+                      </TouchableOpacity>
+                    </p>
+                </div>
+                <div class="column-center">
+                  <div class="image_frame image_item no_link scale_with-grid aligncenter no_border">
+                    <img class="scale-with-grid" src={"https://ctecinnovacion.cl/dev/wp-content/uploads/2018/04/home_ctec_map_pin_big.png"} alt="home_ctec_map_pin_big" width="250px" height="232px"/>
+                  </div>
+                </div>
+                <div class="column-right">
+                  <h2 > Envianos un mensaje</h2>
+                  <h3>Dejanos tus datos y te contactaremos</h3>
+                  <div role="form" dir="ltr" lang="en-US">
+                    <div>
+                      <form  id="contact-form" onSubmit={this.handleSubmit} >
+                          <div>
+                            <span>
+                              <input type="text"
+                              name="name"
+                              value={this.state.name}
+                              onChange={this.handleInputChange.bind(this)}
+                              size="40"
+                              aria-required="true"
+                              aria-invalid="false"
+                              error={this.state.errors.name}
+                              placeholder="Nombre"/>
+                            </span>
+                          </div>
+                          <div>
+                            <span >
+                              <input type="text"
+                              name="lastName"
+                              value={this.state.lastName}
+                              onChange={this.handleInputChange.bind(this)}
+                              size="40"
+                              aria-required="true"
+                              aria-invalid="false"
+                              error={this.state.errors.lastName}
+                              placeholder="Apellidos"/>
+                            </span>
+                            </div>
+                            <div>
+                              <span >
+                                <input type="text"
+                                name="mail"
+                                value={this.state.mail}
+                                onChange={this.handleInputChange.bind(this)}
+                                size="40"
+                                aria-required="true"
+                                aria-invalid="false"
+                                error={this.state.errors.mail}
+                                placeholder="Mail"/>
+                              </span>
+                              </div>
+                          <div>
+                            <span>
+                              <input type="text"
+                              name="bussines"
+                              value={this.state.bussines}
+                              onChange={this.handleInputChange.bind(this)}
+                              size="40"
+                              aria-required="true"
+                              aria-invalid="false"
+                              error={this.state.errors.bussines}
+                              placeholder="Empresa"/>
+                            </span>
+                          </div>
+                          <div>
+                            <span>
+                              <input type="text"
+                              name="phone"
+                              value={this.state.phone}
+                              onChange={this.handleInputChange.bind(this)}
+                              size="40"
+                              aria-required="true"
+                              aria-invalid="false"
+                              error={this.state.errors.phone}
+                              placeholder="Teléfono"/>
+                            </span>
+                          </div>
+                          <div>
+                            <span>
+                            <select name="rubro" value={this.state.rubro} onChange={this.handleInputChange.bind(this)} aria-invalid="false" error={this.state.errors.rubro}>
+                              <option value="SELECCIONE RUBRO">SELECCIONE RUBRO</option>
+                              <option value="Minería">Minería</option>
+                              <option value="Energía">Energía</option>
+                              <option value="Sector Público">Sector Público</option>
+                              <option value="Constructora">Constructora</option>
+                              <option value="Inmobiliaria">Inmobiliaria</option>
+                              <option value="Ingeniería">Ingeniería</option>
+                              <option value="Proveedor de Materiales">Proveedor de Materiales</option>
+                              <option value="Universidad y/o Entidades de Educación">Universidad y/o Entidades de Educación</option>
+                              <option value="Consultora">Consultora</option>
+                              <option value="Oficina de Arquitectura">Oficina de Arquitectura</option>
+                              <option value="Industria">Industria</option>
+                              <option value="Asociación Gremial">Asociación Gremial</option>
+                              <option value="Otros">Otros</option></select>
+                            </span>
+                          </div>
+                          <div >
+                            <span >
+                              <select name="motivo" value={this.state.motivo} onChange={this.handleInputChange.bind(this)} aria-invalid="false" error={this.state.errors.motivo}>
+                                <option value="MOTIVO">MOTIVO</option>
+                                <option value="Formar parte">Formar parte</option>
+                                <option value="Felicitaciones">Felicitaciones</option>
+                                <option value="Sugerencias u observaciones">Sugerencias u observaciones</option>
+                                <option value="Otros">Otros</option></select>
+                            </span>
+                          </div>
+                          <div>
+                              <span>
+                                <textarea name="message"
+                                cols="40"
+                                rows="10"
+                                aria-invalid="false"
+                                error={this.state.errors.message}
+                                onChange={this.handleInputChange.bind(this)}
+                                placeholder="Mensaje"></textarea>
+                            </span>
+                          </div>
+                          <div>
+                            <span >
+                              <input
+                              type="submit"
+                              value="ENVIAR"
+                              class="wpcf7-form-control wpcf7-submit"
+                              onClick={this.sentMessage.bind(this)}/>
+                            </span>
+                          </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
             </div>
           </div>
-          <div class="column-right">
-            <h2 > Envianos un mensaje</h2>
-            <h3>Dejanos tus datos y te contactaremos</h3>
-            <div  role="form" dir="ltr" lang="en-US">
-              <div>
-                <form  id="contact-form" onSubmit={this.handleSubmit} method = "POST">
-                    <div>
-                      <span>
-                        <input type="text"
-                        name="name"
-                        value={this.state.name}
-                        onChange={this.handleInputChange.bind(this)}
-                        size="40"
-                        aria-required="true"
-                        aria-invalid="false"
-                        error={this.state.errors.name}
-                        placeholder="Nombre"/>
-                      </span>
-                    </div>
-                    <div>
-                      <span >
-                        <input type="text"
-                        name="lastName"
-                        value={this.state.lastName}
-                        onChange={this.handleInputChange.bind(this)}
-                        size="40"
-                        aria-required="true"
-                        aria-invalid="false"
-                        error={this.state.errors.lastName}
-                        placeholder="Apellidos"/>
-                      </span>
-                      </div>
-                      <div>
-                        <span >
-                          <input type="text"
-                          name="mail"
-                          value={this.state.mail}
-                          onChange={this.handleInputChange.bind(this)}
-                          size="40"
-                          aria-required="true"
-                          aria-invalid="false"
-                          error={this.state.errors.mail}
-                          placeholder="Mail"/>
-                        </span>
-                        </div>
-                    <div>
-                      <span>
-                        <input type="text"
-                        name="bussines"
-                        value={this.state.bussines}
-                        onChange={this.handleInputChange.bind(this)}
-                        size="40"
-                        aria-required="true"
-                        aria-invalid="false"
-                        error={this.state.errors.bussines}
-                        placeholder="Empresa"/>
-                      </span>
-                    </div>
-                    <div>
-                      <span>
-                        <input type="text"
-                        name="phone"
-                        value={this.state.phone}
-                        onChange={this.handleInputChange.bind(this)}
-                        size="40"
-                        aria-required="true"
-                        aria-invalid="false"
-                        error={this.state.errors.phone}
-                        placeholder="Teléfono"/>
-                      </span>
-                    </div>
-                    <div>
-                      <span>
-                      <select name="rubro" value={this.state.rubro} onChange={this.handleInputChange.bind(this)} aria-invalid="false" error={this.state.errors.rubro}>
-                        <option value="SELECCIONE RUBRO">SELECCIONE RUBRO</option>
-                        <option value="Minería">Minería</option>
-                        <option value="Energía">Energía</option>
-                        <option value="Sector Público">Sector Público</option>
-                        <option value="Constructora">Constructora</option>
-                        <option value="Inmobiliaria">Inmobiliaria</option>
-                        <option value="Ingeniería">Ingeniería</option>
-                        <option value="Proveedor de Materiales">Proveedor de Materiales</option>
-                        <option value="Universidad y/o Entidades de Educación">Universidad y/o Entidades de Educación</option>
-                        <option value="Consultora">Consultora</option>
-                        <option value="Oficina de Arquitectura">Oficina de Arquitectura</option>
-                        <option value="Industria">Industria</option>
-                        <option value="Asociación Gremial">Asociación Gremial</option>
-                        <option value="Otros">Otros</option></select>
-                      </span>
-                    </div>
-                    <div >
-                      <span >
-                        <select name="motivo" value={this.state.motivo} onChange={this.handleInputChange.bind(this)} aria-invalid="false" error={this.state.errors.motivo}>
-                          <option value="MOTIVO">MOTIVO</option>
-                          <option value="Formar parte">Formar parte</option>
-                          <option value="Felicitaciones">Felicitaciones</option>
-                          <option value="Sugerencias u observaciones">Sugerencias u observaciones</option>
-                          <option value="Otros">Otros</option></select>
-                      </span>
-                    </div>
-                    <div>
-                        <span>
-                          <textarea name="message"
-                          cols="40"
-                          rows="10"
-                          class="wpcf7-form-control wpcf7-textarea"
-                          aria-invalid="false"
-                          error={this.state.errors.message}
-                          onChange={this.handleInputChange.bind(this)}
-                          placeholder="Mensaje"></textarea>
-                      </span>
-                    </div>
-                    <div>
-                      <span >
-                        <input
-                        type="submit"
-                        value="ENVIAR"
-                        class="wpcf7-form-control wpcf7-submit"
-                        onClick={this.sentMessage.bind(this)}/>
-                      </span>
-                    </div>
-                </form>
-              </div>
-            </div>
-          </div>
-      </div>
-
+      </main>
+    </section>
     );
   }
 }
