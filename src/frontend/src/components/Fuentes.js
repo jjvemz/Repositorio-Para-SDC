@@ -82,10 +82,10 @@ export default class Fuentes extends Component {
                  <img className='fuentes__item'  id='uchile' src={`${window.PUBLIC_URL}/assets/logos/uchile.png`} target="_blank" rel="noopener noreferrer" alt="cchc"/>
                  <h3 className='fuentes__title'><a href='https://www.uchile.cl/'>Universidad de Chile</a></h3>
                  <p className='fuentes__text'>Información sobre Encuesta de Ocupación y Desocupación.</p>
-              </div>               
+              </div>
 
               <div className="col-sm-6 col-md-4">
-              </div>                           
+              </div>
 
               <div className="col-sm-6 col-md-4">
               </div>
@@ -107,6 +107,16 @@ export default class Fuentes extends Component {
                   <h3 className='fuentes__title'><a href='https://www.economia.gob.cl'>Subsecretaría de Economía</a></h3>
                   <p className='fuentes__text'>Información de la Encuesta de Innovación.</p>
                </div>
+            </div>
+            
+            <h2>Colaboradores</h2>
+            <p>Agradecemos a nuestros colaboradores, quienes permiten que SmartData Construcción tenga el respaldo técnico necesario, la conexión con el contexto nacional e internacional en torno a datos, y entrega la robustez a la Gobernanza de la iniciativa.
+            También te invitamos a sumarte escribiéndonos a través de nuestra pestaña de contacto.</p>
+
+            <div className="col-sm-6 col-md-4">
+               <img className='fuentes__item'  src={`${window.PUBLIC_URL}/assets/logos/abriendoDatos.jpeg`} target="_blank" rel="noopener noreferrer" alt="cchc"/>
+               <h3 className='fuentes__title'><a href='https://www.abriendodatos.org/'>Abriendo Datos</a></h3>
+               <p className='fuentes__text'>Fundación Abriendo Datos genera iniciativas para reducir la desigualdad política y económica por medio del empoderamiento de la ciudadanía hacia una cultura de Datos Abiertos</p>
             </div>
 
 
