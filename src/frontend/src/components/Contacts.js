@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import toastr from 'toastr';
-import {Linking,Platform,TouchableOpacity} from "react-native";
+import { Text, StyleSheet, View, Linking, Platform, TouchableOpacity } from 'react-native';
+import { Redirect } from 'react-router-dom'
 import HeaderContacto from './commons/HeaderContacto';
 import * as emailjs from 'emailjs-com';
 import validator from 'validator';
@@ -130,12 +131,19 @@ export default class Contacts extends Component {
     })
     return formIsValid
   }
-  dialCall = (number) => {
+  dialCall = () => {
+
     let phoneNumber = '';
-    if (Platform.OS === 'android') { phoneNumber = `tel:${number}`; }
-    else {phoneNumber = `telprompt:${number}`; }
+
+    if (Platform.OS === 'android') {
+      phoneNumber = 'tel:${+56229780749}';
+    } else if (Platform.OS === 'IOS') {
+      phoneNumber = 'telprompt:${+56229780749}';
+    }
+
     Linking.openURL(phoneNumber);
   };
+
 
 
   render(){
@@ -146,17 +154,19 @@ export default class Contacts extends Component {
           <div class ="container">
             <div class="Contact-container">
                 <div class="column-left">
-                  <h2 style={{marginBottom:"0px",}}>Nuestra direccion</h2>
-                    <h3>Estamos ubicados a minutos de la estacion Parque OHiggins</h3>
+                  <h2 style={{marginBottom:"0px",}}>Nuestra dirección: Plaza Ercilla 883, Santiago.</h2>
+                    <h3 class="green-h3" >Estamos ubicados a minutos de la estacion Parque OHiggins</h3>
                     <hr></hr>
                     <h5 style={{marginBottom:"4px",}}>CTeC  </h5>
                     <p>Somos el Centro Tecnológico para la Innovación en la Construcción, y nuestro objetivo es contribuir al proceso de transformación de la industria de la construcción nacional.</p>
                     <p style={{marginBottom:"4px",}}>
                     </p>
                     <p style={{marginBottom:"4px",}}>
-                      <TouchableOpacity>
-                        <a class="arrow_link" onPress={()=>{this.dialCall(+56977666273)}}>Llámanos: +56 2 2978 0749</a>
-                      </TouchableOpacity>
+                      <View>
+                        <TouchableOpacity>
+                          <Text class="arrow_link" onPress={this.dialCall}  activeOpacity={0.7}>Llámanos: +56 2 2978 0749</Text>
+                        </TouchableOpacity>
+                      </View>
                     </p>
                 </div>
                 <div class="column-center">
@@ -166,14 +176,16 @@ export default class Contacts extends Component {
                 </div>
                 <div class="column-right">
                   <h2 > Envianos un mensaje</h2>
-                  <h3>Dejanos tus datos y te contactaremos</h3>
+                  <h3 class="green-h3" >Dejanos tus datos y te contactaremos</h3>
                   <div role="form" dir="ltr" lang="en-US">
                     <div>
-                      <form  id="contact-form" onSubmit={this.handleSubmit} >
+                      <form  class="contact-form" onSubmit={this.handleSubmit} >
                           <div>
-                            <span>
+                          <ul>
+                            <li>
                               <input type="text"
                               name="name"
+                              class="field-style field-split align-left"
                               value={this.state.name}
                               onChange={this.handleInputChange.bind(this)}
                               size="40"
@@ -181,12 +193,9 @@ export default class Contacts extends Component {
                               aria-invalid="false"
                               error={this.state.errors.name}
                               placeholder="Nombre"/>
-                            </span>
-                          </div>
-                          <div>
-                            <span >
                               <input type="text"
                               name="lastName"
+                              class="field-style field-split align-right"
                               value={this.state.lastName}
                               onChange={this.handleInputChange.bind(this)}
                               size="40"
@@ -194,12 +203,11 @@ export default class Contacts extends Component {
                               aria-invalid="false"
                               error={this.state.errors.lastName}
                               placeholder="Apellidos"/>
-                            </span>
-                            </div>
-                            <div>
-                              <span >
+                            </li>
+                              <li >
                                 <input type="text"
                                 name="mail"
+                                class="field-style field-split align-left"
                                 value={this.state.mail}
                                 onChange={this.handleInputChange.bind(this)}
                                 size="40"
@@ -207,12 +215,9 @@ export default class Contacts extends Component {
                                 aria-invalid="false"
                                 error={this.state.errors.mail}
                                 placeholder="Mail"/>
-                              </span>
-                              </div>
-                          <div>
-                            <span>
                               <input type="text"
                               name="bussines"
+                              class="field-style field-split align-right"
                               value={this.state.bussines}
                               onChange={this.handleInputChange.bind(this)}
                               size="40"
@@ -220,12 +225,11 @@ export default class Contacts extends Component {
                               aria-invalid="false"
                               error={this.state.errors.bussines}
                               placeholder="Empresa"/>
-                            </span>
-                          </div>
-                          <div>
-                            <span>
+                            </li>
+                            <li>
                               <input type="text"
                               name="phone"
+                              class="field-style field-split align-left"
                               value={this.state.phone}
                               onChange={this.handleInputChange.bind(this)}
                               size="40"
@@ -233,56 +237,63 @@ export default class Contacts extends Component {
                               aria-invalid="false"
                               error={this.state.errors.phone}
                               placeholder="Teléfono"/>
-                            </span>
-                          </div>
-                          <div>
-                            <span>
-                            <select name="rubro" value={this.state.rubro} onChange={this.handleInputChange.bind(this)} aria-invalid="false" error={this.state.errors.rubro}>
-                              <option value="SELECCIONE RUBRO">SELECCIONE RUBRO</option>
-                              <option value="Minería">Minería</option>
-                              <option value="Energía">Energía</option>
-                              <option value="Sector Público">Sector Público</option>
-                              <option value="Constructora">Constructora</option>
-                              <option value="Inmobiliaria">Inmobiliaria</option>
-                              <option value="Ingeniería">Ingeniería</option>
-                              <option value="Proveedor de Materiales">Proveedor de Materiales</option>
-                              <option value="Universidad y/o Entidades de Educación">Universidad y/o Entidades de Educación</option>
-                              <option value="Consultora">Consultora</option>
-                              <option value="Oficina de Arquitectura">Oficina de Arquitectura</option>
-                              <option value="Industria">Industria</option>
-                              <option value="Asociación Gremial">Asociación Gremial</option>
-                              <option value="Otros">Otros</option></select>
-                            </span>
-                          </div>
-                          <div >
-                            <span >
-                              <select name="motivo" value={this.state.motivo} onChange={this.handleInputChange.bind(this)} aria-invalid="false" error={this.state.errors.motivo}>
-                                <option value="MOTIVO">MOTIVO</option>
-                                <option value="Formar parte">Formar parte</option>
-                                <option value="Felicitaciones">Felicitaciones</option>
-                                <option value="Sugerencias u observaciones">Sugerencias u observaciones</option>
-                                <option value="Otros">Otros</option></select>
-                            </span>
-                          </div>
-                          <div>
-                              <span>
+                            </li>
+                            <li>
+                            <select name="rubro"
+                            class="field-style field-full align-none"
+                            value={this.state.rubro}
+                            onChange={this.handleInputChange.bind(this)}
+                            aria-invalid="false"
+                            error={this.state.errors.rubro}>
+                              <option class="option-text" value="SELECCIONE RUBRO">SELECCIONE RUBRO</option>
+                              <option class="option-text" value="Minería">Minería</option>
+                              <option class="option-text" value="Energía">Energía</option>
+                              <option class="option-text" value="Sector Público">Sector Público</option>
+                              <option class="option-text" value="Constructora">Constructora</option>
+                              <option class="option-text" value="Inmobiliaria">Inmobiliaria</option>
+                              <option class="option-text" value="Ingeniería">Ingeniería</option>
+                              <option class="option-text" value="Proveedor de Materiales">Proveedor de Materiales</option>
+                              <option class="option-text" value="Universidad y/o Entidades de Educación">Universidad y/o Entidades de Educación</option>
+                              <option class="option-text" value="Consultora">Consultora</option>
+                              <option class="option-text" value="Oficina de Arquitectura">Oficina de Arquitectura</option>
+                              <option class="option-text" value="Industria">Industria</option>
+                              <option class="option-text" value="Asociación Gremial">Asociación Gremial</option>
+                              <option class="option-text" value="Otros">Otros</option>
+                              </select>
+                            </li>
+                            <li >
+                              <select name="motivo"
+                              class="field-style field-full align-none"
+                              value={this.state.motivo}
+                              onChange={this.handleInputChange.bind(this)}
+                              aria-invalid="false"
+
+                              error={this.state.errors.motivo}>
+                                <option class="option-text" value="MOTIVO">MOTIVO</option>
+                                <option class="option-text" value="Formar parte">Formar parte</option>
+                                <option class="option-text" value="Felicitaciones">Felicitaciones</option>
+                                <option class="option-text" value="Sugerencias u observaciones">Sugerencias u observaciones</option>
+                                <option class="option-text" value="Otros">Otros</option>
+                                </select>
+                            </li>
+                              <li>
                                 <textarea name="message"
                                 cols="40"
                                 rows="10"
+                                class="field-style"
                                 aria-invalid="false"
                                 error={this.state.errors.message}
                                 onChange={this.handleInputChange.bind(this)}
                                 placeholder="Mensaje"></textarea>
-                            </span>
-                          </div>
-                          <div>
-                            <span >
+                            </li>
+                            <li >
                               <input
                               type="submit"
                               value="ENVIAR"
                               class="wpcf7-form-control wpcf7-submit"
                               onClick={this.sentMessage.bind(this)}/>
-                            </span>
+                            </li>
+                            </ul>
                           </div>
                       </form>
                     </div>

@@ -16,7 +16,10 @@ import TreemapGraph from '../graphs/TreemapGraph';
 import TimeSerie from '../graphs/TimeSerie';
 import TotalStackedGraph from '../graphs/TotalStackedGraph';
 //import style from './style.css';
-
+const buttonStyle= {
+  backgroundColor: '#199c48',
+	boxShadow:null ,
+}
 
 function Page(props){
   const {
@@ -34,6 +37,7 @@ function Page(props){
                   elevation={1}
                   className="paper-container"
                 />
+                //en caso que haya el Item actual exista desplegará el gráfico dependiendo del atributo file y graph, este ultimo dirá que gráfico se mostrará
                 {currentItem ?
                   <Fragment>
                     <Typography gutterBottom variant= "h5" component = "h3">
@@ -83,6 +87,7 @@ function Page(props){
                 }
               <Button
                 color="primary"
+                class="back-button"
                 onClick={() => goTo('/results')}
                 >
                 Regresar

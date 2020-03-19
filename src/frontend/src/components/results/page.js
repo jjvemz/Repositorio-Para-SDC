@@ -19,6 +19,7 @@ function Page(props){
         <div class="container p-3 my-3 border">
           <Fragment>
             <div className = "results-page">
+            //Si esta vacio, retorna que "No existe su solicitud."
             {isEmpty ?
               <Typography variant = "h5" component ="h3" className ="page-message">
                 No existe su solicitud.

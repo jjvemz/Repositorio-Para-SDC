@@ -24,3 +24,14 @@
 .item-loader {
     padding: 1rem;
 }
+
+.back-button{
+  box-shadow:none;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+}
+.back-button{
+	padding: 8px 15px 8px 15px;
+	border: none;
+	color: #fff;
+}

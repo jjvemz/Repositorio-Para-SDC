@@ -30,7 +30,7 @@ class Results extends Component {
         );
     }
 }
-
+//Mapea los resultados
 const mapStateToProps = state => ({
     results: state.results,
 });

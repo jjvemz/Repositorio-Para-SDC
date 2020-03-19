@@ -19,7 +19,7 @@ class Details extends Component {
     super(props);
     this.goTo = this.goTo.bind(this);
   }
-
+  //posible raiz de los problemas
   componentDidMount(){
     const {
       match:{params:{graphId}},

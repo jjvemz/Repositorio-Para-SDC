@@ -2,7 +2,7 @@ import { type as findSuggestionsType } from '../actions/findSuggestions';
 import items from '../../data/items';
 
 const defaultState = [];
-
+//filtra las sugerencias según el nombre
 function reducer(state = defaultState, { type, payload }) {
     switch (type) {
         case findSuggestionsType: {

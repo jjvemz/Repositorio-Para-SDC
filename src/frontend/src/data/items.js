@@ -8,7 +8,7 @@ export default [
   {id: id++, name:"Promedio Cesantes", file:'Promedio_Cesantes', graph:'KpiGraph'}
   ,{id: id++, name:"Promedio Anual Sector Región", file:'Promedio_Anual_Sector_Region', graph:'RegionStackedGraph' },
   {id: id++, name:"Participación respecto economía", file:'Participacion_respecto_economia', graph:'StackedGraph'}
-  ,{id: id++, name:"Participación regional MM total pais año", file:'Participacion_regional_MM_total_pais_anio', graph:'RegionStackedGraph' }
+  ,{id: id++, name:"PIB por región MM$", file:'Participacion_regional_MM_total_pais_anio', graph:'RegionStackedGraph' }
   ,{id: id++, name:"Inversión en Infraestructura mill UF por tipo", file:'Inversion_Infraestructura', graph:'TimeSerie'}
   ,{id: id++, name:"Índice de la Actividad de la Construcción Regional, INACOR, % variación mensual", file:'INACOR_Variacion_Mensual', graph:'TimeSerie'}
   ,{id: id++, name:"Permisos Edificacion Acumulados m2", file:'Permisos_Edificacion_Acumulados_m2', graph:'TimeSerie'}
