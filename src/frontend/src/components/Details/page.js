@@ -43,6 +43,7 @@ function Page(props){
                     <Typography gutterBottom variant= "h5" component = "h3">
                       Nombre:{currentItem.file}
                     </Typography>
+                    //Solo muestra el primer gráfico el tipo de grafico que agarro. Si cambia de tipo de gráfico mostrara solo ese sin actualizar
                     <div>
                       <Switch condition={currentItem.graph}>
                           <Case value="KpiGraph">
