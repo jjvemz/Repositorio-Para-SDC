@@ -26,7 +26,6 @@ const CustomizedLabel = ({x, y, fill, value}) =>  {
 }
 const SmartTooltip = ({ active, payload, label }) => {
   if (active && payload) {
-    debugger;
     let pl = payload[0].payload;
     let titles = _.keys(pl.tooltip[0]);
     let values = _.values(pl.tooltip[0]);

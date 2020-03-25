@@ -33,7 +33,7 @@ class Autocomplete extends Component {
                      />
                 </div>
                 <InputBase
-                    placeholder="Ingrese su grafico"
+                    placeholder="Ingrese el nombre del gráfico a buscar"
                     value={text}
                     style={{ width: '100%',position: 'static'}}
                     onChange={(event) => {
