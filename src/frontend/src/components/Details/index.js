@@ -3,7 +3,6 @@ import {connect} from 'react-redux';
 import {withRouter} from 'react-router-dom';
 import Switch, { Case, Default } from 'react-switch-case';
 import Paper from '@material-ui/core/Paper';
-import CircularProgress from '@material-ui/core/CircularProgress';
 import Button from '@material-ui/core/Button';
 
 import KpiGraph from '../graphs/KpiGraph';

@@ -33,9 +33,11 @@
 	margin-bottom: 10px;
 	min-height: 38px;
 }
+/*
 ::placeholder {
     color: #fff;
 }
+*/
 
 .green-h3{
   color: #7AA48D !important;
@@ -49,20 +51,26 @@ select::-ms-expand {
     display: none;
 }
 
+.btn-primary{
+  background-color: #4c87c6;
+}
 .contact-form ul li  .field-style{
 	padding: 8px;
-	outline: none;
+  outline: none;
 	border: 1px solid #B0CFE0;
-  background-color: #4c87c6;
+  /*background-color: #4c87c6;*/
 	-webkit-transition: all 0.30s ease-in-out;
 	-moz-transition: all 0.30s ease-in-out;
 	-ms-transition: all 0.30s ease-in-out;
 	-o-transition: all 0.30s ease-in-out;
 
 }
+.arrow_link::hover{
+  color:red;
+}
 select {
-  background-color: #4c87c6;
-  color: white;
+  /*background-color: #4c87c6;
+  color: white;*/
   option {
     color: white;
     }
