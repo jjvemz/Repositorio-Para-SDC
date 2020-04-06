@@ -12,9 +12,9 @@ global init_data_name
 ## A. Writing Json file with format 
 def write_json_UTF8(jsonDir, name_file):
     with open(name_file, 'w') as outfile:
-        json.dump(jsonDir, outfile, ensure_ascii=False)
+        json.dump(jsonDir, outfile, ensure_ascii=True)
     
-    with codecs.open(name_file, 'r', encoding = "iso-8859-1") as file:
+    with codecs.open(name_file, 'r', encoding = "utf8") as file:
           lines = file.read()
     
     with codecs.open(name_file, 'w', encoding = 'utf8') as file:
