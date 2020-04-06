@@ -257,12 +257,12 @@ export default class MultilineGraph extends Component {
 
         <div className="card-footer">
           <div className="row align-items-center">
-            <div className="col">
-               {!isAllYears && all_years_keys && <select className={`time_serie_year ${this.props.kpi_name}`} defaultValue={this.state.year_sel} onChange={e => this.setSel(this.state.kpi_sel, e.target.value, this.state.region_sel)}>
+            <div className="col-md-9">
+               {!isAllYears && all_years_keys && <select className={`form-control time_serie_year ${this.props.kpi_name}`} defaultValue={this.state.year_sel} onChange={e => this.setSel(this.state.kpi_sel, e.target.value, this.state.region_sel)}>
                  {_.map(all_years_keys, (e_k, idx) => <option value={idx} key={idx}>{e_k}</option>)}
                </select>}
             </div>
-            <div className="col">
+            <div className="col-md-3">
               <ul className="text-right">
                 {(linkPlot) && <li className="card-footer__item"><a className="btn btn-circle btn__info--white" role="button" href={linkPlot} target="png">
                   <i className='fa fa-file'></i>

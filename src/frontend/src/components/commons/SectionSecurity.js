@@ -21,12 +21,12 @@ export default class SectionSecurity extends Component {
             </div>
             <div className="col-lg-9">
                <div className="card-deck mb-2">
-                  <TimeSerie kpi_name='Num_Empr_adherentes_Seguro_Ley_Actividad_Economica'></TimeSerie>
-                  <TimeSerie kpi_name='Trabajadores_protegidos_Seguro_Ley_Actividad_Económica'></TimeSerie>
+                  <TimeSerie kpi_name='Num_Empr_adherentes_Seguro_Ley_Actividad_Economica' isAllYears={true}></TimeSerie>
+                  <TimeSerie kpi_name='Trabajadores_protegidos_Seguro_Ley_Actividad_Económica' isAllYears={true}></TimeSerie>
                </div>
                <div className="card-deck mb-2">
-                  <StackedGraph kpi_name='Trabajadores_protegidos_sector_construcción_región'></StackedGraph>
-                  <TimeSerie kpi_name='Accidentes_Tasa_acc'></TimeSerie>
+                  <StackedGraph kpi_name='Trabajadores_protegidos_sector_construcción_región' isAllYears={true}></StackedGraph>
+                  <TimeSerie kpi_name='Accidentes_Tasa_acc' isAllYears={true}></TimeSerie>
                </div>
             </div>
          </div>

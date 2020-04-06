@@ -137,11 +137,11 @@ export default class TreemapGraph extends Component {
         <div className="card-header text-right">
           <p className="titleUp">{kpi_head.titulo}</p>
 
-          {all_regions_keys && <select className={`time_serie_year ${this.props.kpi_name}`} defaultValue={this.state.region_sel} onChange={e => this.setSel(this.state.kpi_sel, this.state.year_sel, e.target.value)}>
+          {all_regions_keys && <select className={`form-control  ${this.props.kpi_name}`} defaultValue={this.state.region_sel} onChange={e => this.setSel(this.state.kpi_sel, this.state.year_sel, e.target.value)}>
             {_.map(all_regions_keys, (e_k, idx) => <option value={idx} key={idx}>{e_k}</option>)}
           </select>}
 
-          {all_years_keys && <select className={`time_serie_year ${this.props.kpi_name}`} defaultValue={this.state.year_sel} onChange={e => this.setSel(this.state.kpi_sel, e.target.value, this.state.region_sel)}>
+          {all_years_keys && <select className={`form-control time_serie_year ${this.props.kpi_name}`} defaultValue={this.state.year_sel} onChange={e => this.setSel(this.state.kpi_sel, e.target.value, this.state.region_sel)}>
             {_.map(all_years_keys, (e_k, idx) => <option value={idx} key={idx}>{e_k}</option>)}
           </select>}
 

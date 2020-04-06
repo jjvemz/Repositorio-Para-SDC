@@ -169,7 +169,7 @@ export default class TotalStackedGraph extends Component {
                                 return <span style={{ color, fontSize: 14 }}>{value}</span>;
                             }} />
                             {graphData[0].keys.map((row, key) =>
-                                <Area type="monotone" dataKey={row} stackId={0} stroke={colors[key]} fill={colors[key]} />
+                                <Area key={key} type="monotone" dataKey={row} stackId={0} stroke={colors[key]} fill={colors[key]} />
 
                             )}
                        </AreaChart>
@@ -178,14 +178,14 @@ export default class TotalStackedGraph extends Component {
 
                 <div className="card-footer">
                     <div className="row align-items-center">
-                        <div className="col">
-                           {all_kpi && <select className={`time_serie_year ${this.props.kpi_name}`} defaultValue={this.state.region_sel}
+                        <div className="col-md-9">
+                           {all_kpi && <select className={`form-control time_serie_year ${this.props.kpi_name}`} defaultValue={this.state.region_sel}
                                onChange={e => this.setSel(e.target.value, this.state.year_sel, this.state.region_sel)}>
                                {_.map(all_kpi, (e_k, idx) => <option value={idx} key={idx}>{e_k}</option>)}
                            </select>}
                         </div>
 
-                        <div className="col">
+                        <div className="col-md-3">
                             <ul className="text-right">
                                 {(linkPlot) && <li className="card-footer__item"><a className="btn btn-circle btn__info--white" role="button" href={linkPlot} target="png">
                                     <i className='fa fa-file'></i>

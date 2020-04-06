@@ -187,6 +187,9 @@ export default class TimeSerie extends Component {
     , "Cantidad_proyectos_tipo_Certificacion_y_proyecto_mensual"
     /* Gráficos de Innovación */
     , "Instituciones_capacitación_formal_BIM_institución_region"
+    , "Num_Empr_adherentes_Seguro_Ley_Actividad_Economica"
+    , "Trabajadores_protegidos_Seguro_Ley_Actividad_Económica",
+    , "Accidentes_Tasa_acc"
     ].find(row => row === kpi_name);
 
     if (found)
@@ -278,16 +281,16 @@ export default class TimeSerie extends Component {
 
         <div className="card-footer">
           <div className="row align-items-center">
-            <div className="col">
-               {all_regions_keys && <select className={`time_serie_year ${this.props.kpi_name}`} defaultValue={this.state.region_sel} onChange={e => this.setSel(this.state.kpi_sel, this.state.year_sel, e.target.value)}>
+            <div className="col-md-9">
+               {all_regions_keys && <select className={`form-control time_serie_year ${this.props.kpi_name}`} defaultValue={this.state.region_sel} onChange={e => this.setSel(this.state.kpi_sel, this.state.year_sel, e.target.value)}>
                  {_.map(all_regions_keys, (e_k, idx) => <option value={idx} key={idx}>{e_k}</option>)}
                </select>}
 
-               {!isAllYears && all_years_keys && <select className={`time_serie_year ${this.props.kpi_name}`} defaultValue={this.state.year_sel} onChange={e => this.setSel(this.state.kpi_sel, e.target.value, this.state.region_sel)}>
+               {!isAllYears && all_years_keys && <select className={`form-control time_serie_year ${this.props.kpi_name}`} defaultValue={this.state.year_sel} onChange={e => this.setSel(this.state.kpi_sel, e.target.value, this.state.region_sel)}>
                  {_.map(all_years_keys, (e_k, idx) => <option value={idx} key={idx}>{e_k}</option>)}
                </select>}
             </div>
-            <div className="col">
+            <div className="col-md-3">
               <ul className="text-right">
                 {(linkPlot) && <li className="card-footer__item"><a className="btn btn-circle btn__info--white" role="button" href={linkPlot} target="png">
                   <i className='fa fa-file'></i>

@@ -141,11 +141,11 @@ export default class RegionTreemapGraph extends Component {
         <div className="card-header text-right">
           <p className="titleUp">{kpi_head.titulo}</p>
 
-          {all_kpi && <select className={`time_serie_year ${this.props.kpi_name}`} defaultValue={this.state.region_sel} onChange={e => this.setSel(e.target.value, this.state.year_sel, this.state.region_sel)}>
+          {all_kpi && <select className={`form-control time_serie_year ${this.props.kpi_name}`} defaultValue={this.state.region_sel} onChange={e => this.setSel(e.target.value, this.state.year_sel, this.state.region_sel)}>
             {_.map(all_kpi, (e_k, idx) => <option value={idx} key={idx}>{e_k}</option>)}
           </select>}
 
-          {all_years_keys && <select className={`time_serie_year ${this.props.kpi_name}`} defaultValue={this.state.year_sel} onChange={e => this.setSel(this.state.kpi_sel, e.target.value, this.state.region_sel)}>
+          {all_years_keys && <select className={`form-control time_serie_year ${this.props.kpi_name}`} defaultValue={this.state.year_sel} onChange={e => this.setSel(this.state.kpi_sel, e.target.value, this.state.region_sel)}>
             {_.map(all_years_keys, (e_k, idx) => <option value={idx} key={idx}>{e_k}</option>)}
           </select>}
 
