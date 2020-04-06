@@ -5,6 +5,7 @@ import {
 } from 'recharts';
 import _ from 'lodash'
 import { LOAD_STATE, getKpiData } from '../commons/config'
+import { currencyFormat, getYear } from '../commons/functions'
 
 const smartdataTooltip = {
   backgroundColor: '#fff',
@@ -24,10 +25,23 @@ const SmartTooltip = ({ active, payload, label }) => {
     return (
       <div style={smartdataTooltip}>
         {_.map(pl.tooltip, (item, idx)=>{
+          let label = currencyFormat(item.data);
+          if(item.label === 'Fecha: ') label = getYear(item.data);
+          if(item.label.indexOf("Tasa") > -1) label = currencyFormat(item.data) + "%";
+          if(item.label.indexOf("%") > -1) label = currencyFormat(item.data) + "%";
+          if(item.label.indexOf("Porc") > -1) label = currencyFormat(item.data) + "%";
+          if(item.label.indexOf("/Total") > -1) label = currencyFormat(item.data) + "%";
+          if(item.label.indexOf("Var") > -1){
+            if(item.label.toString().indexOf("%") > -1){
+              label = item.data + "%";
+            }else{
+              label = currencyFormat(item.data) + "%";
+            }
+          }
           return (
             <p style={intro} key={idx}>
               <span style={span}>{item.label === 'Fecha: ' ? item.label : `${item.label}: `}</span>
-              {parseFloat(item.data).toLocaleString('es-ES')}
+              {label}
             </p>)
         })}
       </div>
@@ -59,7 +73,6 @@ export default class TimeSerie extends Component {
     this.getData = this.getData.bind(this)
     this.setSel = this.setSel.bind(this)
     this.xAxisTickFormatter = this.xAxisTickFormatter.bind(this);
-    this.yAxisTickFormatter = this.yAxisTickFormatter.bind(this);
   }
 
   getData(){
@@ -182,10 +195,6 @@ export default class TimeSerie extends Component {
       return data.split(' ')[0];
   }
 
-  yAxisTickFormatter(data) {
-    return parseFloat(data).toLocaleString('es-ES');
-  }
-
   componentDidMount(){
     this.getData()
   }
@@ -247,7 +256,7 @@ export default class TimeSerie extends Component {
                     stroke="#222"
                     dataKey="y"
                     domain={[bottom, top]}
-                    tickFormatter={this.yAxisTickFormatter}
+                    tickFormatter={currencyFormat}
                   />
                   <ReferenceLine y={0} stroke="#000" />
                   <Tooltip content={<SmartTooltip />}/>

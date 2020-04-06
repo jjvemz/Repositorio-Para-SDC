@@ -5,6 +5,7 @@ import {
 } from 'recharts';
 import _ from 'lodash'
 import { LOAD_STATE, getKpiData } from '../commons/config'
+import { currencyFormat } from '../commons/functions'
 
 const smartdataTooltip = {
   backgroundColor: '#fff',
@@ -44,10 +45,10 @@ const SmartTooltip = ({ active, payload, label }) => {
             return (
               <div key={idx} style={row}>
                 <div style={{width: '30%', textAlign: 'right'}}><span style={titleStyle}>{title}</span></div>
-                <div style={{width: '15%', ...intro}}><span>{values[0]}</span></div>
+                <div style={{width: '15%', ...intro}}><span>{currencyFormat(values[0])}</span></div>
                 <div style={{width: '15%', ...intro}}><span>{values[2]}</span></div>
                 <div style={{width: '20%', ...intro}}><span>{values[3]}</span></div>
-                <div style={{width: '20%', ...intro}}><span>{values[4]}</span></div>
+                <div style={{width: '20%', ...intro}}><span>{currencyFormat(values[4])}</span></div>
               </div>
             )
         })}
@@ -79,7 +80,6 @@ export default class MultilineGraph extends Component {
     this.getData = this.getData.bind(this)
     this.setSel = this.setSel.bind(this)
     this.xAxisTickFormatter = this.xAxisTickFormatter.bind(this);
-    this.yAxisTickFormatter = this.yAxisTickFormatter.bind(this);
   }
 
   getData(){
@@ -137,7 +137,7 @@ export default class MultilineGraph extends Component {
 
         graphData.push(data)
       })
-      console.log("graphData new: ", graphData);
+      /*console.log("graphData new: ", graphData);*/
     })
 
     this.setState({ kpi_sel: _kpi_sel, year_sel: _year_sel,
@@ -146,10 +146,6 @@ export default class MultilineGraph extends Component {
 
   xAxisTickFormatter(data) {
     return data.split(' ')[0];
-  }
-
-  yAxisTickFormatter(data) {
-    return parseFloat(data).toLocaleString('es-ES');
   }
 
   componentDidMount(){
@@ -211,7 +207,7 @@ export default class MultilineGraph extends Component {
                     stroke="#222"
                     domain={[bottom, top]}
                     padding={{ top: 20, bottom: 20 }}
-                    tickFormatter={this.yAxisTickFormatter}
+                    tickFormatter={currencyFormat}
                   />
                   <ReferenceLine y={0} stroke="#000" />
                   <Tooltip content={<SmartTooltip />}/>
