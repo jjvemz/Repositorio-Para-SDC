@@ -90,7 +90,7 @@ export default class TotalStackedGraph extends Component {
         let data = {}
         let all_regions = _.keys(all_years[0].regiones)
         all_years.forEach((in_data, x_idx) => {
-            let region_name = all_regions[_region_sel]
+            // let region_name = all_regions[_region_sel]
             let data_region = _.values(in_data.regiones)
             let detail_region = data_region.map(row =>row.meses)
             let detail = detail_region.map(row =>row.Dic)
@@ -123,7 +123,7 @@ export default class TotalStackedGraph extends Component {
     }
 
     render() {
-        const { load_state, graphData, all_regions, kpi_head, all_kpi } = this.state
+        const { load_state, graphData, /*all_regions,*/ kpi_head, all_kpi } = this.state
 
         if (load_state === LOAD_STATE.LOADING) return (
             <p>Cargando...</p>

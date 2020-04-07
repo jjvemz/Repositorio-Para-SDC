@@ -42,10 +42,11 @@ class Details extends Component {
   goTo(path){this.props.history.push(path);}
 
   render(){
+    /*
     const {
       match:{params:{graphId}},
     } = this.props;
-
+    */
     const { currentItem } = this.state;
     console.log('currentItem: ', currentItem);
 
@@ -72,13 +73,13 @@ class Details extends Component {
                 <div className="my-5">
                   <Switch condition={currentItem.graph}>
                     <Case value="KpiGraph">
-                      <KpiGraph kpi_name = {currentItem.file} ></KpiGraph>
+                      <KpiGraph kpi_name = {currentItem.file}></KpiGraph>
                     </Case>
                     <Case value="MapGraph">
                         <MapGraph kpi_name = {currentItem.file} ></MapGraph>
                     </Case>
                     <Case value="TimeSerie">
-                        <TimeSerie kpi_name = {currentItem.file} ></TimeSerie>
+                        <TimeSerie kpi_name = {currentItem.file} isAllYears={true}></TimeSerie>
                     </Case>
                     <Case value="MultilineGraph">
                         <MultilineGraph kpi_name = {currentItem.file} isAllYears={true}></MultilineGraph>

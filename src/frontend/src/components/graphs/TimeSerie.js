@@ -170,15 +170,14 @@ export default class TimeSerie extends Component {
 
   xAxisTickFormatter(data) {
     const { kpi_name } = this.props;
-    const found =
-    [
+    const found = [
     /* Gráficos de Macroindicadores */
       "Permisos_Edificacion_por_Anio"
     , "Inversion_Vivivenda"
-    , "Inversion_Infraestructura",
-    , "Trabajadores_Promedio_Anual",
-    , "Trabajadores_Region",
-    , "Por_Regiones_Trimestre_Mensual",
+    , "Inversion_Infraestructura"
+    , "Trabajadores_Promedio_Anual"
+    , "Trabajadores_Region"
+    , "Por_Regiones_Trimestre_Mensual"
     /* Gráficos de Sustentabilidad */
     , "Indicador_anual_Sustentabilidad_Comercial"
     , "Indicador_anual_Sustentabilidad_Publico"
@@ -188,7 +187,7 @@ export default class TimeSerie extends Component {
     /* Gráficos de Innovación */
     , "Instituciones_capacitación_formal_BIM_institución_region"
     , "Num_Empr_adherentes_Seguro_Ley_Actividad_Economica"
-    , "Trabajadores_protegidos_Seguro_Ley_Actividad_Económica",
+    , "Trabajadores_protegidos_Seguro_Ley_Actividad_Económica"
     , "Accidentes_Tasa_acc"
     ].find(row => row === kpi_name);
 

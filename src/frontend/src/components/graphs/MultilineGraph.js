@@ -22,9 +22,11 @@ const titleStyle = { fontSize: 12, fontWeight: 'bold', textAlign: 'right' };
 
 const row = {width: '500px', display: 'flex'} ;
 
+/*
 const CustomizedLabel = ({x, y, fill, value}) =>  {
     return <text x={x} y={y} dy={-4} fill={fill} fontSize={10} textAnchor="middle">{value}</text>;
 }
+*/
 const SmartTooltip = ({ active, payload, label }) => {
   if (active && payload) {
     let pl = payload[0].payload;
@@ -92,12 +94,12 @@ export default class MultilineGraph extends Component {
       let data_kpi = kpi_data[kpi_sel_idx]
       let all_years = _.map(data_kpi, kpi => kpi)
       let last_year = all_years.length - 1
-      let { PAIS } = all_years[last_year].regiones
-      let isCountry = PAIS ? true : false
+      // let { PAIS } = all_years[last_year].regiones
+      // let isCountry = PAIS ? true : false
       let { isAllYears } = this.props
       if(isAllYears) last_year = -1
 
-      this.setState({ kpi_head, kpi_data, all_kpi, all_years, isCountry, isAllYears })
+      this.setState({ kpi_head, kpi_data, all_kpi, all_years, /*isCountry,*/ isAllYears })
       this.setSel(this.state.kpi_sel, last_year, this.state.region_sel)
       this.setState({ load_state: LOAD_STATE.LOADED })
     })
@@ -108,7 +110,7 @@ export default class MultilineGraph extends Component {
   }
 
   setSel(_kpi_sel, _year_sel) {
-    let { all_years, isCountry } = this.state
+    let { all_years } = this.state
     let x_idx = 1
     let graphData = []
     let all_materials = []
@@ -159,7 +161,7 @@ export default class MultilineGraph extends Component {
   }
 
   render() {
-    const {load_state, all_years, isCountry, kpi_head, isAllYears,
+    const {load_state, all_years, kpi_head, isAllYears,
       graphData, left, right, refAreaLeft, refAreaRight, bottom, top
     } = this.state
 

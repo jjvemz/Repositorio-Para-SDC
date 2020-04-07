@@ -29,3 +29,10 @@
     margin-left: auto;
     margin-right: auto;
 }
+.input-group-text{
+    background-color: white;
+    border-right: 0;
+}
+.input-search{
+    border-left: 0;
+}

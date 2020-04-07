@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { NavLink, Redirect } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import AppBar from '../commons/appBar';
 
 

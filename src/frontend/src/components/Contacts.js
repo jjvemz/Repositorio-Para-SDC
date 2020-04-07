@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import toastr from 'toastr';
-import { Text, StyleSheet, View, Linking, Platform, TouchableOpacity } from 'react-native';
+// import { Text, StyleSheet, View, TouchableOpacity, Linking, Platform } from 'react-native';
 import { Redirect } from 'react-router-dom'
-import HeaderContacto from './commons/HeaderContacto';
+//import HeaderContacto from './commons/HeaderContacto';
 import * as emailjs from 'emailjs-com';
 import validator from 'validator';
 import 'jquery';
@@ -61,9 +61,9 @@ export default class Contacts extends Component {
      message_html: this.state.message,
      phone: this.state.phone
    }
-   var service_id = "default_service";
-   var template_id = "template_Lio0e16T";
-   var user_id = 'user_HRfMb4or8c8GfwzfM4nIh';
+   // var service_id = "default_service";
+   // var template_id = "template_Lio0e16T";
+   // var user_id = 'user_HRfMb4or8c8GfwzfM4nIh';
 
    emailjs.send("default_service", "template_Lio0e16T", template_params, 'user_HRfMb4or8c8GfwzfM4nIh')
    .then(function(response){
@@ -131,6 +131,7 @@ export default class Contacts extends Component {
     })
     return formIsValid
   }
+  /*
   dialCall = () => {
 
     let phoneNumber = '';
@@ -143,6 +144,7 @@ export default class Contacts extends Component {
 
     Linking.openURL(phoneNumber);
   };
+  */
 
 
 
