@@ -38,6 +38,13 @@
     color: #fff;
 }
 */
+body{
+  text-align: left;
+}
+.card{
+  margin-right: 5px;
+  margin-left: 5px;
+}
 
 .green-h3{
   color: #7AA48D !important;

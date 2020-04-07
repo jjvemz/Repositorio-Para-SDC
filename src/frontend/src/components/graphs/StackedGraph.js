@@ -155,7 +155,8 @@ export default class StackedGraph extends Component {
   formatName(kpi, month, year) {
     let data = month;
     if( kpi === 'CEV1'
-     || kpi === 'CEV2')
+     || kpi === 'CEV2'
+     || kpi === "Trabajadores_protegidos_sector_construcción_región")
       data = year;
     return data
   }

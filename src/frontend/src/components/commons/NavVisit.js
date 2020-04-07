@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom'
 import AppBar from '../commons/appBar';
-
+import './stylised.css';
 
 export default class NavVisit extends Component {
 
