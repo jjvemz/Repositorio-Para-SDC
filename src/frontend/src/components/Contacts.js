@@ -102,11 +102,6 @@ export default class Contacts extends Component {
       formIsValid = false
     }
 
-    if(!this.state.message || this.state.message.length <10){
-      errors.message = "10 caracteres como minimo"
-      formIsValid = false
-    }
-
     if(validator.isMobilePhone(this.state.phone) === false || this.state.phone.length <8){
       errors.message = "8 digitos como minimo"
       formIsValid = false
