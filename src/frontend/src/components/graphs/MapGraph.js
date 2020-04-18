@@ -118,8 +118,7 @@ export default class MapGraph extends Component {
             scrollWheelZoom={false}>
             <TileLayer
               attribution='&amp;copy <a href="https://mapbox.com">MapBox</a>'
-              // url='https://api.mapbox://styles/mapbox/light-v10'
-              url="YOUR_MAPBOX_KEY"
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
             {kpi_data &&
               <GeoJSON
