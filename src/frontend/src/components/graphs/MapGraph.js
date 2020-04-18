@@ -134,7 +134,8 @@ export default class MapGraph extends Component {
                   if (feature.properties && feature.properties.direccion) {
                     let { tooltip } = feature.properties
                     let tt_arr = _.map(_.keys(tooltip), t => {
-                      return `${t}:${tooltip[t]}<br/>`
+                      
+                      return `${t}: ${tooltip[t]}<br/>`
                     })
                     if(tt_arr) layer.bindPopup(_.join(tt_arr,''));
                   }
