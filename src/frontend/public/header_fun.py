@@ -14,10 +14,10 @@ def write_json_UTF8(jsonDir, name_file):
     with open(name_file, 'w') as outfile:
         json.dump(jsonDir, outfile, ensure_ascii=True)
     
-    with codecs.open(name_file, 'r', encoding = "utf8") as file:
+    with codecs.open(name_file, 'r', encoding = "UTF-8") as file:
           lines = file.read()
     
-    with codecs.open(name_file, 'w', encoding = 'utf8') as file:
+    with codecs.open(name_file, 'w', encoding = 'UTF-8') as file:
           file.write(lines)
     print("CREATED: ", name_file)
  ## B. Fixing numbers 
@@ -171,52 +171,52 @@ def DataToJson(df, varible_v, variable_meaning, reg_name, toolTip_v, toolTip_men
 
 
 ## D. Creating image to download 
-sns.set()
-def create_image(df, varible_v, variable_meaning, save_dir):
-    objetive_var = varible_v
+#sns.set()
+#def create_image(df, varible_v, variable_meaning, save_dir):
+#    objetive_var = varible_v
+#
+#    plt.close()
+#    plt.clf()
+#    
+#    df['date'] = df["Mes"].map(str) + '-' + df["anio"].map(str)
+#    for value in df['date'] :
+#        df['date'] = pd.to_datetime(
+#        df['date'], format='%m-%Y').dt.strftime('%m-%Y')
+#
+#    date = []
+#    val = []
+#    for i, value in enumerate(df[objetive_var]):
+#        if str(value) == "nan":
+#            continue
+#        else:
+#            value = repair_num(value)
+#            val.append(value)
+#
+#            date.append(df['date'].values[i])
 
-    plt.close()
-    plt.clf()
-    
-    df['date'] = df["Mes"].map(str) + '-' + df["anio"].map(str)
-    for value in df['date'] :
-        df['date'] = pd.to_datetime(
-        df['date'], format='%m-%Y').dt.strftime('%m-%Y')
+#    df = pd.DataFrame(columns=['date', objetive_var])
+#    df['date'] = date
+#    df[objetive_var] = val
 
-    date = []
-    val = []
-    for i, value in enumerate(df[objetive_var]):
-        if str(value) == "nan":
-            continue
-        else:
-            value = repair_num(value)
-            val.append(value)
+#    fig, ax = plt.subplots()
+#    sns.set_style("darkgrid")
 
-            date.append(df['date'].values[i])
+#    ax = sns.lineplot(x=range(0, len(df['date'])), y=df[objetive_var])
 
-    df = pd.DataFrame(columns=['date', objetive_var])
-    df['date'] = date
-    df[objetive_var] = val
-
-    fig, ax = plt.subplots()
-    sns.set_style("darkgrid")
-
-    ax = sns.lineplot(x=range(0, len(df['date'])), y=df[objetive_var])
-
-    names = []
+#    names = []
 
 
-    ran = int((len(df['date'])+.5)/10)
-    if ran == 0:
-        ran = 1
-    if len(df['date']) / ran < 10:
-        ran = 1
-    names = [df['date'].values[d] for d in range(0, len(df['date']), ran)]
-    ticklabels = names
-    ax.set_xticks(range(0, len(df['date'])+1, ran))
-    ax.set_xticklabels(ticklabels)
-    fig.autofmt_xdate()
-    plt.title(variable_meaning)
-    plt.ylabel(variable_meaning)
-    plt.savefig(save_dir, dpi=100)
-    plt.show()
+#    ran = int((len(df['date'])+.5)/10)
+#    if ran == 0:
+#        ran = 1
+#    if len(df['date']) / ran < 10:
+#        ran = 1
+#    names = [df['date'].values[d] for d in range(0, len(df['date']), ran)]
+#    ticklabels = names
+#    ax.set_xticks(range(0, len(df['date'])+1, ran))
+#    ax.set_xticklabels(ticklabels)
+#    fig.autofmt_xdate()
+#    plt.title(variable_meaning)
+#    plt.ylabel(variable_meaning)
+#    plt.savefig(save_dir, dpi=100)
+#    plt.show()
