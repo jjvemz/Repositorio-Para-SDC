@@ -194,9 +194,9 @@ export default class TreemapGraph extends Component {
                   <i className="fas fa-info-circle"></i>
                 </a></li>}
 
-                {(linkPlot) && <li><a className="btn btn-sm btn-default info-box" role="button" href={linkPlot} target="png">
+                {/*(linkPlot) && <li><a className="btn btn-sm btn-default info-box" role="button" href={linkPlot} target="png">
                   <i className='fa fa-file'></i>
-                </a></li>}
+                </a></li>*/}
 
                 {(glosario) && <li><a className="btn btn-sm btn-default info-box" role="button" href={glosario} target="pdf">
                   <i className='fa fa-file-pdf'></i>
