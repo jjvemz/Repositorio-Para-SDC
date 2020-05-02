@@ -37,8 +37,9 @@ const getKpiData = (kpi_name)=>{
     return new Promise((resolve, reject)=>{
 
         let _dt = new Date().valueOf()
-
-        fetch(`${API_PATH}/kpi/${kpi_name}?dt=${_dt}`, {
+        const path = `${API_PATH}/kpi/${kpi_name}?dt=${_dt}`;
+        console.log('path: ', path);
+        fetch(path, {
             method: 'GET',
             mode: "cors",
             headers: {

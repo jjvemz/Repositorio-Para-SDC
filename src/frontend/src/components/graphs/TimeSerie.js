@@ -291,13 +291,13 @@ export default class TimeSerie extends Component {
             </div>
             <div className="col-md-3">
               <ul className="text-right">
-                {(linkPlot) && <li className="card-footer__item"><a className="btn btn-circle btn__info--white" role="button" href={linkPlot} target="png">
+                {/*(linkPlot) && <li className="card-footer__item"><a className="btn btn-circle btn__info--white" role="button" href={linkPlot} target="png">
                   <i className='fa fa-file'></i>
-                </a></li>}
+                </a></li>*/}
 
-                {(glosario) && <li className="card-footer__item"><a className="btn btn-circle btn__info--white" role="button" href={glosario} target="pdf">
+                {/*(glosario) && <li className="card-footer__item"><a className="btn btn-circle btn__info--white" role="button" href={glosario} target="pdf">
                   <i className='fa fa-file-pdf'></i>
-                </a></li>}
+              </a></li>*/}
 
                 {(LinkDatosOriginales) && <li className="card-footer__item">
                   <a className="btn btn-circle btn__info--white" role="button" href={`${LinkDatosOriginales}`} target="download">

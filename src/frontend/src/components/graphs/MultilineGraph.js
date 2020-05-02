@@ -132,7 +132,7 @@ export default class MultilineGraph extends Component {
           x: material[0]['Mes'],
           a: material[0]['Barras de Acero [Ton]'],
           b: material[1]['Cemento [Ton]'],
-          c: material[2]['Hormig�n [m3]'],
+          c: material[2]['Hormig&oacute;n [m3]'],
           d: material[3]['Mat construcc.'],
           tooltip: material,
         }
