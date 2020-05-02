@@ -12,12 +12,12 @@ global init_data_name
 ## A. Writing Json file with format 
 def write_json_UTF8(jsonDir, name_file):
     with open(name_file, 'w') as outfile:
-        json.dump(jsonDir, outfile, ensure_ascii=True)
+        json.dump(jsonDir, outfile, ensure_ascii=False)
     
-    with codecs.open(name_file, 'r', encoding = "utf8") as file:
+    with codecs.open(name_file, 'r', encoding = "UTF-8") as file:
           lines = file.read()
     
-    with codecs.open(name_file, 'w', encoding = 'utf8') as file:
+    with codecs.open(name_file, 'w', encoding = 'UTF-8') as file:
           file.write(lines)
     print("CREATED: ", name_file)
  ## B. Fixing numbers 
@@ -219,4 +219,4 @@ def create_image(df, varible_v, variable_meaning, save_dir):
     plt.title(variable_meaning)
     plt.ylabel(variable_meaning)
     plt.savefig(save_dir, dpi=100)
-    plt.show()
+ #   plt.show()
