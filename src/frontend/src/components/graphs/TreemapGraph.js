@@ -130,7 +130,7 @@ export default class TreemapGraph extends Component {
     let all_years_filter = [all_years[this.state.year_sel]]
     let all_regions_keys = !isCountry ? _.keys(all_years_filter[0].regiones) : null
 
-    let { comment, linkPlot, glosario, LinkDatosOriginales } = kpi_head
+    let { comment, glosario, LinkDatosOriginales } = kpi_head
 
     return (
       <div className="card kpi-card">
@@ -193,10 +193,6 @@ export default class TreemapGraph extends Component {
                   data-content={comment}>
                   <i className="fas fa-info-circle"></i>
                 </a></li>}
-
-                {/*(linkPlot) && <li><a className="btn btn-sm btn-default info-box" role="button" href={linkPlot} target="png">
-                  <i className='fa fa-file'></i>
-                </a></li>*/}
 
                 {(glosario) && <li><a className="btn btn-sm btn-default info-box" role="button" href={glosario} target="pdf">
                   <i className='fa fa-file-pdf'></i>

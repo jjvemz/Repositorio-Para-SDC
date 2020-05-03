@@ -1,17 +1,17 @@
-let id = 1;
+let id = -1;
 
 export default [
   {id: id++, name:"Productividad Total de los Factores, PTF Construcción", file:'PTF_Variacion', graph:'KpiGraph'}
   ,{id: id++, name:"Productividad Media Laboral Construcción", file:'PML_Chile_Contruccion', graph:'KpiGraph'}
   ,{id: id++, name:"Gasto en innovación en relación a las ventas", file:'Gasto_en_nnovación_en_relación_a_las_ventas', graph:'KpiGraph'}
   ,{id: id++, name:"Ranking Formalidad- trabajadores dependientes por tipo de contrato", file:'Ranking_Formalidad', graph:'KpiGraph'},
-  {id: id++, name:"Cesantes sector construcción respecto total cesantes país (%)", file:'Promedio_Cesantes', graph:'KpiGraph'}
+  {id: id++, name:"Cesantes sector construcción respecto total cesantes país %", file:'Promedio_Cesantes', graph:'KpiGraph'}
   ,{id: id++, name:"Promedio Anual Sector Región", file:'Promedio_Anual_Sector_Region', graph:'RegionStackedGraph' },
   {id: id++, name:"Participación respecto economía", file:'Participacion_respecto_economia', graph:'StackedGraph'}
   ,{id: id++, name:"PIB por región MM$", file:'Participacion_regional_MM_total_pais_anio', graph:'RegionStackedGraph' }
   ,{id: id++, name:"Inversión en Infraestructura mill UF por tipo", file:'Inversion_Infraestructura', graph:'TimeSerie'}
   ,{id: id++, name:"Índice de la Actividad de la Construcción Regional, INACOR, % variación mensual", file:'INACOR_Variacion_Mensual', graph:'TimeSerie'}
-  ,{id: id++, name:"Permisos Edificación Acumulados a la fecha (m2)", file:'Permisos_Edificacion_Acumulados_m2', graph:'TimeSerie'}
+  ,{id: id++, name:"Permisos Edificación Acumulados a la fecha m2", file:'Permisos_Edificacion_Acumulados_m2', graph:'TimeSerie'}
   ,{id: id++, name:"Índice de la Actividad de la Construcción Regional, INACOR, % variación anual", file:'INACOR_Variacion_Anual', graph:'TimeSerie'}
   ,{id: id++, name:"Permiso de Edificación m2 por región, % al total país", file:'Permisos_Edificacion_por_Anio', graph:'TimeSerie'}
   ,{id: id++, name:"Trabajadores sector construcción y % respecto total país.", file:'Trabajadores_Promedio_Anual', graph:'TimeSerie'},
@@ -27,7 +27,7 @@ export default [
   ,{id: id++, name:"Índice de la Actividad de la Construcción Regional, INACOR, % variación mensual (CChC)", file:'CChC_INACOR_Variacion_Mensual', graph:'TimeSerie'}
   ,{id: id++, name:"Índice de la Actividad de la Construcción Regional, INACOR, % variación anual (CChC)", file:'CChC_INACOR_Variacion_Anual', graph:'TimeSerie'}
   ,{id: id++, name:"Ventas, stock de viviendas y velocidad de venta Santiago, mensual (CChC)", file:'CChC_Ventas_Santiago' , graph:'TimeSerie'}
-  ,{id: id++, name:"Índice Real de Precios de Vivienda Santiago (%) (CChC)", file:'CChC_Indice_Real_Precios_Vivienda_Santiago', graph:'TimeSerie'}
+  ,{id: id++, name:"Índice Real de Precios de Vivienda Santiago % CChC", file:'CChC_Indice_Real_Precios_Vivienda_Santiago', graph:'TimeSerie'}
   ,{id: id++, name:"PIB Construcción (%)", file:'PIB_Construccion_PER', graph: 'KpiGraph'}
   ,{id: id++, name:"PIB Construcción ($MM)", file:'PIB_Construccion_MM', graph:'KpiGraph'}
   ,{id: id++, name:"Tasa de Innovación en la Industria de la Construcción", file:'Tasa_de_Innovación_en_la_Industria_de_la_Construcción', graph:'KpiGraph'}
@@ -37,11 +37,11 @@ export default [
   ,{id: id++, name:"Vivienda cantidad y m2 acumulados", file:'Vivienda_cantidad_y_m2_acumulados', graph:'TimeSerie'}
   ,{id: id++, name:"Índice del estado de conservación de las viviendas por Región", file:'Habitacionales_CASEN_Conservacion', graph:'TotalStackedGraph'}
   ,{id: id++, name:"Participacion Empleo Sectorial Total Nacional PER", file:'Participacion_Empleo_Sectorial_Total_Nacional_PER', graph:'KpiGraph'}
-  ,{id: id++, name:"Índice Real de Precios de Vivienda Santiago (%)", file:'Indice_Real_Precios_Vivienda_Santiago', graph:'TimeSerie'}
-  ,{id: id++, name:"Velocidad de venta nacional por tipo de vivienda (meses).", file:'Ventas_de_viviendas', graph:'TimeSerie'}
+  ,{id: id++, name:"Índice Real de Precios de Vivienda Santiago %", file:'Indice_Real_Precios_Vivienda_Santiago', graph:'TimeSerie'}
+  ,{id: id++, name:"Velocidad de venta nacional por tipo de vivienda meses.", file:'Ventas_de_viviendas', graph:'TimeSerie'}
   ,{id: id++, name:"Ventas, stock de viviendas y velocidad de venta Santiago, mensual.", file:'Ventas_Santiago', graph:'TimeSerie'}
   ,{id: id++, name:"Grado de hacinamiento por Región", file:'Habitacionales_CASEN_Hacinamiento', graph:'TotalStackedGraph'}
-  ,{id: id++, name:"Innovación Continua (%)", file:'Continuidad_de_la_Innovación', graph:'KpiGraph'}
+  ,{id: id++, name:"Innovación Continua %", file:'Continuidad_de_la_Innovación', graph:'KpiGraph'}
   ,{id: id++, name:"Nota Mercado: Otros Factores", file:'Nota_Otros', graph:'KpiGraph'}
   ,{id: id++, name:"Accidentes, Tasa de accidentabilidad y Tasa de mortalidad", file:'Accidentes_Tasa_acc', graph:'TimeSerie'}
   ,{id: id++, name:"Nota Costos", file:'Nota_Costos', graph:'KpiGraph'}
@@ -65,7 +65,7 @@ export default [
   , {id: id++, name:"CEV1", file:'CEV1', graph:'StackedGraph'}
   ,{id: id++, name:"CEV2", file:'CEV2', graph:'StackedGraph'}
   ,{id: id++, name:"LEED CES", file:'LEED_CES', graph:'MapGraph'}
-  , {id: id++, name:'Índice de Despacho de Materiales de Construcción (CChC)', file: 'CChC_materiales',  graph:'TimeSerie'}
+  , {id: id++, name:'Índice de Despacho de Materiales de Construcción CChC', file: 'CChC_materiales',  graph:'TimeSerie'}
   ,{id: id++, name:'Permisos de Edificacion', file:'Permisos_de_Edificacion', graph:'TimeSerie'}
   , {id: id++, name:"PIB Construcción" ,file:'PIB_Contruccion', graph:'KpiGraph'}
 ];

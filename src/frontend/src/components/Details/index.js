@@ -15,7 +15,6 @@ import TotalStackedGraph from '../graphs/TotalStackedGraph';
 import TreemapGraph from '../graphs/TreemapGraph';
 import TimeSerie from '../graphs/TimeSerie';
 
-
 class Details extends Component {
   constructor(props){
     super(props);
@@ -49,6 +48,35 @@ class Details extends Component {
     */
     const { currentItem } = this.state;
     console.log('currentItem: ', currentItem);
+    const isAllYears = currentItem && [
+      'Permisos_de_Edificacion',
+      'Participacion_respecto_economia',
+      'Indicador_mensual_de_Sustentabilidad_Comercial',
+      'Indicador_mensual_de_Sustentabilidad_Publico',
+      'Indicador_mensual_de_Sustentabilidad_Residencial',
+      'Indicador_mensual_de_Sustentabilidad_Total',
+      'INACOR_Variacion_Mensual',
+      'CChC_INACOR_Variacion_Mensual',
+      'INACOR_Variacion_Anual',
+      'CChC_INACOR_Variacion_Anual',
+      'Permisos_Edificacion_M2',
+      'IMACON_Variacion_Mensual_2',
+      'IMACON_Variacion_Anual',
+      'CChC_IMACON_Variacion_Mensual',
+      'CChC_IMACON_Variacion_Anual',
+      'Permisos_Edificacion_Viviendas',
+      'Ventas_Santiago',
+      'CChC_Ventas_Santiago',
+      'Indice_Real_Precios_Vivienda_Santiago',
+      'CChC_Indice_Real_Precios_Vivienda_Santiago',
+      'IMACON_Variacion_Mensual',
+      'Vivienda_cantidad_y_m2_acumulados',
+      'Ventas_de_viviendas',
+      'CChC_materiales',
+      'Accidentes_Tasa_acc',
+      'Trabajadores_protegidos_Seguro_Ley_Actividad_Económica',
+      'Permisos_Edificacion_Acumulados_m2'
+    ].find(row => row === currentItem.file ) ? false : true;
 
     return(
       <section>
@@ -70,7 +98,7 @@ class Details extends Component {
             <div className="row">
             {//en caso que haya el Item actual exista desplegará el gráfico dependiendo del atributo file y graph, este ultimo dirá que gráfico se mostrará
               currentItem &&
-                <div className="my-5">
+                <div className="my-5 col-12 col-md-6">
                   <Switch condition={currentItem.graph}>
                     <Case value="KpiGraph">
                       <KpiGraph kpi_name = {currentItem.file}></KpiGraph>
@@ -79,7 +107,7 @@ class Details extends Component {
                         <MapGraph kpi_name = {currentItem.file} ></MapGraph>
                     </Case>
                     <Case value="TimeSerie">
-                        <TimeSerie kpi_name = {currentItem.file} isAllYears={true}></TimeSerie>
+                        <TimeSerie kpi_name = {currentItem.file} isAllYears={isAllYears}></TimeSerie>
                     </Case>
                     <Case value="MultilineGraph">
                         <MultilineGraph kpi_name = {currentItem.file} isAllYears={true}></MultilineGraph>
@@ -91,7 +119,7 @@ class Details extends Component {
                         <RegionTreemapGraph kpi_name = {currentItem.file} isAllYears={true}></RegionTreemapGraph>
                     </Case>
                     <Case value="StackedGraph">
-                        <StackedGraph kpi_name = {currentItem.file} isAllYears={true}></StackedGraph>
+                        <StackedGraph kpi_name = {currentItem.file} isAllYears={isAllYears}></StackedGraph>
                     </Case>
                     <Case value="TotalStackedGraph">
                         <TotalStackedGraph kpi_name = {currentItem.file} ></TotalStackedGraph>

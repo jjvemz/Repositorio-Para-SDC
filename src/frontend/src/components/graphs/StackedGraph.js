@@ -190,7 +190,7 @@ export default class StackedGraph extends Component {
     let all_years_keys = _.map(all_years, kpi => kpi.anio)
     let all_years_filter = (isAllYears) ? [all_years[all_years.length - 1]] : [all_years[this.state.year_sel]]
     let all_regions_keys = !isCountry ? _.keys(all_years_filter[0].regiones) : null
-    let { comment, linkPlot, glosario, LinkDatosOriginales } = kpi_head
+    let { comment, glosario, LinkDatosOriginales } = kpi_head
     let all_regions_keys_text =
       this.props.kpi_name === "Participacion_respecto_economia" || this.props.kpi_name === "Trabajadores_protegidos_sector_construcción_región"  ? all_regions_keys
     : _.map(all_regions_keys, kpi => 'Nivel de etiquetado '+kpi)//
@@ -248,9 +248,6 @@ export default class StackedGraph extends Component {
 
             <div className="col-md-3">
               <ul className="text-right">
-                {/*(linkPlot) && <li className="card-footer__item"><a className="btn btn-circle btn__info--white" role="button" href={linkPlot} target="png">
-                  <i className='fa fa-file'></i>
-                </a></li>*/}
 
                 {(glosario) && <li className="card-footer__item"><a className="btn btn-circle btn__info--white" role="button" href={glosario} target="pdf">
                   <i className='fa fa-file-pdf'></i>

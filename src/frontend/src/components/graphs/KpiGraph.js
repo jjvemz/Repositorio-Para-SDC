@@ -144,7 +144,7 @@ export default class KpiGraph extends Component {
     let all_years_filter = [all_years[this.state.year_sel]]
     let all_regions_keys = !isCountry ? _.keys(all_years_filter[0].regiones) : null
 
-    let { comment, linkPlot, glosario, LinkDatosOriginales } = kpi_head
+    let { comment, glosario, LinkDatosOriginales } = kpi_head
 
     function formating_numbers(x) {
       return (x).toString().replace(/\./g, ',')
@@ -184,9 +184,6 @@ export default class KpiGraph extends Component {
 
             <div className="col-md-3">
               <ul className="text-right">
-                {/*(linkPlot) && <li className="card-footer__item"><a className="btn btn-circle btn__info--white" role="button" href={linkPlot} target="png">
-                <i className="far fa-file-image"></i>
-                </a></li>*/}
 
                 {(glosario) && <li className="card-footer__item"><a className="btn btn-circle btn__info--white" role="button" href={glosario} target="pdf">
                   <i className='fa fa-file-pdf'></i>

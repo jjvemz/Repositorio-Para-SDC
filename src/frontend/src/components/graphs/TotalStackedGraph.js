@@ -132,7 +132,7 @@ export default class TotalStackedGraph extends Component {
             <p>Error cargando datos...</p>
         )
 
-        let { comment, linkPlot, glosario, LinkDatosOriginales } = kpi_head
+        let { comment, glosario, LinkDatosOriginales } = kpi_head
 
         return (
             <div className="card kpi-card">
@@ -187,9 +187,6 @@ export default class TotalStackedGraph extends Component {
 
                         <div className="col-md-3">
                             <ul className="text-right">
-                                {/*(linkPlot) && <li className="card-footer__item"><a className="btn btn-circle btn__info--white" role="button" href={linkPlot} target="png">
-                                    <i className='fa fa-file'></i>
-                                </a></li>*/}
 
                                 {(glosario) && <li className="card-footer__item"><a className="btn btn-circle btn__info--white" role="button" href={glosario} target="pdf">
                                     <i className='fa fa-file-pdf'></i>

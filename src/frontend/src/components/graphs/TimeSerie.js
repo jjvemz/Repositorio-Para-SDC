@@ -109,6 +109,7 @@ export default class TimeSerie extends Component {
     let negative = false;
     let bottom = 0;
     let top = 0;
+
     all_years_filter.forEach(in_data => {
       if (isCountry) {
         let data_months = in_data.regiones.PAIS.meses
@@ -144,7 +145,7 @@ export default class TimeSerie extends Component {
           let data_in_month_kpi = _.round(data_month[data_in_month_key], 4)
           let _k_tooltip = _.keys(data_month.tooltip)
           let _tooltip = _.map(_k_tooltip, (_k_t) => { return { label: _k_t, data: data_month.tooltip[_k_t] } })
-
+    
           let month_year = `${month_name} ${in_data.anio}`
           negative = data_in_month_kpi < 0;
           bottom = data_in_month_kpi < this.state.bottom ? data_in_month_kpi : this.state.bottom;
@@ -187,8 +188,7 @@ export default class TimeSerie extends Component {
     /* Gráficos de Innovación */
     , "Instituciones_capacitación_formal_BIM_institución_region"
     , "Num_Empr_adherentes_Seguro_Ley_Actividad_Economica"
-    , "Trabajadores_protegidos_Seguro_Ley_Actividad_Económica"
-    , "Accidentes_Tasa_acc"
+    , "Instituciones_capacitación_formal_BIM_institución_carrera"
     ].find(row => row === kpi_name);
 
     if (found)
@@ -222,7 +222,7 @@ export default class TimeSerie extends Component {
     let all_years_keys = _.map(all_years, kpi => kpi.anio)
     let all_years_filter = (isAllYears) ? [all_years[all_years.length - 1]] : [all_years[this.state.year_sel]]
     let all_regions_keys = !isCountry ? _.keys(all_years_filter[0].regiones) : null
-    let { comment, linkPlot, glosario, LinkDatosOriginales } = kpi_head
+    let { comment, LinkDatosOriginales } = kpi_head
 
     return (
       <div className="card kpi-card">
@@ -291,13 +291,6 @@ export default class TimeSerie extends Component {
             </div>
             <div className="col-md-3">
               <ul className="text-right">
-                {/*(linkPlot) && <li className="card-footer__item"><a className="btn btn-circle btn__info--white" role="button" href={linkPlot} target="png">
-                  <i className='fa fa-file'></i>
-                </a></li>*/}
-
-                {/*(glosario) && <li className="card-footer__item"><a className="btn btn-circle btn__info--white" role="button" href={glosario} target="pdf">
-                  <i className='fa fa-file-pdf'></i>
-              </a></li>*/}
 
                 {(LinkDatosOriginales) && <li className="card-footer__item">
                   <a className="btn btn-circle btn__info--white" role="button" href={`${LinkDatosOriginales}`} target="download">
