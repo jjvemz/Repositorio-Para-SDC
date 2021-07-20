@@ -9,7 +9,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "react-native": "^0.61.5",
+    "react-native": "^0.62.3",
     "socket.io": "^2.2.0",
     "utf8": "^3.0.0"
   }
